@@ -1,0 +1,11 @@
+Output: CUPL PLD
+Type  : PLDNetList
+From  : Project [AsyncFSM.PRJFPG]
+   Generated File[AsyncFSM-cupl.rep]
+   Generated File[AsyncFSM-cupl.lst]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 00:04:13 On 01/03/2007

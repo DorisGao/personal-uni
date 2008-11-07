@@ -1,0 +1,2638 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="841.88977pt"
+   height="595.27557pt"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.43"
+   sodipodi:docbase="/home/tola/data/docs/uni/year2/EE2A1"
+   sodipodi:docname="lab1_circuit_diagram.svg"
+   version="1.0"
+   inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram3.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2"
+     inkscape:cx="363.4022"
+     inkscape:cy="170.54722"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1014"
+     inkscape:window-height="689"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     showgrid="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g8012"
+       transform="matrix(-1,0,0,1,768,244.6659)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="cc"
+         id="path7119"
+         d="M 5,20 L 40,20"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 40,8 L 40,32"
+         id="path7994"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path7996"
+         d="M 40,8 L 60,20"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 40,32 L 60,20"
+         id="path7998"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path8000"
+         d="M 60,8 L 60,32"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,20 L 95,20"
+         id="path8002"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,0 L 55,10"
+         id="path1323"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1325"
+         d="M 53,-3 L 48,7"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1331"
+         d="M 60,0 L 61,3"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,0 L 57,1"
+         id="path1333"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 53,-3 L 54,0"
+         id="path1335"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1337"
+         d="M 53,-3 L 50,-2"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4344"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         y="210.0945"
+         x="530"
+         height="70"
+         width="50"
+         id="rect1552"
+         style="fill:none;fill-opacity:0.03703703;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         id="path1554"
+         d="M 530,225.0945 L 515,225.0945"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path1556"
+         d="M 530,265.0945 L 515,265.0945"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path1558"
+         d="M 580,265.0945 L 595,265.0945"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path1560"
+         d="M 579.69139,225.0945 L 589.9857,225.0945"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2.00000072;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path1562"
+         d="M 575.00005,231.13939 C 574.76567,231.19798 574.53325,231.239 574.30278,231.26244 C 574.07621,231.28978 573.84379,231.30345 573.60552,231.30345 C 572.92582,231.30345 572.37895,231.11595 571.96489,230.74095 C 571.55473,230.36986 571.33208,229.83665 571.29693,229.14134 C 571.20317,229.15697 571.11137,229.16673 571.02153,229.17064 C 570.93559,229.17845 570.85161,229.18236 570.76958,229.18236 C 570.1563,229.18236 569.5977,229.0808 569.0938,228.87767 C 568.5938,228.67455 568.16802,228.37962 567.81646,227.9929 C 567.46489,227.60619 567.19341,227.13158 567.002,226.56908 C 566.8145,226.00658 566.72075,225.364 566.72075,224.64134 C 566.72075,223.93041 566.8145,223.29369 567.002,222.73119 C 567.1895,222.16479 567.46294,221.68041 567.82232,221.27806 C 568.16606,220.89526 568.59184,220.60229 569.09966,220.39915 C 569.61137,220.19604 570.16802,220.09448 570.76958,220.09447 C 571.39458,220.09448 571.95512,220.19799 572.45122,220.40501 C 572.95122,220.60815 573.37504,220.89916 573.72271,221.27806 C 574.07817,221.66869 574.34965,222.14721 574.53716,222.71361 C 574.72856,223.28002 574.82426,223.9226 574.82427,224.64134 C 574.82426,225.70775 574.60551,226.60619 574.16802,227.33665 C 573.73442,228.06712 573.15043,228.57884 572.41607,228.87181 C 572.43168,229.31712 572.53715,229.66283 572.73247,229.90892 C 572.92778,230.15501 573.28325,230.27806 573.79888,230.27806 C 573.95903,230.27806 574.14848,230.25267 574.36724,230.20189 C 574.58989,230.15501 574.74809,230.11204 574.84185,230.07298 L 575.00005,230.07298 L 575.00005,231.13939 M 573.61724,224.64134 C 573.61723,223.50854 573.36332,222.63549 572.85552,222.0222 C 572.3477,221.40502 571.65434,221.09643 570.77544,221.09642 C 569.88872,221.09643 569.19145,221.40502 568.68364,222.0222 C 568.17974,222.63549 567.92778,223.50854 567.92778,224.64134 C 567.92778,225.78588 568.1856,226.66283 568.70122,227.2722 C 569.21684,227.87767 569.90825,228.18041 570.77544,228.1804 C 571.64262,228.18041 572.33208,227.87767 572.8438,227.2722 C 573.35942,226.66283 573.61723,225.78588 573.61724,224.64134"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+      <g
+         transform="translate(506.1009,194.3605)"
+         id="g1564">
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           x="60"
+           y="75"
+           id="text1566"><tspan
+             sodipodi:role="line"
+             id="tspan1568"
+             x="60"
+             y="75">Q</tspan></text>
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 60,65 L 70,65"
+           id="path1570" />
+      </g>
+      <path
+         id="path1572"
+         d="M 530.00005,260.09447 L 540.00005,265.09447 L 530.00005,270.09447"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         id="path1574"
+         d="M 542.37115,224.46556 C 542.37114,225.25853 542.19731,225.97728 541.84966,226.62181 C 541.50591,227.26634 541.04692,227.76634 540.47271,228.12181 C 540.07427,228.36791 539.62895,228.54564 539.13677,228.65501 C 538.64849,228.76439 538.00396,228.81908 537.20318,228.81908 L 535.00005,228.81908 L 535.00005,220.09447 L 537.17974,220.09447 C 538.0313,220.09448 538.70708,220.15698 539.20709,220.28197 C 539.71099,220.40307 540.13677,220.57104 540.48443,220.78587 C 541.07817,221.15698 541.54106,221.65112 541.8731,222.2683 C 542.20512,222.88549 542.37114,223.61791 542.37115,224.46556 M 541.15826,224.44798 C 541.15825,223.76439 541.03911,223.18822 540.80084,222.71947 C 540.56255,222.25072 540.20708,221.88158 539.73443,221.61205 C 539.39067,221.41674 539.02544,221.28198 538.63873,221.20775 C 538.252,221.12963 537.78911,221.09057 537.25005,221.09056 L 536.16021,221.09056 L 536.16021,227.82298 L 537.25005,227.82298 C 537.80864,227.82298 538.29497,227.78197 538.70904,227.69994 C 539.127,227.61791 539.50981,227.46556 539.85748,227.24291 C 540.29106,226.96556 540.61528,226.60033 540.83013,226.1472 C 541.04888,225.69408 541.15825,225.12767 541.15826,224.44798"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+      <path
+         id="path1580"
+         d="M 558.92279,274.54401 L 557.41693,274.54401 L 554.49896,271.07526 L 552.86419,271.07526 L 552.86419,274.54401 L 551.70404,274.54401 L 551.70404,265.8194 L 554.1474,265.8194 C 554.67474,265.81941 555.11419,265.85456 555.46576,265.92487 C 555.81731,265.99128 556.13372,266.11237 556.41498,266.28815 C 556.73138,266.48737 556.97747,266.73933 557.15326,267.04401 C 557.33294,267.3448 557.42278,267.72761 557.42279,268.19244 C 557.42278,268.82136 557.26458,269.3487 556.94818,269.77448 C 556.63177,270.19635 556.19622,270.51471 555.64154,270.72955 L 558.92279,274.54401 M 556.2099,268.27448 C 556.20989,268.02448 556.16497,267.80378 556.07513,267.61237 C 555.98919,267.41706 555.84466,267.253 555.64154,267.12018 C 555.47356,267.0069 555.27435,266.92878 555.04388,266.8858 C 554.81341,266.83894 554.54192,266.8155 554.22943,266.81549 L 552.86419,266.81549 L 552.86419,270.10846 L 554.03607,270.10846 C 554.40325,270.10846 554.72356,270.07721 554.99701,270.01471 C 555.27044,269.94831 555.50286,269.82721 555.69427,269.65143 C 555.87005,269.48737 555.99895,269.29987 556.08099,269.08893 C 556.16692,268.87409 556.20989,268.60261 556.2099,268.27448"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+      <path
+         id="path1582"
+         d="M 558.04388,220.93659 C 558.04387,221.27643 557.9638,221.61237 557.80365,221.9444 C 557.64739,222.27643 557.42669,222.55768 557.14154,222.78815 C 556.82903,223.03815 556.4638,223.23346 556.04583,223.37409 C 555.63177,223.51471 555.13177,223.58502 554.54583,223.58502 C 553.91693,223.58502 553.35052,223.52643 552.84662,223.40924 C 552.34661,223.29206 551.83685,223.11823 551.31732,222.88776 L 551.31732,221.43463 L 551.39935,221.43463 C 551.84076,221.80182 552.35052,222.08503 552.92865,222.28424 C 553.50677,222.48346 554.04974,222.58307 554.55755,222.58307 C 555.2763,222.58307 555.83489,222.44831 556.23333,222.17877 C 556.63567,221.90924 556.83684,221.54987 556.83685,221.10065 C 556.83684,220.71393 556.74114,220.42878 556.54974,220.24518 C 556.36224,220.06159 556.07513,219.91901 555.68841,219.81745 C 555.39544,219.73932 555.07708,219.67487 554.73333,219.62409 C 554.39349,219.57331 554.03216,219.50886 553.64935,219.43073 C 552.87591,219.26667 552.30169,218.98737 551.92669,218.59284 C 551.5556,218.1944 551.37005,217.67683 551.37005,217.0401 C 551.37005,216.30964 551.67865,215.71199 552.29583,215.24713 C 552.91302,214.77839 553.69622,214.54402 554.64544,214.54401 C 555.25872,214.54402 555.82122,214.60261 556.33294,214.71979 C 556.84466,214.83699 557.29778,214.98152 557.69232,215.15338 L 557.69232,216.52448 L 557.61029,216.52448 C 557.27825,216.24323 556.84075,216.01081 556.29779,215.82721 C 555.75872,215.63972 555.20599,215.54597 554.63958,215.54596 C 554.01849,215.54597 553.51849,215.67488 553.13958,215.93268 C 552.76458,216.1905 552.57708,216.52253 552.57708,216.92877 C 552.57708,217.29206 552.67083,217.57722 552.85833,217.78424 C 553.04583,217.99128 553.37591,218.14948 553.84857,218.25885 C 554.09857,218.31354 554.45403,218.37995 554.91498,218.45807 C 555.37591,218.5362 555.76653,218.61628 556.08685,218.69831 C 556.73528,218.87019 557.22356,219.12995 557.55169,219.4776 C 557.87981,219.82526 558.04387,220.31159 558.04388,220.93659"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+    </g>
+    <g
+       id="g1618"
+       transform="translate(-4,-14.57149)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(510,310.0945)"
+         style="fill:none"
+         id="g1620">
+        <rect
+           style="opacity:1;fill:none;fill-opacity:0.03703703;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1622"
+           width="50"
+           height="70"
+           x="25"
+           y="15" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 25,30 L 10,30"
+           id="path1624" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 25,70 L 10,70"
+           id="path1626" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 75,70 L 90,70"
+           id="path1628" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 75,30 L 90,30"
+           id="path1630" />
+      </g>
+      <path
+         id="path1632"
+         d="M 580.00005,346.13939 C 579.76567,346.19798 579.53325,346.239 579.30278,346.26244 C 579.07621,346.28978 578.84379,346.30345 578.60552,346.30345 C 577.92582,346.30345 577.37895,346.11595 576.96489,345.74095 C 576.55473,345.36986 576.33208,344.83665 576.29693,344.14134 C 576.20317,344.15697 576.11137,344.16673 576.02153,344.17064 C 575.93559,344.17845 575.85161,344.18236 575.76958,344.18236 C 575.1563,344.18236 574.5977,344.0808 574.0938,343.87767 C 573.5938,343.67455 573.16802,343.37962 572.81646,342.9929 C 572.46489,342.60619 572.19341,342.13158 572.002,341.56908 C 571.8145,341.00658 571.72075,340.364 571.72075,339.64134 C 571.72075,338.93041 571.8145,338.29369 572.002,337.73119 C 572.1895,337.16479 572.46294,336.68041 572.82232,336.27806 C 573.16606,335.89526 573.59184,335.60229 574.09966,335.39915 C 574.61137,335.19604 575.16802,335.09448 575.76958,335.09447 C 576.39458,335.09448 576.95512,335.19799 577.45122,335.40501 C 577.95122,335.60815 578.37504,335.89916 578.72271,336.27806 C 579.07817,336.66869 579.34965,337.14721 579.53716,337.71361 C 579.72856,338.28002 579.82426,338.9226 579.82427,339.64134 C 579.82426,340.70775 579.60551,341.60619 579.16802,342.33665 C 578.73442,343.06712 578.15043,343.57884 577.41607,343.87181 C 577.43168,344.31712 577.53715,344.66283 577.73247,344.90892 C 577.92778,345.15501 578.28325,345.27806 578.79888,345.27806 C 578.95903,345.27806 579.14848,345.25267 579.36724,345.20189 C 579.58989,345.15501 579.74809,345.11204 579.84185,345.07298 L 580.00005,345.07298 L 580.00005,346.13939 M 578.61724,339.64134 C 578.61723,338.50854 578.36332,337.63549 577.85552,337.0222 C 577.3477,336.40502 576.65434,336.09643 575.77544,336.09642 C 574.88872,336.09643 574.19145,336.40502 573.68364,337.0222 C 573.17974,337.63549 572.92778,338.50854 572.92778,339.64134 C 572.92778,340.78588 573.1856,341.66283 573.70122,342.2722 C 574.21684,342.87767 574.90825,343.18041 575.77544,343.1804 C 576.64262,343.18041 577.33208,342.87767 577.8438,342.2722 C 578.35942,341.66283 578.61723,340.78588 578.61724,339.64134"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+      <g
+         transform="translate(511.1009,309.3605)"
+         id="g1634">
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           x="60"
+           y="75"
+           id="text1636"><tspan
+             sodipodi:role="line"
+             id="tspan1638"
+             x="60"
+             y="75">Q</tspan></text>
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 60,65 L 70,65"
+           id="path1640" />
+      </g>
+      <path
+         id="path1642"
+         d="M 535.00005,375.09447 L 545.00005,380.09447 L 535.00005,385.09447"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         id="path1644"
+         d="M 547.37115,339.46556 C 547.37114,340.25853 547.19731,340.97728 546.84966,341.62181 C 546.50591,342.26634 546.04692,342.76634 545.47271,343.12181 C 545.07427,343.36791 544.62895,343.54564 544.13677,343.65501 C 543.64849,343.76439 543.00396,343.81908 542.20318,343.81908 L 540.00005,343.81908 L 540.00005,335.09447 L 542.17974,335.09447 C 543.0313,335.09448 543.70708,335.15698 544.20709,335.28197 C 544.71099,335.40307 545.13677,335.57104 545.48443,335.78587 C 546.07817,336.15698 546.54106,336.65112 546.8731,337.2683 C 547.20512,337.88549 547.37114,338.61791 547.37115,339.46556 M 546.15826,339.44798 C 546.15825,338.76439 546.03911,338.18822 545.80084,337.71947 C 545.56255,337.25072 545.20708,336.88158 544.73443,336.61205 C 544.39067,336.41674 544.02544,336.28198 543.63873,336.20775 C 543.252,336.12963 542.78911,336.09057 542.25005,336.09056 L 541.16021,336.09056 L 541.16021,342.82298 L 542.25005,342.82298 C 542.80864,342.82298 543.29497,342.78197 543.70904,342.69994 C 544.127,342.61791 544.50981,342.46556 544.85748,342.24291 C 545.29106,341.96556 545.61528,341.60033 545.83013,341.1472 C 546.04888,340.69408 546.15825,340.12767 546.15826,339.44798"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+      <path
+         id="path1646"
+         d="M 563.92279,389.54401 L 562.41693,389.54401 L 559.49896,386.07526 L 557.86419,386.07526 L 557.86419,389.54401 L 556.70404,389.54401 L 556.70404,380.8194 L 559.1474,380.8194 C 559.67474,380.81941 560.11419,380.85456 560.46576,380.92487 C 560.81731,380.99128 561.13372,381.11237 561.41498,381.28815 C 561.73138,381.48737 561.97747,381.73933 562.15326,382.04401 C 562.33294,382.3448 562.42278,382.72761 562.42279,383.19244 C 562.42278,383.82136 562.26458,384.3487 561.94818,384.77448 C 561.63177,385.19635 561.19622,385.51471 560.64154,385.72955 L 563.92279,389.54401 M 561.2099,383.27448 C 561.20989,383.02448 561.16497,382.80378 561.07513,382.61237 C 560.98919,382.41706 560.84466,382.253 560.64154,382.12018 C 560.47356,382.0069 560.27435,381.92878 560.04388,381.8858 C 559.81341,381.83894 559.54192,381.8155 559.22943,381.81549 L 557.86419,381.81549 L 557.86419,385.10846 L 559.03607,385.10846 C 559.40325,385.10846 559.72356,385.07721 559.99701,385.01471 C 560.27044,384.94831 560.50286,384.82721 560.69427,384.65143 C 560.87005,384.48737 560.99895,384.29987 561.08099,384.08893 C 561.16692,383.87409 561.20989,383.60261 561.2099,383.27448"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+      <path
+         id="path1648"
+         d="M 563.04388,335.93659 C 563.04387,336.27643 562.9638,336.61237 562.80365,336.9444 C 562.64739,337.27643 562.42669,337.55768 562.14154,337.78815 C 561.82903,338.03815 561.4638,338.23346 561.04583,338.37409 C 560.63177,338.51471 560.13177,338.58502 559.54583,338.58502 C 558.91693,338.58502 558.35052,338.52643 557.84662,338.40924 C 557.34661,338.29206 556.83685,338.11823 556.31732,337.88776 L 556.31732,336.43463 L 556.39935,336.43463 C 556.84076,336.80182 557.35052,337.08503 557.92865,337.28424 C 558.50677,337.48346 559.04974,337.58307 559.55755,337.58307 C 560.2763,337.58307 560.83489,337.44831 561.23333,337.17877 C 561.63567,336.90924 561.83684,336.54987 561.83685,336.10065 C 561.83684,335.71393 561.74114,335.42878 561.54974,335.24518 C 561.36224,335.06159 561.07513,334.91901 560.68841,334.81745 C 560.39544,334.73932 560.07708,334.67487 559.73333,334.62409 C 559.39349,334.57331 559.03216,334.50886 558.64935,334.43073 C 557.87591,334.26667 557.30169,333.98737 556.92669,333.59284 C 556.5556,333.1944 556.37005,332.67683 556.37005,332.0401 C 556.37005,331.30964 556.67865,330.71199 557.29583,330.24713 C 557.91302,329.77839 558.69622,329.54402 559.64544,329.54401 C 560.25872,329.54402 560.82122,329.60261 561.33294,329.71979 C 561.84466,329.83699 562.29778,329.98152 562.69232,330.15338 L 562.69232,331.52448 L 562.61029,331.52448 C 562.27825,331.24323 561.84075,331.01081 561.29779,330.82721 C 560.75872,330.63972 560.20599,330.54597 559.63958,330.54596 C 559.01849,330.54597 558.51849,330.67488 558.13958,330.93268 C 557.76458,331.1905 557.57708,331.52253 557.57708,331.92877 C 557.57708,332.29206 557.67083,332.57722 557.85833,332.78424 C 558.04583,332.99128 558.37591,333.14948 558.84857,333.25885 C 559.09857,333.31354 559.45403,333.37995 559.91498,333.45807 C 560.37591,333.5362 560.76653,333.61628 561.08685,333.69831 C 561.73528,333.87019 562.22356,334.12995 562.55169,334.4776 C 562.87981,334.82526 563.04387,335.31159 563.04388,335.93659"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+    </g>
+    <g
+       id="g1650"
+       transform="translate(-4,85.42851)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(510,310.0945)"
+         style="fill:none"
+         id="g1652">
+        <rect
+           style="opacity:1;fill:none;fill-opacity:0.03703703;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1654"
+           width="50"
+           height="70"
+           x="25"
+           y="15" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 25,30 L 10,30"
+           id="path1656" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 25,70 L 10,70"
+           id="path1658" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 75,70 L 90,70"
+           id="path1660" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 75,30 L 90,30"
+           id="path1662" />
+      </g>
+      <path
+         id="path1664"
+         d="M 580.00005,346.13939 C 579.76567,346.19798 579.53325,346.239 579.30278,346.26244 C 579.07621,346.28978 578.84379,346.30345 578.60552,346.30345 C 577.92582,346.30345 577.37895,346.11595 576.96489,345.74095 C 576.55473,345.36986 576.33208,344.83665 576.29693,344.14134 C 576.20317,344.15697 576.11137,344.16673 576.02153,344.17064 C 575.93559,344.17845 575.85161,344.18236 575.76958,344.18236 C 575.1563,344.18236 574.5977,344.0808 574.0938,343.87767 C 573.5938,343.67455 573.16802,343.37962 572.81646,342.9929 C 572.46489,342.60619 572.19341,342.13158 572.002,341.56908 C 571.8145,341.00658 571.72075,340.364 571.72075,339.64134 C 571.72075,338.93041 571.8145,338.29369 572.002,337.73119 C 572.1895,337.16479 572.46294,336.68041 572.82232,336.27806 C 573.16606,335.89526 573.59184,335.60229 574.09966,335.39915 C 574.61137,335.19604 575.16802,335.09448 575.76958,335.09447 C 576.39458,335.09448 576.95512,335.19799 577.45122,335.40501 C 577.95122,335.60815 578.37504,335.89916 578.72271,336.27806 C 579.07817,336.66869 579.34965,337.14721 579.53716,337.71361 C 579.72856,338.28002 579.82426,338.9226 579.82427,339.64134 C 579.82426,340.70775 579.60551,341.60619 579.16802,342.33665 C 578.73442,343.06712 578.15043,343.57884 577.41607,343.87181 C 577.43168,344.31712 577.53715,344.66283 577.73247,344.90892 C 577.92778,345.15501 578.28325,345.27806 578.79888,345.27806 C 578.95903,345.27806 579.14848,345.25267 579.36724,345.20189 C 579.58989,345.15501 579.74809,345.11204 579.84185,345.07298 L 580.00005,345.07298 L 580.00005,346.13939 M 578.61724,339.64134 C 578.61723,338.50854 578.36332,337.63549 577.85552,337.0222 C 577.3477,336.40502 576.65434,336.09643 575.77544,336.09642 C 574.88872,336.09643 574.19145,336.40502 573.68364,337.0222 C 573.17974,337.63549 572.92778,338.50854 572.92778,339.64134 C 572.92778,340.78588 573.1856,341.66283 573.70122,342.2722 C 574.21684,342.87767 574.90825,343.18041 575.77544,343.1804 C 576.64262,343.18041 577.33208,342.87767 577.8438,342.2722 C 578.35942,341.66283 578.61723,340.78588 578.61724,339.64134"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+      <g
+         transform="translate(511.1009,309.3605)"
+         id="g1666">
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           x="60"
+           y="75"
+           id="text1668"><tspan
+             sodipodi:role="line"
+             id="tspan1670"
+             x="60"
+             y="75">Q</tspan></text>
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 60,65 L 70,65"
+           id="path1672" />
+      </g>
+      <path
+         id="path1674"
+         d="M 535.00005,375.09447 L 545.00005,380.09447 L 535.00005,385.09447"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         id="path1676"
+         d="M 547.37115,339.46556 C 547.37114,340.25853 547.19731,340.97728 546.84966,341.62181 C 546.50591,342.26634 546.04692,342.76634 545.47271,343.12181 C 545.07427,343.36791 544.62895,343.54564 544.13677,343.65501 C 543.64849,343.76439 543.00396,343.81908 542.20318,343.81908 L 540.00005,343.81908 L 540.00005,335.09447 L 542.17974,335.09447 C 543.0313,335.09448 543.70708,335.15698 544.20709,335.28197 C 544.71099,335.40307 545.13677,335.57104 545.48443,335.78587 C 546.07817,336.15698 546.54106,336.65112 546.8731,337.2683 C 547.20512,337.88549 547.37114,338.61791 547.37115,339.46556 M 546.15826,339.44798 C 546.15825,338.76439 546.03911,338.18822 545.80084,337.71947 C 545.56255,337.25072 545.20708,336.88158 544.73443,336.61205 C 544.39067,336.41674 544.02544,336.28198 543.63873,336.20775 C 543.252,336.12963 542.78911,336.09057 542.25005,336.09056 L 541.16021,336.09056 L 541.16021,342.82298 L 542.25005,342.82298 C 542.80864,342.82298 543.29497,342.78197 543.70904,342.69994 C 544.127,342.61791 544.50981,342.46556 544.85748,342.24291 C 545.29106,341.96556 545.61528,341.60033 545.83013,341.1472 C 546.04888,340.69408 546.15825,340.12767 546.15826,339.44798"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+      <path
+         id="path1678"
+         d="M 563.92279,389.54401 L 562.41693,389.54401 L 559.49896,386.07526 L 557.86419,386.07526 L 557.86419,389.54401 L 556.70404,389.54401 L 556.70404,380.8194 L 559.1474,380.8194 C 559.67474,380.81941 560.11419,380.85456 560.46576,380.92487 C 560.81731,380.99128 561.13372,381.11237 561.41498,381.28815 C 561.73138,381.48737 561.97747,381.73933 562.15326,382.04401 C 562.33294,382.3448 562.42278,382.72761 562.42279,383.19244 C 562.42278,383.82136 562.26458,384.3487 561.94818,384.77448 C 561.63177,385.19635 561.19622,385.51471 560.64154,385.72955 L 563.92279,389.54401 M 561.2099,383.27448 C 561.20989,383.02448 561.16497,382.80378 561.07513,382.61237 C 560.98919,382.41706 560.84466,382.253 560.64154,382.12018 C 560.47356,382.0069 560.27435,381.92878 560.04388,381.8858 C 559.81341,381.83894 559.54192,381.8155 559.22943,381.81549 L 557.86419,381.81549 L 557.86419,385.10846 L 559.03607,385.10846 C 559.40325,385.10846 559.72356,385.07721 559.99701,385.01471 C 560.27044,384.94831 560.50286,384.82721 560.69427,384.65143 C 560.87005,384.48737 560.99895,384.29987 561.08099,384.08893 C 561.16692,383.87409 561.20989,383.60261 561.2099,383.27448"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+      <path
+         id="path1680"
+         d="M 563.04388,335.93659 C 563.04387,336.27643 562.9638,336.61237 562.80365,336.9444 C 562.64739,337.27643 562.42669,337.55768 562.14154,337.78815 C 561.82903,338.03815 561.4638,338.23346 561.04583,338.37409 C 560.63177,338.51471 560.13177,338.58502 559.54583,338.58502 C 558.91693,338.58502 558.35052,338.52643 557.84662,338.40924 C 557.34661,338.29206 556.83685,338.11823 556.31732,337.88776 L 556.31732,336.43463 L 556.39935,336.43463 C 556.84076,336.80182 557.35052,337.08503 557.92865,337.28424 C 558.50677,337.48346 559.04974,337.58307 559.55755,337.58307 C 560.2763,337.58307 560.83489,337.44831 561.23333,337.17877 C 561.63567,336.90924 561.83684,336.54987 561.83685,336.10065 C 561.83684,335.71393 561.74114,335.42878 561.54974,335.24518 C 561.36224,335.06159 561.07513,334.91901 560.68841,334.81745 C 560.39544,334.73932 560.07708,334.67487 559.73333,334.62409 C 559.39349,334.57331 559.03216,334.50886 558.64935,334.43073 C 557.87591,334.26667 557.30169,333.98737 556.92669,333.59284 C 556.5556,333.1944 556.37005,332.67683 556.37005,332.0401 C 556.37005,331.30964 556.67865,330.71199 557.29583,330.24713 C 557.91302,329.77839 558.69622,329.54402 559.64544,329.54401 C 560.25872,329.54402 560.82122,329.60261 561.33294,329.71979 C 561.84466,329.83699 562.29778,329.98152 562.69232,330.15338 L 562.69232,331.52448 L 562.61029,331.52448 C 562.27825,331.24323 561.84075,331.01081 561.29779,330.82721 C 560.75872,330.63972 560.20599,330.54597 559.63958,330.54596 C 559.01849,330.54597 558.51849,330.67488 558.13958,330.93268 C 557.76458,331.1905 557.57708,331.52253 557.57708,331.92877 C 557.57708,332.29206 557.67083,332.57722 557.85833,332.78424 C 558.04583,332.99128 558.37591,333.14948 558.84857,333.25885 C 559.09857,333.31354 559.45403,333.37995 559.91498,333.45807 C 560.37591,333.5362 560.76653,333.61628 561.08685,333.69831 C 561.73528,333.87019 562.22356,334.12995 562.55169,334.4776 C 562.87981,334.82526 563.04387,335.31159 563.04388,335.93659"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+    </g>
+    <g
+       id="g1682"
+       transform="translate(-4,185.4286)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="translate(510,310.0945)"
+         style="fill:none"
+         id="g1684">
+        <rect
+           style="opacity:1;fill:none;fill-opacity:0.03703703;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="rect1686"
+           width="50"
+           height="70"
+           x="25"
+           y="15" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 25,30 L 10,30"
+           id="path1688" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 25,70 L 10,70"
+           id="path1690" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 75,70 L 90,70"
+           id="path1692" />
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 75,30 L 90,30"
+           id="path1694" />
+      </g>
+      <path
+         id="path1696"
+         d="M 580.00005,346.13939 C 579.76567,346.19798 579.53325,346.239 579.30278,346.26244 C 579.07621,346.28978 578.84379,346.30345 578.60552,346.30345 C 577.92582,346.30345 577.37895,346.11595 576.96489,345.74095 C 576.55473,345.36986 576.33208,344.83665 576.29693,344.14134 C 576.20317,344.15697 576.11137,344.16673 576.02153,344.17064 C 575.93559,344.17845 575.85161,344.18236 575.76958,344.18236 C 575.1563,344.18236 574.5977,344.0808 574.0938,343.87767 C 573.5938,343.67455 573.16802,343.37962 572.81646,342.9929 C 572.46489,342.60619 572.19341,342.13158 572.002,341.56908 C 571.8145,341.00658 571.72075,340.364 571.72075,339.64134 C 571.72075,338.93041 571.8145,338.29369 572.002,337.73119 C 572.1895,337.16479 572.46294,336.68041 572.82232,336.27806 C 573.16606,335.89526 573.59184,335.60229 574.09966,335.39915 C 574.61137,335.19604 575.16802,335.09448 575.76958,335.09447 C 576.39458,335.09448 576.95512,335.19799 577.45122,335.40501 C 577.95122,335.60815 578.37504,335.89916 578.72271,336.27806 C 579.07817,336.66869 579.34965,337.14721 579.53716,337.71361 C 579.72856,338.28002 579.82426,338.9226 579.82427,339.64134 C 579.82426,340.70775 579.60551,341.60619 579.16802,342.33665 C 578.73442,343.06712 578.15043,343.57884 577.41607,343.87181 C 577.43168,344.31712 577.53715,344.66283 577.73247,344.90892 C 577.92778,345.15501 578.28325,345.27806 578.79888,345.27806 C 578.95903,345.27806 579.14848,345.25267 579.36724,345.20189 C 579.58989,345.15501 579.74809,345.11204 579.84185,345.07298 L 580.00005,345.07298 L 580.00005,346.13939 M 578.61724,339.64134 C 578.61723,338.50854 578.36332,337.63549 577.85552,337.0222 C 577.3477,336.40502 576.65434,336.09643 575.77544,336.09642 C 574.88872,336.09643 574.19145,336.40502 573.68364,337.0222 C 573.17974,337.63549 572.92778,338.50854 572.92778,339.64134 C 572.92778,340.78588 573.1856,341.66283 573.70122,342.2722 C 574.21684,342.87767 574.90825,343.18041 575.77544,343.1804 C 576.64262,343.18041 577.33208,342.87767 577.8438,342.2722 C 578.35942,341.66283 578.61723,340.78588 578.61724,339.64134"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+      <g
+         transform="translate(511.1009,309.3605)"
+         id="g1698">
+        <text
+           xml:space="preserve"
+           style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+           x="60"
+           y="75"
+           id="text1700"><tspan
+             sodipodi:role="line"
+             id="tspan1702"
+             x="60"
+             y="75">Q</tspan></text>
+        <path
+           style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="M 60,65 L 70,65"
+           id="path1704" />
+      </g>
+      <path
+         id="path1706"
+         d="M 535.00005,375.09447 L 545.00005,380.09447 L 535.00005,385.09447"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         id="path1708"
+         d="M 547.37115,339.46556 C 547.37114,340.25853 547.19731,340.97728 546.84966,341.62181 C 546.50591,342.26634 546.04692,342.76634 545.47271,343.12181 C 545.07427,343.36791 544.62895,343.54564 544.13677,343.65501 C 543.64849,343.76439 543.00396,343.81908 542.20318,343.81908 L 540.00005,343.81908 L 540.00005,335.09447 L 542.17974,335.09447 C 543.0313,335.09448 543.70708,335.15698 544.20709,335.28197 C 544.71099,335.40307 545.13677,335.57104 545.48443,335.78587 C 546.07817,336.15698 546.54106,336.65112 546.8731,337.2683 C 547.20512,337.88549 547.37114,338.61791 547.37115,339.46556 M 546.15826,339.44798 C 546.15825,338.76439 546.03911,338.18822 545.80084,337.71947 C 545.56255,337.25072 545.20708,336.88158 544.73443,336.61205 C 544.39067,336.41674 544.02544,336.28198 543.63873,336.20775 C 543.252,336.12963 542.78911,336.09057 542.25005,336.09056 L 541.16021,336.09056 L 541.16021,342.82298 L 542.25005,342.82298 C 542.80864,342.82298 543.29497,342.78197 543.70904,342.69994 C 544.127,342.61791 544.50981,342.46556 544.85748,342.24291 C 545.29106,341.96556 545.61528,341.60033 545.83013,341.1472 C 546.04888,340.69408 546.15825,340.12767 546.15826,339.44798"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+      <path
+         id="path1710"
+         d="M 563.92279,389.54401 L 562.41693,389.54401 L 559.49896,386.07526 L 557.86419,386.07526 L 557.86419,389.54401 L 556.70404,389.54401 L 556.70404,380.8194 L 559.1474,380.8194 C 559.67474,380.81941 560.11419,380.85456 560.46576,380.92487 C 560.81731,380.99128 561.13372,381.11237 561.41498,381.28815 C 561.73138,381.48737 561.97747,381.73933 562.15326,382.04401 C 562.33294,382.3448 562.42278,382.72761 562.42279,383.19244 C 562.42278,383.82136 562.26458,384.3487 561.94818,384.77448 C 561.63177,385.19635 561.19622,385.51471 560.64154,385.72955 L 563.92279,389.54401 M 561.2099,383.27448 C 561.20989,383.02448 561.16497,382.80378 561.07513,382.61237 C 560.98919,382.41706 560.84466,382.253 560.64154,382.12018 C 560.47356,382.0069 560.27435,381.92878 560.04388,381.8858 C 559.81341,381.83894 559.54192,381.8155 559.22943,381.81549 L 557.86419,381.81549 L 557.86419,385.10846 L 559.03607,385.10846 C 559.40325,385.10846 559.72356,385.07721 559.99701,385.01471 C 560.27044,384.94831 560.50286,384.82721 560.69427,384.65143 C 560.87005,384.48737 560.99895,384.29987 561.08099,384.08893 C 561.16692,383.87409 561.20989,383.60261 561.2099,383.27448"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+      <path
+         id="path1712"
+         d="M 563.04388,335.93659 C 563.04387,336.27643 562.9638,336.61237 562.80365,336.9444 C 562.64739,337.27643 562.42669,337.55768 562.14154,337.78815 C 561.82903,338.03815 561.4638,338.23346 561.04583,338.37409 C 560.63177,338.51471 560.13177,338.58502 559.54583,338.58502 C 558.91693,338.58502 558.35052,338.52643 557.84662,338.40924 C 557.34661,338.29206 556.83685,338.11823 556.31732,337.88776 L 556.31732,336.43463 L 556.39935,336.43463 C 556.84076,336.80182 557.35052,337.08503 557.92865,337.28424 C 558.50677,337.48346 559.04974,337.58307 559.55755,337.58307 C 560.2763,337.58307 560.83489,337.44831 561.23333,337.17877 C 561.63567,336.90924 561.83684,336.54987 561.83685,336.10065 C 561.83684,335.71393 561.74114,335.42878 561.54974,335.24518 C 561.36224,335.06159 561.07513,334.91901 560.68841,334.81745 C 560.39544,334.73932 560.07708,334.67487 559.73333,334.62409 C 559.39349,334.57331 559.03216,334.50886 558.64935,334.43073 C 557.87591,334.26667 557.30169,333.98737 556.92669,333.59284 C 556.5556,333.1944 556.37005,332.67683 556.37005,332.0401 C 556.37005,331.30964 556.67865,330.71199 557.29583,330.24713 C 557.91302,329.77839 558.69622,329.54402 559.64544,329.54401 C 560.25872,329.54402 560.82122,329.60261 561.33294,329.71979 C 561.84466,329.83699 562.29778,329.98152 562.69232,330.15338 L 562.69232,331.52448 L 562.61029,331.52448 C 562.27825,331.24323 561.84075,331.01081 561.29779,330.82721 C 560.75872,330.63972 560.20599,330.54597 559.63958,330.54596 C 559.01849,330.54597 558.51849,330.67488 558.13958,330.93268 C 557.76458,331.1905 557.57708,331.52253 557.57708,331.92877 C 557.57708,332.29206 557.67083,332.57722 557.85833,332.78424 C 558.04583,332.99128 558.37591,333.14948 558.84857,333.25885 C 559.09857,333.31354 559.45403,333.37995 559.91498,333.45807 C 560.37591,333.5362 560.76653,333.61628 561.08685,333.69831 C 561.73528,333.87019 562.22356,334.12995 562.55169,334.4776 C 562.87981,334.82526 563.04387,335.31159 563.04388,335.93659"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans" />
+    </g>
+    <g
+       id="g1714"
+       transform="matrix(-1,0,0,1,768,345.0945)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1716"
+         d="M 5,20 L 40,20"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 40,8 L 40,32"
+         id="path1718"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1720"
+         d="M 40,8 L 60,20"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 40,32 L 60,20"
+         id="path1722"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1724"
+         d="M 60,8 L 60,32"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,20 L 95,20"
+         id="path1726"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,0 L 55,10"
+         id="path1728"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1730"
+         d="M 53,-3 L 48,7"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1732"
+         d="M 60,0 L 61,3"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,0 L 57,1"
+         id="path1734"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 53,-3 L 54,0"
+         id="path1736"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1738"
+         d="M 53,-3 L 50,-2"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1740"
+       transform="matrix(-1,0,0,1,768,445.0945)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1742"
+         d="M 5,20 L 40,20"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 40,8 L 40,32"
+         id="path1744"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1746"
+         d="M 40,8 L 60,20"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 40,32 L 60,20"
+         id="path1748"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1750"
+         d="M 60,8 L 60,32"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,20 L 95,20"
+         id="path1752"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,0 L 55,10"
+         id="path1754"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1756"
+         d="M 53,-3 L 48,7"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1758"
+         d="M 60,0 L 61,3"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,0 L 57,1"
+         id="path1760"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 53,-3 L 54,0"
+         id="path1762"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1764"
+         d="M 53,-3 L 50,-2"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g1766"
+       transform="matrix(-1,0,0,1,767,545.0945)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1768"
+         d="M 5,20 L 40,20"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 40,8 L 40,32"
+         id="path1770"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1772"
+         d="M 40,8 L 60,20"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 40,32 L 60,20"
+         id="path1774"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1776"
+         d="M 60,8 L 60,32"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,20 L 95,20"
+         id="path1778"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,0 L 55,10"
+         id="path1780"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1782"
+         d="M 53,-3 L 48,7"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1784"
+         d="M 60,0 L 61,3"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,0 L 57,1"
+         id="path1786"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 53,-3 L 54,0"
+         id="path1788"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1790"
+         d="M 53,-3 L 50,-2"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g2855"
+       transform="translate(117,-85)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path5011"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path1947"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2859"
+       transform="translate(116.5,15.53691)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path2861"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path2863"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2865"
+       transform="translate(116.5,115.5583)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path2867"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path2869"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2871"
+       transform="translate(116.5,215.0583)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path2873"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path2875"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2877"
+       transform="matrix(1.829787,0,0,1.490453,-776.8511,31.14961)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2879"
+         width="28.988419"
+         height="11.076924"
+         x="849.98981"
+         y="218.51756" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 841.5,224.05602 L 849.5,224.05602"
+         id="path2881" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+         d="M 879.5,224.05602 L 887.5,224.05602"
+         id="path2883" />
+    </g>
+    <g
+       id="g2901"
+       transform="translate(2,-136.4417)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path2903"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path2905"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2907"
+       transform="translate(1,-86.44166)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path2909"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path2911"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2913"
+       transform="translate(2,-25.4417)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path2915"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path2917"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2919"
+       transform="translate(2,23.5583)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path2921"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path2923"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2925"
+       transform="translate(1,86.5583)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path2927"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path2929"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2931"
+       transform="translate(2,135.5583)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path2933"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path2935"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2941"
+       transform="translate(2,189.5583)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path2943"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path2945"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2947"
+       transform="translate(2,238.5583)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path2949"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path2951"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <g
+       id="g2953"
+       transform="translate(2,289.5583)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path2955"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path2957"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2.01166201;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 517.4883,325.59448 L 433.0117,326.09448"
+       id="path3842"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2.01166201;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 517.7383,425.34448 L 433.2617,425.84448"
+       id="path4717"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2.01166201;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 518.2383,525.34448 L 433.7617,525.84448"
+       id="path4719"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2.01166201;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 518.2383,224.84448 L 433.7617,225.34448"
+       id="path4721"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 700.84065,264.84448 L 592.02105,265.34448"
+       id="path4723"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 703.9098,364.84448 L 595.0902,365.34448"
+       id="path9963"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 704.4098,464.84448 L 595.5902,465.34448"
+       id="path9965"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 704.4098,564.84448 L 595.5902,565.34448"
+       id="path9967"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999982px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 515,265.16076 L 516,699.02775"
+       id="path9971"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 386.5,209.09448 L 350,209.09448 L 350,173.59448 L 319.5,174.09448"
+       id="path10005"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 385.5,313.59448 L 350,314.09448 L 350,284.09448 L 319,284.09448"
+       id="path10009"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 385.5,414.59448 L 350,414.09448 L 350,396.09448 L 317,396.09448"
+       id="path10013"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 385.5,434.09448 L 350,434.09448 L 350,446.09448 L 318.5,446.09448"
+       id="path10015"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 386,224.09448 L 318,224.09448"
+       id="path10025"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 386,239.09448 L 350,239.09448 L 350,254.09448 L 318,253.59448"
+       id="path10029"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 319,549.09448 L 350,549.09448 L 350,523.59448 L 385.5,523.59448 L 385.5,523.09448"
+       id="path10031"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 319,499.09448 L 351,499.09448 L 351,514.09448 L 385.5,513.59448"
+       id="path10033"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 385.5,534.09448 L 358.5,534.09448 L 359,599.09448 L 318,599.09448"
+       id="path10035"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 385.5,334.09448 L 318.5,334.09448"
+       id="path10037"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g10103"
+       transform="matrix(1.829787,0,0,1.490453,-776.8509,131.1495)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect10105"
+         width="28.988419"
+         height="11.076924"
+         x="849.98981"
+         y="218.51756" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 841.5,224.05602 L 849.5,224.05602"
+         id="path10107" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+         d="M 879.5,224.05602 L 887.5,224.05602"
+         id="path10109" />
+    </g>
+    <g
+       id="g10111"
+       transform="matrix(1.829787,0,0,1.490453,-777.3509,231.1495)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect10113"
+         width="28.988419"
+         height="11.076924"
+         x="849.98981"
+         y="218.51756" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 841.5,224.05602 L 849.5,224.05602"
+         id="path10115" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+         d="M 879.5,224.05602 L 887.5,224.05602"
+         id="path10117" />
+    </g>
+    <g
+       id="g10119"
+       transform="matrix(1.829787,0,0,1.490453,-775.8509,-69.3505)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect10121"
+         width="28.988419"
+         height="11.076924"
+         x="849.98981"
+         y="218.51756" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 841.5,224.05602 L 849.5,224.05602"
+         id="path10123" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+         d="M 879.5,224.05602 L 887.5,224.05602"
+         id="path10125" />
+    </g>
+    <g
+       id="g10127"
+       transform="matrix(-1,0,0,1,767.9153,632.2589)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:nodetypes="cc"
+         id="path10129"
+         d="M 5,20 L 40,20"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 40,8 L 40,32"
+         id="path10131"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path10133"
+         d="M 40,8 L 60,20"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 40,32 L 60,20"
+         id="path10135"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path10137"
+         d="M 60,8 L 60,32"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,20 L 95,20"
+         id="path10139"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,0 L 55,10"
+         id="path10141"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path10143"
+         d="M 53,-3 L 48,7"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path10145"
+         d="M 60,0 L 61,3"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 60,0 L 57,1"
+         id="path10147"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 53,-3 L 54,0"
+         id="path10149"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path10151"
+         d="M 53,-3 L 50,-2"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g10163"
+       transform="matrix(1.829787,0,0,1.490453,-776.4356,318.3139)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.00000012;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect10165"
+         width="28.988419"
+         height="11.076924"
+         x="849.98981"
+         y="218.51756" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 841.5,224.05602 L 849.5,224.05602"
+         id="path10167" />
+      <path
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1"
+         d="M 879.5,224.05602 L 887.5,224.05602"
+         id="path10169" />
+    </g>
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 590,224.09448 L 591,133.09448 L 190,134.09448 L 191,134.09448"
+       id="path10173"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 594.5,264.39954 L 600,264.39954 L 600.5,123.64844 L 180,124.14757 L 180,124.14757"
+       id="path10179"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 610,325.09448 L 610,114.09448 L 170,114.09448"
+       id="path10181"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999988px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 595.5,365.08075 L 620,364.5808 L 620,103.60809 L 160,104.10804 L 160,104.10804"
+       id="path10183"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 630,424.59448 L 630.5,94.094482 L 150,94.094482"
+       id="path10185"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 595,465.08891 L 640,465.08891 L 640,84.100309 L 140,84.100309 L 140,84.100309"
+       id="path10187"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 650,525.59285 L 650,74.096149 L 130,74.597812"
+       id="path10189"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 595.5,564.55258 L 660,564.05262 L 660,64.097707 L 120,64.097707"
+       id="path10191"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path10197"
+       sodipodi:cx="476.75"
+       sodipodi:cy="468.34448"
+       sodipodi:rx="18.75"
+       sodipodi:ry="20.25"
+       d="M 495.5 468.34448 A 18.75 20.25 0 1 1  458,468.34448 A 18.75 20.25 0 1 1  495.5 468.34448 z"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path10199"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,447.8497,310.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path11074"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,427.5997,210.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path11076"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,407.5997,110.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path11078"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,467.5997,410.0086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1557"
+       sodipodi:cx="881.5"
+       sodipodi:cy="62.594482"
+       sodipodi:rx="4.5"
+       sodipodi:ry="4.5"
+       d="M 886 62.594482 A 4.5 4.5 0 1 1  877,62.594482 A 4.5 4.5 0 1 1  886 62.594482 z"
+       transform="translate(-32,0)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000012px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 848,652.59547 L 849,65.095779"
+       id="path3307"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3309"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,655.5997,410.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3311"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,655.5997,310.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3313"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,655.5997,210.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3315"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,655.5997,110.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g3317"
+       transform="translate(116,342.5583)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         id="path3319"
+         d="M 269.5,329.59448 L 269.5,289.4778 L 289.58759,289.4778 C 289.58759,289.4778 309.67518,289.4778 309.67518,309.53614 C 309.67518,329.59448 289.58759,329.59448 289.58759,329.59448 L 269.5,329.59448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1" />
+      <path
+         transform="translate(-3,-0.5)"
+         d="M 319.5 311.09448 A 3.5 3.5 0 1 1  312.5,311.09448 A 3.5 3.5 0 1 1  319.5 311.09448 z"
+         sodipodi:ry="3.5"
+         sodipodi:rx="3.5"
+         sodipodi:cy="311.09448"
+         sodipodi:cx="316"
+         id="path3321"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         sodipodi:type="arc" />
+    </g>
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 541,656.50868 L 541,656.50868"
+       id="path3323"
+       inkscape:connector-type="polyline"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.89999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 675.95831,652.15513 L 433.0415,653.15513"
+       id="path3325"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 191,133.09448 L 191,674.09448 L 192,672.09448"
+       id="path3329"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 180,124.09448 L 180,674.09448"
+       id="path3331"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 170,113.09448 L 170,673.09448"
+       id="path3333"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 160,103.09448 L 160,674.09448"
+       id="path3335"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 150,95.094482 L 151,674.09448"
+       id="path3337"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 140,83.094482 L 140,674.09448"
+       id="path3339"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000024px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 130.5,74.096161 L 130.5,676.09296"
+       id="path3343"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 120,63.094482 L 122,675.09448"
+       id="path3345"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 271,164.09448 L 120,164.09448"
+       id="path3347"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 270,183.09448 L 139,184.09448"
+       id="path3351"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3353"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-72.15035,9.50862)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3355"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-52.40032,30.50863)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 270,214.09448 L 130,214.09448"
+       id="path3357"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 270,234.09448 L 179,233.09448"
+       id="path3359"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3361"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-61.40032,60.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3363"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-13.40032,79.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 271,274.09448 L 179,274.09448"
+       id="path3365"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 271,294.09448 L 159,294.09448"
+       id="path3369"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 271,324.09448 L 130,324.09448"
+       id="path3371"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 271,344.09448 L 179,343.09448"
+       id="path3373"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 270.04548,384.09448 L 150.95456,384.09448"
+       id="path3375"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 270,404.09448 L 190,405.09448"
+       id="path3377"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3379"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-12.4003,119.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3381"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-32.40032,139.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3383"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-61.40032,169.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3385"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-12.40032,188.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3387"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-42.4003,229.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3389"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-1.40032,250.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 270.95896,434.09448 L 140.04095,435.09448"
+       id="path3391"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3393"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-52.40032,280.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 271,454.09448 L 179,455.09448"
+       id="path3395"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 271,488.09448 L 130,488.09448"
+       id="path3397"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 271,509.09448 L 150,509.09448"
+       id="path3399"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 270,536.09448 L 190,537.09448"
+       id="path3401"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 270,559.09448 L 139,559.09448"
+       id="path3403"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 270.71768,588.09448 L 120.94189,588.09448"
+       id="path3405"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.99999982px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 271.22512,599.09448 L 169.0241,599.09448"
+       id="path3407"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:0.9999997px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 271.77454,610.09448 L 179.06065,610.09448"
+       id="path3409"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3411"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-12.40032,300.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3413"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-61.15035,333.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3415"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-41.40032,354.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3417"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-1.40032,381.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3419"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-52.40032,404.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3421"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-70.40032,434.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3423"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-22.40032,445.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3425"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-12.4003,455.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 319,254.09448 L 159,254.09448"
+       id="path3427"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3429"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-32.40032,99.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 384.5,636.09448 L 179.5,635.09448"
+       id="path3435"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 384.5,667.09448 L 121.5,669.09448"
+       id="path3437"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 385,646.59448 L 169,646.59448"
+       id="path3439"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3443"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-12.40032,480.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3445"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-22.40032,492.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3447"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-52.40032,502.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;stroke-width:1.75;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path3449"
+       sodipodi:cx="472.25"
+       sodipodi:cy="399.34448"
+       sodipodi:rx="6.75"
+       sodipodi:ry="7.75"
+       d="M 479 399.34448 A 6.75 7.75 0 1 1  465.5,399.34448 A 6.75 7.75 0 1 1  479 399.34448 z"
+       transform="matrix(0.407412,0,0,0.387099,-70.40032,514.5086)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.89999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 592.22684,325.59448 L 609.82303,325.59448"
+       id="path1629"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.89999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 593.04688,525.59448 L 650.45332,525.59448"
+       id="path1637"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1.89999998;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 596.05021,425.57515 L 630.38576,425.57515"
+       id="path3450"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 140,657.09448 L 385,657.09448"
+       id="path4360"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="857.19531"
+       y="66.924561"
+       id="text4362"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4364"
+         x="857.19531"
+         y="66.924561">+5V</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="681"
+       y="260.09448"
+       id="text4366"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4368"
+         x="681"
+         y="260.09448"
+         style="font-family:Bitstream Vera Sans;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:12;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%">Qa</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="681.32617"
+       y="360.21167"
+       id="text4370"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4372"
+         x="681.32617"
+         y="360.21167">Qb</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="684"
+       y="459.09448"
+       id="text4374"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4376"
+         x="684"
+         y="459.09448">Qc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="684"
+       y="559.09448"
+       id="text4378"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4380"
+         x="684"
+         y="559.09448">Qd</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 680,249.09448 C 695.43952,249.09448 695.43952,249.09448 695.43952,249.09448"
+       id="path4384"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 681.06048,348.59448 C 696.5,348.59448 696.5,348.59448 696.5,348.59448"
+       id="path4386"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 685.06048,448.17029 C 700.5,448.17029 700.5,448.17029 700.5,448.17029"
+       id="path4388"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 685.06048,547.59448 C 700.5,547.59448 700.5,547.59448 700.5,547.59448"
+       id="path4390"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="689.46094"
+       y="648.09448"
+       id="text5265"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5267"
+         x="689.46094"
+         y="648.09448">Z</tspan></text>
+    <g
+       id="g5275"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text5269"
+         y="160.54761"
+         x="249.32617"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="160.54761"
+           x="249.32617"
+           id="tspan5271"
+           sodipodi:role="line">Qd</tspan></text>
+      <path
+         id="path5273"
+         d="M 250,149.09448 C 265,149.09448 265,149.09448 265,149.09448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5280"
+       transform="translate(-0.5,424.5)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text5282"
+         y="160.54761"
+         x="249.32617"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="160.54761"
+           x="249.32617"
+           id="tspan5284"
+           sodipodi:role="line">Qd</tspan></text>
+      <path
+         id="path5286"
+         d="M 250,149.09448 C 265,149.09448 265,149.09448 265,149.09448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5294"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text5288"
+         y="180.00073"
+         x="249.70117"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="180.00073"
+           x="249.70117"
+           id="tspan5290"
+           sodipodi:role="line">Qc</tspan></text>
+      <path
+         id="path5292"
+         d="M 250,169.09448 C 265,169.09448 265,169.09448 265,169.09448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5299"
+       transform="translate(0.5,250.5469)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text5301"
+         y="180.00073"
+         x="249.70117"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="180.00073"
+           x="249.70117"
+           id="tspan5303"
+           sodipodi:role="line">Qc</tspan></text>
+      <path
+         id="path5305"
+         d="M 250,169.09448 C 265,169.09448 265,169.09448 265,169.09448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5307"
+       transform="translate(0.5,51.0234)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text5309"
+         y="180.00073"
+         x="249.70117"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="180.00073"
+           x="249.70117"
+           id="tspan5311"
+           sodipodi:role="line">Qa</tspan></text>
+      <path
+         id="path5313"
+         d="M 250,169.09448 C 265,169.09448 265,169.09448 265,169.09448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5315"
+       transform="translate(-0.5,70.54688)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text5317"
+         y="180.00073"
+         x="249.70117"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="180.00073"
+           x="249.70117"
+           id="tspan5319"
+           sodipodi:role="line">Qb</tspan></text>
+      <path
+         id="path5321"
+         d="M 250,169.09448 C 265,169.09448 265,169.09448 265,169.09448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5323"
+       transform="translate(0.5,110.5)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text5325"
+         y="180.00073"
+         x="249.70117"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="180.00073"
+           x="249.70117"
+           id="tspan5327"
+           sodipodi:role="line">Qb</tspan></text>
+      <path
+         id="path5329"
+         d="M 250,169.09448 C 265,169.09448 265,169.09448 265,169.09448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <g
+       id="g5339"
+       transform="translate(0.5,90.5)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text5341"
+         y="180.00073"
+         x="249.70117"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="180.00073"
+           x="249.70117"
+           id="tspan5343"
+           sodipodi:role="line">Qa</tspan></text>
+      <path
+         id="path5345"
+         d="M 250,169.09448 C 265,169.09448 265,169.09448 265,169.09448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="249.32617"
+       y="210.54761"
+       id="text5347"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5349"
+         x="249.32617"
+         y="210.54761">Qd</tspan></text>
+    <g
+       id="g5351"
+       transform="translate(-0.5,161.0228)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text5353"
+         y="180.00073"
+         x="249.70117"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="180.00073"
+           x="249.70117"
+           id="tspan5355"
+           sodipodi:role="line">Qa</tspan></text>
+      <path
+         id="path5357"
+         d="M 250,169.09448 C 265,169.09448 265,169.09448 265,169.09448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="249.32617"
+       y="320.54761"
+       id="text5363"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5365"
+         x="249.32617"
+         y="320.54761">Qd</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="250.02734"
+       y="380.54761"
+       id="text5367"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5369"
+         x="250.02734"
+         y="380.54761">Qc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="250.32617"
+       y="401.00073"
+       id="text5371"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5373"
+         x="250.32617"
+         y="401.00073">Qa</tspan></text>
+    <g
+       id="g5375"
+       transform="translate(-0.5,270.9779)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text5377"
+         y="180.00073"
+         x="249.70117"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="180.00073"
+           x="249.70117"
+           id="tspan5379"
+           sodipodi:role="line">Qa</tspan></text>
+      <path
+         id="path5381"
+         d="M 250,169.09448 C 265,169.09448 265,169.09448 265,169.09448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="249.02734"
+       y="485.21167"
+       id="text5383"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5385"
+         x="249.02734"
+         y="485.21167">Qd</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="249.70117"
+       y="506.00073"
+       id="text5388"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5390"
+         x="249.70117"
+         y="506.00073">Qc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="250.29102"
+       y="533.54761"
+       id="text5392"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5394"
+         x="250.29102"
+         y="533.54761">Qa</tspan></text>
+    <g
+       id="g5396"
+       transform="translate(0.5,375.9833)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text5398"
+         y="180.00073"
+         x="249.70117"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="180.00073"
+           x="249.70117"
+           id="tspan5400"
+           sodipodi:role="line">Qc</tspan></text>
+      <path
+         id="path5402"
+         d="M 250,169.09448 C 265,169.09448 265,169.09448 265,169.09448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="249.32617"
+       y="597.21167"
+       id="text5404"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5406"
+         x="249.32617"
+         y="597.21167">Qb</tspan></text>
+    <g
+       id="g5412"
+       transform="translate(0.5,432.5)"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <text
+         id="text5414"
+         y="180.00073"
+         x="249.70117"
+         style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         xml:space="preserve"><tspan
+           y="180.00073"
+           x="249.70117"
+           id="tspan5416"
+           sodipodi:role="line">Qa</tspan></text>
+      <path
+         id="path5418"
+         d="M 250,169.09448 C 265,169.09448 265,169.09448 265,169.09448"
+         style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="249.20117"
+       y="633.54761"
+       id="text5422"><tspan
+         sodipodi:role="line"
+         id="tspan5424"
+         x="249.20117"
+         y="633.54761">Qa</tspan></text>
+    <path
+       style="fill:none;fill-opacity:0.75;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 249,638.59448 C 264,638.59448 264,638.59448 264,638.59448"
+       id="path5426" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="248.59375"
+       y="650.54761"
+       id="text5428"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5430"
+         x="248.59375"
+         y="650.54761">Qb</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="249.20117"
+       y="663.54761"
+       id="text5434"><tspan
+         sodipodi:role="line"
+         id="tspan5436"
+         x="249.20117"
+         y="663.54761">Qc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="249.20117"
+       y="675.54761"
+       id="text5442"><tspan
+         sodipodi:role="line"
+         id="tspan5444"
+         x="249.20117"
+         y="675.54761">Qd</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="545.88477"
+       y="247.92456"
+       id="text5452"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5454"
+         x="545.88477"
+         y="247.92456"
+         style="font-weight:bold">Da</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="546.89844"
+       y="350.38354"
+       id="text5456"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5458"
+         x="546.89844"
+         y="350.38354"
+         style="font-weight:bold">Db</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="546.89844"
+       y="449.38354"
+       id="text5460"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5462"
+         x="546.89844"
+         y="449.38354"
+         style="font-weight:bold">Dc</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="545.89844"
+       y="548.38354"
+       id="text5464"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5466"
+         x="545.89844"
+         y="548.38354"
+         style="font-weight:bold">Dd</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="503.40234"
+       y="711.00073"
+       id="text5468"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5470"
+         x="503.40234"
+         y="711.00073"
+         style="font-weight:bold">CLK</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="796.89844"
+       y="268.09448"
+       id="text5472"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5474"
+         x="796.89844"
+         y="268.09448"
+         style="font-weight:bold">R1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="794.89844"
+       y="368.84253"
+       id="text5476"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5478"
+         x="794.89844"
+         y="368.84253"
+         style="font-weight:bold">R2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="796.24219"
+       y="468.84253"
+       id="text5480"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5482"
+         x="796.24219"
+         y="468.84253"
+         style="font-weight:bold">R3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="794.89844"
+       y="569.09448"
+       id="text5484"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5486"
+         x="794.89844"
+         y="569.09448"
+         style="font-weight:bold">R4</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+       x="796.24219"
+       y="656.84253"
+       id="text5488"
+       inkscape:export-filename="/home/tola/data/docs/uni/year2/EE2A1/lab1_circuit_diagram2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5490"
+         x="796.24219"
+         y="656.84253"
+         style="font-weight:bold">R5</tspan></text>
+  </g>
+</svg>

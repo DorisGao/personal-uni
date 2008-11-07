@@ -1,0 +1,13 @@
+CC5X Version 3.3, Copyright (c) B Knudsen Data, Norway 1992-2006
+ --> FREE edition, 8-16 bit int, 24 bit float, 1k code, reduced optim.
+/media/data/Uni/SVN/ee2a/lab5/rs232.c:
+ 10. Feb 2007  17:52
+
+//#include <string.h>
+#use delay(clock=4000000)
+   ^------
+Error /media/data/Uni/SVN/ee2a/lab5/rs232.c 14: Preprocessor error
+ (The source line starting with '#' contains invalid syntax or context
+ dependent syntax)
+
+Error options: -ew: no warning details  -ed: no error details  -eL: list details

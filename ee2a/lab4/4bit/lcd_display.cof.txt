@@ -1,0 +1,1073 @@
+Coff-Dump Utility V1.2
+Copyright (c) 2003 Custom Computer Services, Inc.
+-------------------------------------------------
+
+CoffFile (Y:\Year 2\EE2A\PIC-LCD\4bit\lcd_display.cof):
+
+File Header:
+f_magic=4660
+f_nscns=3
+f_timdat=1170720242
+f_symptr=0x00000460
+f_nsyms=193
+f_opthdr=16
+f_flags=0x0003
+
+Optional Header:
+magic=7032
+vstamp=12857
+proc_type=0x0000648A [PIC16F648A]
+rom_width_bits=14
+ram_width_bits=7
+
+Section Header:
+s_name=.udata
+s_paddr=0x00000000
+s_vaddr=0x00000000
+s_size=0x00000401
+s_scnptr=0x00000000
+s_relptr=0x00000000
+s_lnnoptr=0x00000000
+s_nreloc=0
+s_nlnno=0
+s_flags=0x00001080
+
+Raw Data:
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000 
+00
+
+
+Section Header:
+s_name=.romdata1
+s_paddr=0x00002007
+s_vaddr=0x00002007
+s_size=0x00000002
+s_scnptr=0x0000009C
+s_relptr=0x00000000
+s_lnnoptr=0x00000000
+s_nreloc=0
+s_nlnno=0
+s_flags=0x00001020
+
+Raw Data:
+583F
+
+vadr[padr]:  mem    opcode
+0000[2007]:  3F58     58
+
+Section Header:
+s_name=.text
+s_paddr=0x00000000
+s_vaddr=0x00000000
+s_size=0x000003C2
+s_scnptr=0x0000009E
+s_relptr=0x00000000
+s_lnnoptr=0x00000000
+s_nreloc=0
+s_nlnno=0
+s_flags=0x00001020
+
+Raw Data:
+00308A00 30290000 0A108A10 0A118207 28340C34 01340634 0A108A10 0A118207 
+28340E34 01340634 0A108A10 0A118207 20340C34 01340534 A0308400 00080319 
+30280130 F800F701 F70B2428 F80B2328 4A30F700 F70B2A28 00000000 800B2128 
+00340615 1030F700 F70B3428 00007E0E F039F700 0F300605 77048600 01308316 
+A0008312 1C200611 1030F700 F70B4628 00000034 08308316 86007618 52288312 
+06108316 761C5728 83120614 83168312 8610A630 F700F70B 5B280000 7C0EFD00 
+0F30FD05 7D08FE00 31200130 8316A000 83121C20 7C080F39 FD00FE00 31208614 
+0610A630 F700F70B 73280000 00340830 83168600 83120610 86100611 0F308316 
+A0008312 1C20E301 6308033C 031C9228 0330FE00 31200530 8316A000 83121C20 
+E30A8428 0230FE00 31200530 8316A000 83121C20 6208013A 0319A528 033A0319 
+B428013A 0319C328 D228E301 6308033C 031CB328 63080420 E400F601 6408FC00 
+4A20E30A A628E128 E3016308 033C031C C2286308 0C20E400 F6016408 FC004A20 
+E30AB528 E128E301 6308033C 031CD128 63081420 E400F601 6408FC00 4A20E30A 
+C428E128 E3016308 033C031C E0286308 0420E400 F6016408 FC004A20 E30AD328 
+E1280034 75080C3A 0319ED28 043A0319 F728023A 0319FC28 0129F601 0130FC00 
+4A200230 8316A000 83121C20 0729F601 0830FC00 4A200729 F601C030 FC004A20 
+07290130 F6007508 FC004A20 07290034 E4016308 64078400 80080319 1D296308 
+64078400 0008E500 F500E220 62088316 A0008312 1C20E40A 09290034 0E30F300 
+63087307 84000008 F400F500 E2206208 8316A000 83121C20 F3032029 8A11DD29 
+84011F30 83050730 9F00A001 4830A100 6F30A200 7730A300 2030A400 6330A500 
+6130A600 6E30A700 2030A800 4930A900 2030AA00 6830AB00 6530AC00 6C30AD00 
+7030AE00 3F30AF00 B0015430 B1006830 B2006530 B3002030 B4006130 B5006E30 
+B6007330 B7007730 B8006530 B9007230 BA003F30 BB00BC01 BD01BE01 BF01C001 
+4630C100 6F30C200 7230C300 7430C400 7930C500 2030C600 5430C700 7730C800 
+6F30C900 2E30CA00 CB01CC01 CD01CE01 CF01D001 5430D100 6830D200 6530D300 
+2030D400 7130D500 7530D600 6530D700 7330D800 7430D900 6930DA00 6F30DB00 
+6E30DC00 3F30DD00 2030DE00 DF00E001 0230E200 77200C30 F500E220 0530E200 
+2130E300 08218619 B3290C30 F500E220 E830E200 3130E300 08218619 BD290C30 
+F500E220 0A30F500 E2200530 E2004130 E3000821 0230E200 FA308316 A0008312 
+1C20E20B CC298619 D3290330 E2007720 C830E200 5130E300 1E29D829 0030F800 
+6300
+
+vadr[padr]:  mem    opcode
+0000[0000]:  3000   MOVLW  00
+0002[0001]:  008A   MOVWF  0A
+0004[0002]:  2930   GOTO   130
+0006[0003]:  0000   NOP
+0008[0004]:  100A   BCF    0A.0
+000A[0005]:  108A   BCF    0A.1
+000C[0006]:  110A   BCF    0A.2
+000E[0007]:  0782   ADDWF  02,F
+0010[0008]:  3428   RETLW  28
+0012[0009]:  340C   RETLW  0C
+0014[000A]:  3401   RETLW  01
+0016[000B]:  3406   RETLW  06
+0018[000C]:  100A   BCF    0A.0
+001A[000D]:  108A   BCF    0A.1
+001C[000E]:  110A   BCF    0A.2
+001E[000F]:  0782   ADDWF  02,F
+0020[0010]:  3428   RETLW  28
+0022[0011]:  340E   RETLW  0E
+0024[0012]:  3401   RETLW  01
+0026[0013]:  3406   RETLW  06
+0028[0014]:  100A   BCF    0A.0
+002A[0015]:  108A   BCF    0A.1
+002C[0016]:  110A   BCF    0A.2
+002E[0017]:  0782   ADDWF  02,F
+0030[0018]:  3420   RETLW  20
+0032[0019]:  340C   RETLW  0C
+0034[001A]:  3401   RETLW  01
+0036[001B]:  3405   RETLW  05
+0038[001C]:  30A0   MOVLW  A0
+003A[001D]:  0084   MOVWF  04
+003C[001E]:  0800   MOVF   00,W
+003E[001F]:  1903   BTFSC  03.2
+0040[0020]:  2830   GOTO   030
+0042[0021]:  3001   MOVLW  01
+0044[0022]:  00F8   MOVWF  78
+0046[0023]:  01F7   CLRF   77
+0048[0024]:  0BF7   DECFSZ 77,F
+004A[0025]:  2824   GOTO   024
+004C[0026]:  0BF8   DECFSZ 78,F
+004E[0027]:  2823   GOTO   023
+0050[0028]:  304A   MOVLW  4A
+0052[0029]:  00F7   MOVWF  77
+0054[002A]:  0BF7   DECFSZ 77,F
+0056[002B]:  282A   GOTO   02A
+0058[002C]:  0000   NOP
+005A[002D]:  0000   NOP
+005C[002E]:  0B80   DECFSZ 00,F
+005E[002F]:  2821   GOTO   021
+0060[0030]:  3400   RETLW  00
+0062[0031]:  1506   BSF    06.2
+0064[0032]:  3010   MOVLW  10
+0066[0033]:  00F7   MOVWF  77
+0068[0034]:  0BF7   DECFSZ 77,F
+006A[0035]:  2834   GOTO   034
+006C[0036]:  0000   NOP
+006E[0037]:  0E7E   SWAPF  7E,W
+0070[0038]:  39F0   ANDLW  F0
+0072[0039]:  00F7   MOVWF  77
+0074[003A]:  300F   MOVLW  0F
+0076[003B]:  0506   ANDWF  06,W
+0078[003C]:  0477   IORWF  77,W
+007A[003D]:  0086   MOVWF  06
+007C[003E]:  3001   MOVLW  01
+007E[003F]:  1683   BSF    03.5
+0080[0040]:  00A0   MOVWF  20
+0082[0041]:  1283   BCF    03.5
+0084[0042]:  201C   CALL   01C
+0086[0043]:  1106   BCF    06.2
+0088[0044]:  3010   MOVLW  10
+008A[0045]:  00F7   MOVWF  77
+008C[0046]:  0BF7   DECFSZ 77,F
+008E[0047]:  2846   GOTO   046
+0090[0048]:  0000   NOP
+0092[0049]:  3400   RETLW  00
+0094[004A]:  3008   MOVLW  08
+0096[004B]:  1683   BSF    03.5
+0098[004C]:  0086   MOVWF  06
+009A[004D]:  1876   BTFSC  76.0
+009C[004E]:  2852   GOTO   052
+009E[004F]:  1283   BCF    03.5
+00A0[0050]:  1006   BCF    06.0
+00A2[0051]:  1683   BSF    03.5
+00A4[0052]:  1C76   BTFSS  76.0
+00A6[0053]:  2857   GOTO   057
+00A8[0054]:  1283   BCF    03.5
+00AA[0055]:  1406   BSF    06.0
+00AC[0056]:  1683   BSF    03.5
+00AE[0057]:  1283   BCF    03.5
+00B0[0058]:  1086   BCF    06.1
+00B2[0059]:  30A6   MOVLW  A6
+00B4[005A]:  00F7   MOVWF  77
+00B6[005B]:  0BF7   DECFSZ 77,F
+00B8[005C]:  285B   GOTO   05B
+00BA[005D]:  0000   NOP
+00BC[005E]:  0E7C   SWAPF  7C,W
+00BE[005F]:  00FD   MOVWF  7D
+00C0[0060]:  300F   MOVLW  0F
+00C2[0061]:  05FD   ANDWF  7D,F
+00C4[0062]:  087D   MOVF   7D,W
+00C6[0063]:  00FE   MOVWF  7E
+00C8[0064]:  2031   CALL   031
+00CA[0065]:  3001   MOVLW  01
+00CC[0066]:  1683   BSF    03.5
+00CE[0067]:  00A0   MOVWF  20
+00D0[0068]:  1283   BCF    03.5
+00D2[0069]:  201C   CALL   01C
+00D4[006A]:  087C   MOVF   7C,W
+00D6[006B]:  390F   ANDLW  0F
+00D8[006C]:  00FD   MOVWF  7D
+00DA[006D]:  00FE   MOVWF  7E
+00DC[006E]:  2031   CALL   031
+00DE[006F]:  1486   BSF    06.1
+00E0[0070]:  1006   BCF    06.0
+00E2[0071]:  30A6   MOVLW  A6
+00E4[0072]:  00F7   MOVWF  77
+00E6[0073]:  0BF7   DECFSZ 77,F
+00E8[0074]:  2873   GOTO   073
+00EA[0075]:  0000   NOP
+00EC[0076]:  3400   RETLW  00
+00EE[0077]:  3008   MOVLW  08
+00F0[0078]:  1683   BSF    03.5
+00F2[0079]:  0086   MOVWF  06
+00F4[007A]:  1283   BCF    03.5
+00F6[007B]:  1006   BCF    06.0
+00F8[007C]:  1086   BCF    06.1
+00FA[007D]:  1106   BCF    06.2
+00FC[007E]:  300F   MOVLW  0F
+00FE[007F]:  1683   BSF    03.5
+0100[0080]:  00A0   MOVWF  20
+0102[0081]:  1283   BCF    03.5
+0104[0082]:  201C   CALL   01C
+0106[0083]:  01E3   CLRF   63
+0108[0084]:  0863   MOVF   63,W
+010A[0085]:  3C03   SUBLW  03
+010C[0086]:  1C03   BTFSS  03.0
+010E[0087]:  2892   GOTO   092
+0110[0088]:  3003   MOVLW  03
+0112[0089]:  00FE   MOVWF  7E
+0114[008A]:  2031   CALL   031
+0116[008B]:  3005   MOVLW  05
+0118[008C]:  1683   BSF    03.5
+011A[008D]:  00A0   MOVWF  20
+011C[008E]:  1283   BCF    03.5
+011E[008F]:  201C   CALL   01C
+0120[0090]:  0AE3   INCF   63,F
+0122[0091]:  2884   GOTO   084
+0124[0092]:  3002   MOVLW  02
+0126[0093]:  00FE   MOVWF  7E
+0128[0094]:  2031   CALL   031
+012A[0095]:  3005   MOVLW  05
+012C[0096]:  1683   BSF    03.5
+012E[0097]:  00A0   MOVWF  20
+0130[0098]:  1283   BCF    03.5
+0132[0099]:  201C   CALL   01C
+0134[009A]:  0862   MOVF   62,W
+0136[009B]:  3A01   XORLW  01
+0138[009C]:  1903   BTFSC  03.2
+013A[009D]:  28A5   GOTO   0A5
+013C[009E]:  3A03   XORLW  03
+013E[009F]:  1903   BTFSC  03.2
+0140[00A0]:  28B4   GOTO   0B4
+0142[00A1]:  3A01   XORLW  01
+0144[00A2]:  1903   BTFSC  03.2
+0146[00A3]:  28C3   GOTO   0C3
+0148[00A4]:  28D2   GOTO   0D2
+014A[00A5]:  01E3   CLRF   63
+014C[00A6]:  0863   MOVF   63,W
+014E[00A7]:  3C03   SUBLW  03
+0150[00A8]:  1C03   BTFSS  03.0
+0152[00A9]:  28B3   GOTO   0B3
+0154[00AA]:  0863   MOVF   63,W
+0156[00AB]:  2004   CALL   004
+0158[00AC]:  00E4   MOVWF  64
+015A[00AD]:  01F6   CLRF   76
+015C[00AE]:  0864   MOVF   64,W
+015E[00AF]:  00FC   MOVWF  7C
+0160[00B0]:  204A   CALL   04A
+0162[00B1]:  0AE3   INCF   63,F
+0164[00B2]:  28A6   GOTO   0A6
+0166[00B3]:  28E1   GOTO   0E1
+0168[00B4]:  01E3   CLRF   63
+016A[00B5]:  0863   MOVF   63,W
+016C[00B6]:  3C03   SUBLW  03
+016E[00B7]:  1C03   BTFSS  03.0
+0170[00B8]:  28C2   GOTO   0C2
+0172[00B9]:  0863   MOVF   63,W
+0174[00BA]:  200C   CALL   00C
+0176[00BB]:  00E4   MOVWF  64
+0178[00BC]:  01F6   CLRF   76
+017A[00BD]:  0864   MOVF   64,W
+017C[00BE]:  00FC   MOVWF  7C
+017E[00BF]:  204A   CALL   04A
+0180[00C0]:  0AE3   INCF   63,F
+0182[00C1]:  28B5   GOTO   0B5
+0184[00C2]:  28E1   GOTO   0E1
+0186[00C3]:  01E3   CLRF   63
+0188[00C4]:  0863   MOVF   63,W
+018A[00C5]:  3C03   SUBLW  03
+018C[00C6]:  1C03   BTFSS  03.0
+018E[00C7]:  28D1   GOTO   0D1
+0190[00C8]:  0863   MOVF   63,W
+0192[00C9]:  2014   CALL   014
+0194[00CA]:  00E4   MOVWF  64
+0196[00CB]:  01F6   CLRF   76
+0198[00CC]:  0864   MOVF   64,W
+019A[00CD]:  00FC   MOVWF  7C
+019C[00CE]:  204A   CALL   04A
+019E[00CF]:  0AE3   INCF   63,F
+01A0[00D0]:  28C4   GOTO   0C4
+01A2[00D1]:  28E1   GOTO   0E1
+01A4[00D2]:  01E3   CLRF   63
+01A6[00D3]:  0863   MOVF   63,W
+01A8[00D4]:  3C03   SUBLW  03
+01AA[00D5]:  1C03   BTFSS  03.0
+01AC[00D6]:  28E0   GOTO   0E0
+01AE[00D7]:  0863   MOVF   63,W
+01B0[00D8]:  2004   CALL   004
+01B2[00D9]:  00E4   MOVWF  64
+01B4[00DA]:  01F6   CLRF   76
+01B6[00DB]:  0864   MOVF   64,W
+01B8[00DC]:  00FC   MOVWF  7C
+01BA[00DD]:  204A   CALL   04A
+01BC[00DE]:  0AE3   INCF   63,F
+01BE[00DF]:  28D3   GOTO   0D3
+01C0[00E0]:  28E1   GOTO   0E1
+01C2[00E1]:  3400   RETLW  00
+01C4[00E2]:  0875   MOVF   75,W
+01C6[00E3]:  3A0C   XORLW  0C
+01C8[00E4]:  1903   BTFSC  03.2
+01CA[00E5]:  28ED   GOTO   0ED
+01CC[00E6]:  3A04   XORLW  04
+01CE[00E7]:  1903   BTFSC  03.2
+01D0[00E8]:  28F7   GOTO   0F7
+01D2[00E9]:  3A02   XORLW  02
+01D4[00EA]:  1903   BTFSC  03.2
+01D6[00EB]:  28FC   GOTO   0FC
+01D8[00EC]:  2901   GOTO   101
+01DA[00ED]:  01F6   CLRF   76
+01DC[00EE]:  3001   MOVLW  01
+01DE[00EF]:  00FC   MOVWF  7C
+01E0[00F0]:  204A   CALL   04A
+01E2[00F1]:  3002   MOVLW  02
+01E4[00F2]:  1683   BSF    03.5
+01E6[00F3]:  00A0   MOVWF  20
+01E8[00F4]:  1283   BCF    03.5
+01EA[00F5]:  201C   CALL   01C
+01EC[00F6]:  2907   GOTO   107
+01EE[00F7]:  01F6   CLRF   76
+01F0[00F8]:  3008   MOVLW  08
+01F2[00F9]:  00FC   MOVWF  7C
+01F4[00FA]:  204A   CALL   04A
+01F6[00FB]:  2907   GOTO   107
+01F8[00FC]:  01F6   CLRF   76
+01FA[00FD]:  30C0   MOVLW  C0
+01FC[00FE]:  00FC   MOVWF  7C
+01FE[00FF]:  204A   CALL   04A
+0200[0100]:  2907   GOTO   107
+0202[0101]:  3001   MOVLW  01
+0204[0102]:  00F6   MOVWF  76
+0206[0103]:  0875   MOVF   75,W
+0208[0104]:  00FC   MOVWF  7C
+020A[0105]:  204A   CALL   04A
+020C[0106]:  2907   GOTO   107
+020E[0107]:  3400   RETLW  00
+0210[0108]:  01E4   CLRF   64
+0212[0109]:  0863   MOVF   63,W
+0214[010A]:  0764   ADDWF  64,W
+0216[010B]:  0084   MOVWF  04
+0218[010C]:  0880   MOVF   00,F
+021A[010D]:  1903   BTFSC  03.2
+021C[010E]:  291D   GOTO   11D
+021E[010F]:  0863   MOVF   63,W
+0220[0110]:  0764   ADDWF  64,W
+0222[0111]:  0084   MOVWF  04
+0224[0112]:  0800   MOVF   00,W
+0226[0113]:  00E5   MOVWF  65
+0228[0114]:  00F5   MOVWF  75
+022A[0115]:  20E2   CALL   0E2
+022C[0116]:  0862   MOVF   62,W
+022E[0117]:  1683   BSF    03.5
+0230[0118]:  00A0   MOVWF  20
+0232[0119]:  1283   BCF    03.5
+0234[011A]:  201C   CALL   01C
+0236[011B]:  0AE4   INCF   64,F
+0238[011C]:  2909   GOTO   109
+023A[011D]:  3400   RETLW  00
+023C[011E]:  300E   MOVLW  0E
+023E[011F]:  00F3   MOVWF  73
+0240[0120]:  0863   MOVF   63,W
+0242[0121]:  0773   ADDWF  73,W
+0244[0122]:  0084   MOVWF  04
+0246[0123]:  0800   MOVF   00,W
+0248[0124]:  00F4   MOVWF  74
+024A[0125]:  00F5   MOVWF  75
+024C[0126]:  20E2   CALL   0E2
+024E[0127]:  0862   MOVF   62,W
+0250[0128]:  1683   BSF    03.5
+0252[0129]:  00A0   MOVWF  20
+0254[012A]:  1283   BCF    03.5
+0256[012B]:  201C   CALL   01C
+0258[012C]:  03F3   DECF   73,F
+025A[012D]:  2920   GOTO   120
+025C[012E]:  118A   BCF    0A.3
+025E[012F]:  29DD   GOTO   1DD
+0260[0130]:  0184   CLRF   04
+0262[0131]:  301F   MOVLW  1F
+0264[0132]:  0583   ANDWF  03,F
+0266[0133]:  3007   MOVLW  07
+0268[0134]:  009F   MOVWF  1F
+026A[0135]:  01A0   CLRF   20
+026C[0136]:  3048   MOVLW  48
+026E[0137]:  00A1   MOVWF  21
+0270[0138]:  306F   MOVLW  6F
+0272[0139]:  00A2   MOVWF  22
+0274[013A]:  3077   MOVLW  77
+0276[013B]:  00A3   MOVWF  23
+0278[013C]:  3020   MOVLW  20
+027A[013D]:  00A4   MOVWF  24
+027C[013E]:  3063   MOVLW  63
+027E[013F]:  00A5   MOVWF  25
+0280[0140]:  3061   MOVLW  61
+0282[0141]:  00A6   MOVWF  26
+0284[0142]:  306E   MOVLW  6E
+0286[0143]:  00A7   MOVWF  27
+0288[0144]:  3020   MOVLW  20
+028A[0145]:  00A8   MOVWF  28
+028C[0146]:  3049   MOVLW  49
+028E[0147]:  00A9   MOVWF  29
+0290[0148]:  3020   MOVLW  20
+0292[0149]:  00AA   MOVWF  2A
+0294[014A]:  3068   MOVLW  68
+0296[014B]:  00AB   MOVWF  2B
+0298[014C]:  3065   MOVLW  65
+029A[014D]:  00AC   MOVWF  2C
+029C[014E]:  306C   MOVLW  6C
+029E[014F]:  00AD   MOVWF  2D
+02A0[0150]:  3070   MOVLW  70
+02A2[0151]:  00AE   MOVWF  2E
+02A4[0152]:  303F   MOVLW  3F
+02A6[0153]:  00AF   MOVWF  2F
+02A8[0154]:  01B0   CLRF   30
+02AA[0155]:  3054   MOVLW  54
+02AC[0156]:  00B1   MOVWF  31
+02AE[0157]:  3068   MOVLW  68
+02B0[0158]:  00B2   MOVWF  32
+02B2[0159]:  3065   MOVLW  65
+02B4[015A]:  00B3   MOVWF  33
+02B6[015B]:  3020   MOVLW  20
+02B8[015C]:  00B4   MOVWF  34
+02BA[015D]:  3061   MOVLW  61
+02BC[015E]:  00B5   MOVWF  35
+02BE[015F]:  306E   MOVLW  6E
+02C0[0160]:  00B6   MOVWF  36
+02C2[0161]:  3073   MOVLW  73
+02C4[0162]:  00B7   MOVWF  37
+02C6[0163]:  3077   MOVLW  77
+02C8[0164]:  00B8   MOVWF  38
+02CA[0165]:  3065   MOVLW  65
+02CC[0166]:  00B9   MOVWF  39
+02CE[0167]:  3072   MOVLW  72
+02D0[0168]:  00BA   MOVWF  3A
+02D2[0169]:  303F   MOVLW  3F
+02D4[016A]:  00BB   MOVWF  3B
+02D6[016B]:  01BC   CLRF   3C
+02D8[016C]:  01BD   CLRF   3D
+02DA[016D]:  01BE   CLRF   3E
+02DC[016E]:  01BF   CLRF   3F
+02DE[016F]:  01C0   CLRF   40
+02E0[0170]:  3046   MOVLW  46
+02E2[0171]:  00C1   MOVWF  41
+02E4[0172]:  306F   MOVLW  6F
+02E6[0173]:  00C2   MOVWF  42
+02E8[0174]:  3072   MOVLW  72
+02EA[0175]:  00C3   MOVWF  43
+02EC[0176]:  3074   MOVLW  74
+02EE[0177]:  00C4   MOVWF  44
+02F0[0178]:  3079   MOVLW  79
+02F2[0179]:  00C5   MOVWF  45
+02F4[017A]:  3020   MOVLW  20
+02F6[017B]:  00C6   MOVWF  46
+02F8[017C]:  3054   MOVLW  54
+02FA[017D]:  00C7   MOVWF  47
+02FC[017E]:  3077   MOVLW  77
+02FE[017F]:  00C8   MOVWF  48
+0300[0180]:  306F   MOVLW  6F
+0302[0181]:  00C9   MOVWF  49
+0304[0182]:  302E   MOVLW  2E
+0306[0183]:  00CA   MOVWF  4A
+0308[0184]:  01CB   CLRF   4B
+030A[0185]:  01CC   CLRF   4C
+030C[0186]:  01CD   CLRF   4D
+030E[0187]:  01CE   CLRF   4E
+0310[0188]:  01CF   CLRF   4F
+0312[0189]:  01D0   CLRF   50
+0314[018A]:  3054   MOVLW  54
+0316[018B]:  00D1   MOVWF  51
+0318[018C]:  3068   MOVLW  68
+031A[018D]:  00D2   MOVWF  52
+031C[018E]:  3065   MOVLW  65
+031E[018F]:  00D3   MOVWF  53
+0320[0190]:  3020   MOVLW  20
+0322[0191]:  00D4   MOVWF  54
+0324[0192]:  3071   MOVLW  71
+0326[0193]:  00D5   MOVWF  55
+0328[0194]:  3075   MOVLW  75
+032A[0195]:  00D6   MOVWF  56
+032C[0196]:  3065   MOVLW  65
+032E[0197]:  00D7   MOVWF  57
+0330[0198]:  3073   MOVLW  73
+0332[0199]:  00D8   MOVWF  58
+0334[019A]:  3074   MOVLW  74
+0336[019B]:  00D9   MOVWF  59
+0338[019C]:  3069   MOVLW  69
+033A[019D]:  00DA   MOVWF  5A
+033C[019E]:  306F   MOVLW  6F
+033E[019F]:  00DB   MOVWF  5B
+0340[01A0]:  306E   MOVLW  6E
+0342[01A1]:  00DC   MOVWF  5C
+0344[01A2]:  303F   MOVLW  3F
+0346[01A3]:  00DD   MOVWF  5D
+0348[01A4]:  3020   MOVLW  20
+034A[01A5]:  00DE   MOVWF  5E
+034C[01A6]:  00DF   MOVWF  5F
+034E[01A7]:  01E0   CLRF   60
+0350[01A8]:  3002   MOVLW  02
+0352[01A9]:  00E2   MOVWF  62
+0354[01AA]:  2077   CALL   077
+0356[01AB]:  300C   MOVLW  0C
+0358[01AC]:  00F5   MOVWF  75
+035A[01AD]:  20E2   CALL   0E2
+035C[01AE]:  3005   MOVLW  05
+035E[01AF]:  00E2   MOVWF  62
+0360[01B0]:  3021   MOVLW  21
+0362[01B1]:  00E3   MOVWF  63
+0364[01B2]:  2108   CALL   108
+0366[01B3]:  1986   BTFSC  06.3
+0368[01B4]:  29B3   GOTO   1B3
+036A[01B5]:  300C   MOVLW  0C
+036C[01B6]:  00F5   MOVWF  75
+036E[01B7]:  20E2   CALL   0E2
+0370[01B8]:  30E8   MOVLW  E8
+0372[01B9]:  00E2   MOVWF  62
+0374[01BA]:  3031   MOVLW  31
+0376[01BB]:  00E3   MOVWF  63
+0378[01BC]:  2108   CALL   108
+037A[01BD]:  1986   BTFSC  06.3
+037C[01BE]:  29BD   GOTO   1BD
+037E[01BF]:  300C   MOVLW  0C
+0380[01C0]:  00F5   MOVWF  75
+0382[01C1]:  20E2   CALL   0E2
+0384[01C2]:  300A   MOVLW  0A
+0386[01C3]:  00F5   MOVWF  75
+0388[01C4]:  20E2   CALL   0E2
+038A[01C5]:  3005   MOVLW  05
+038C[01C6]:  00E2   MOVWF  62
+038E[01C7]:  3041   MOVLW  41
+0390[01C8]:  00E3   MOVWF  63
+0392[01C9]:  2108   CALL   108
+0394[01CA]:  3002   MOVLW  02
+0396[01CB]:  00E2   MOVWF  62
+0398[01CC]:  30FA   MOVLW  FA
+039A[01CD]:  1683   BSF    03.5
+039C[01CE]:  00A0   MOVWF  20
+039E[01CF]:  1283   BCF    03.5
+03A0[01D0]:  201C   CALL   01C
+03A2[01D1]:  0BE2   DECFSZ 62,F
+03A4[01D2]:  29CC   GOTO   1CC
+03A6[01D3]:  1986   BTFSC  06.3
+03A8[01D4]:  29D3   GOTO   1D3
+03AA[01D5]:  3003   MOVLW  03
+03AC[01D6]:  00E2   MOVWF  62
+03AE[01D7]:  2077   CALL   077
+03B0[01D8]:  30C8   MOVLW  C8
+03B2[01D9]:  00E2   MOVWF  62
+03B4[01DA]:  3051   MOVLW  51
+03B6[01DB]:  00E3   MOVWF  63
+03B8[01DC]:  291E   GOTO   11E
+03BA[01DD]:  29D8   GOTO   1D8
+03BC[01DE]:  3000   MOVLW  00
+03BE[01DF]:  00F8   MOVWF  78
+03C0[01E0]:  0063   SLEEP
+
+Symbol Table:
+Index[0]= Symbol: n_name=.file, n_value=0x00000000, n_scnum=-2, n_type=0x0000, n_sclass=103, n_numaux=1
+Index[1]= Aux File: x_offset=14, x_incline=0
+Index[2]= Symbol: n_name=@cinit, n_value=0x00000130, n_scnum=3, n_type=0x002C, n_sclass=2, n_numaux=1
+Index[3]= Aux Fcn: x_tagndx=0, x_size=0, x_lnnoptr=0, x_endnds=12
+Index[4]= Symbol: n_name=.bf, n_value=0x00000130, n_scnum=3, n_type=0x0000, n_sclass=101, n_numaux=1
+Index[5]= Aux Bobf: x_lnno=0, x_endndx=12
+Index[6]= Symbol: n_name=.bb, n_value=0x00000130, n_scnum=3, n_type=0x0000, n_sclass=100, n_numaux=1
+Index[7]= Aux Bobf: x_lnno=0, x_endndx=9
+Index[8]= Symbol: n_name=.eb, n_value=0x000001A7, n_scnum=3, n_type=0x0000, n_sclass=100, n_numaux=1
+Index[9]= Aux Eobf: x_lnno=0
+Index[10]= Symbol: n_name=.ef, n_value=0x000001A7, n_scnum=3, n_type=0x0000, n_sclass=101, n_numaux=1
+Index[11]= Aux Eobf: x_lnno=0
+Index[12]= Symbol: n_name=@delay_ms1, n_value=0x0000001C, n_scnum=3, n_type=0x002E, n_sclass=2, n_numaux=1
+Index[13]= Aux Fcn: x_tagndx=0, x_size=0, x_lnnoptr=0, x_endnds=23
+Index[14]= Symbol: n_name=.bf, n_value=0x0000001C, n_scnum=3, n_type=0x0000, n_sclass=101, n_numaux=1
+Index[15]= Aux Bobf: x_lnno=0, x_endndx=23
+Index[16]= Symbol: n_name=_invar70, n_value=0x000000A0, n_scnum=1, n_type=0x000C, n_sclass=3, n_numaux=0
+Index[17]= Symbol: n_name=.bb, n_value=0x0000001C, n_scnum=3, n_type=0x0000, n_sclass=100, n_numaux=1
+Index[18]= Aux Bobf: x_lnno=0, x_endndx=20
+Index[19]= Symbol: n_name=.eb, n_value=0x00000030, n_scnum=3, n_type=0x0000, n_sclass=100, n_numaux=1
+Index[20]= Aux Eobf: x_lnno=0
+Index[21]= Symbol: n_name=.ef, n_value=0x00000030, n_scnum=3, n_type=0x0000, n_sclass=101, n_numaux=1
+Index[22]= Aux Eobf: x_lnno=0
+Index[23]= Symbol: n_name=@const131, n_value=0x00000004, n_scnum=3, n_type=0x002C, n_sclass=2, n_numaux=1
+Index[24]= Aux Fcn: x_tagndx=0, x_size=0, x_lnnoptr=0, x_endnds=33
+Index[25]= Symbol: n_name=.bf, n_value=0x00000004, n_scnum=3, n_type=0x0000, n_sclass=101, n_numaux=1
+Index[26]= Aux Bobf: x_lnno=0, x_endndx=33
+Index[27]= Symbol: n_name=.bb, n_value=0x00000004, n_scnum=3, n_type=0x0000, n_sclass=100, n_numaux=1
+Index[28]= Aux Bobf: x_lnno=0, x_endndx=30
+Index[29]= Symbol: n_name=.eb, n_value=0x0000000B, n_scnum=3, n_type=0x0000, n_sclass=100, n_numaux=1
+Index[30]= Aux Eobf: x_lnno=0
+Index[31]= Symbol: n_name=.ef, n_value=0x0000000B, n_scnum=3, n_type=0x0000, n_sclass=101, n_numaux=1
+Index[32]= Aux Eobf: x_lnno=0
+Index[33]= Symbol: n_name=@const133, n_value=0x0000000C, n_scnum=3, n_type=0x002C, n_sclass=2, n_numaux=1
+Index[34]= Aux Fcn: x_tagndx=0, x_size=0, x_lnnoptr=0, x_endnds=43
+Index[35]= Symbol: n_name=.bf, n_value=0x0000000C, n_scnum=3, n_type=0x0000, n_sclass=101, n_numaux=1
+Index[36]= Aux Bobf: x_lnno=0, x_endndx=43
+Index[37]= Symbol: n_name=.bb, n_value=0x0000000C, n_scnum=3, n_type=0x0000, n_sclass=100, n_numaux=1
+Index[38]= Aux Bobf: x_lnno=0, x_endndx=40
+Index[39]= Symbol: n_name=.eb, n_value=0x00000013, n_scnum=3, n_type=0x0000, n_sclass=100, n_numaux=1
+Index[40]= Aux Eobf: x_lnno=0
+Index[41]= Symbol: n_name=.ef, n_value=0x00000013, n_scnum=3, n_type=0x0000, n_sclass=101, n_numaux=1
+Index[42]= Aux Eobf: x_lnno=0
+Index[43]= Symbol: n_name=@const135, n_value=0x00000014, n_scnum=3, n_type=0x002C, n_sclass=2, n_numaux=1
+Index[44]= Aux Fcn: x_tagndx=0, x_size=0, x_lnnoptr=0, x_endnds=53
+Index[45]= Symbol: n_name=.bf, n_value=0x00000014, n_scnum=3, n_type=0x0000, n_sclass=101, n_numaux=1
+Index[46]= Aux Bobf: x_lnno=0, x_endndx=53
+Index[47]= Symbol: n_name=.bb, n_value=0x00000014, n_scnum=3, n_type=0x0000, n_sclass=100, n_numaux=1
+Index[48]= Aux Bobf: x_lnno=0, x_endndx=50
+Index[49]= Symbol: n_name=.eb, n_value=0x0000001B, n_scnum=3, n_type=0x0000, n_sclass=100, n_numaux=1
+Index[50]= Aux Eobf: x_lnno=0
+Index[51]= Symbol: n_name=.ef, n_value=0x0000001B, n_scnum=3, n_type=0x0000, n_sclass=101, n_numaux=1
+Index[52]= Aux Eobf: x_lnno=0
+Index[53]= Symbol: n_name=.eof, n_value=0x00000000, n_scnum=-2, n_type=0x0000, n_sclass=107, n_numaux=0
+Index[54]= Symbol: n_name=.ccsext, n_value=0x00001A31, n_scnum=-2, n_type=0x0000, n_sclass=0, n_numaux=0
+Index[55]= Symbol: n_name=.ccscase, n_value=0x00000000, n_scnum=-2, n_type=0x0000, n_sclass=0, n_numaux=0
+Index[56]= Symbol: n_name=.ccsptr, n_value=0x00000008, n_scnum=-2, n_type=0x0000, n_sclass=0, n_numaux=0
+Index[57]= Symbol: n_name=.ccs_short, n_value=0x00000001, n_scnum=-2, n_type=0x0000, n_sclass=0, n_numaux=0
+Index[58]= Symbol: n_name=.ccs_int, n_value=0x00000008, n_scnum=-2, n_type=0x0000, n_sclass=0, n_numaux=0
+Index[59]= Symbol: n_name=.ccs_long, n_value=0x00000010, n_scnum=-2, n_type=0x0000, n_sclass=0, n_numaux=0
+Index[60]= Symbol: n_name=__PCM__, n_value=0x000000BD, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[61]= Symbol: n_name=__DEVICE__, n_value=0x000000C5, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[62]= Symbol: n_name=__DATE__, n_value=0x000000D4, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[63]= Symbol: n_name=__TIME__, n_value=0x000000E9, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[64]= Symbol: n_name=__FILE__, n_value=0x000000FD, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[65]= Symbol: n_name=PIN_A0, n_value=0x0000010A, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[66]= Symbol: n_name=PIN_A1, n_value=0x0000010D, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[67]= Symbol: n_name=PIN_A2, n_value=0x00000110, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[68]= Symbol: n_name=PIN_A3, n_value=0x00000113, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[69]= Symbol: n_name=PIN_A4, n_value=0x00000116, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[70]= Symbol: n_name=PIN_A5, n_value=0x00000119, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[71]= Symbol: n_name=PIN_A6, n_value=0x0000011C, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[72]= Symbol: n_name=PIN_A7, n_value=0x0000011F, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[73]= Symbol: n_name=PIN_B0, n_value=0x00000122, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[74]= Symbol: n_name=PIN_B1, n_value=0x00000125, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[75]= Symbol: n_name=PIN_B2, n_value=0x00000128, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[76]= Symbol: n_name=PIN_B3, n_value=0x0000012B, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[77]= Symbol: n_name=PIN_B4, n_value=0x0000012E, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[78]= Symbol: n_name=PIN_B5, n_value=0x00000131, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[79]= Symbol: n_name=PIN_B6, n_value=0x00000134, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[80]= Symbol: n_name=PIN_B7, n_value=0x00000137, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[81]= Symbol: n_name=FALSE, n_value=0x0000013A, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[82]= Symbol: n_name=TRUE, n_value=0x0000013C, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[83]= Symbol: n_name=BYTE, n_value=0x0000013E, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[84]= Symbol: n_name=BOOLEAN, n_value=0x00000142, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[85]= Symbol: n_name=getc, n_value=0x0000014C, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[86]= Symbol: n_name=fgetc, n_value=0x00000152, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[87]= Symbol: n_name=getchar, n_value=0x00000158, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[88]= Symbol: n_name=putc, n_value=0x0000015E, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[89]= Symbol: n_name=fputc, n_value=0x00000166, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[90]= Symbol: n_name=fgets, n_value=0x0000016E, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[91]= Symbol: n_name=fputs, n_value=0x00000173, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[92]= Symbol: n_name=WDT_FROM_SLEEP, n_value=0x00000178, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[93]= Symbol: n_name=WDT_TIMEOUT, n_value=0x00000189, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[94]= Symbol: n_name=MCLR_FROM_SLEEP, n_value=0x00000198, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[95]= Symbol: n_name=MCLR_FROM_RUN, n_value=0x000001AB, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[96]= Symbol: n_name=NORMAL_POWER_UP, n_value=0x000001BC, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[97]= Symbol: n_name=BROWNOUT_RESTART, n_value=0x000001CF, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[98]= Symbol: n_name=RTCC_INTERNAL, n_value=0x000001E3, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[99]= Symbol: n_name=RTCC_EXT_L_TO_H, n_value=0x000001F3, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[100]= Symbol: n_name=RTCC_EXT_H_TO_L, n_value=0x00000206, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[101]= Symbol: n_name=RTCC_DIV_1, n_value=0x00000219, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[102]= Symbol: n_name=RTCC_DIV_2, n_value=0x00000226, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[103]= Symbol: n_name=RTCC_DIV_4, n_value=0x00000233, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[104]= Symbol: n_name=RTCC_DIV_8, n_value=0x00000240, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[105]= Symbol: n_name=RTCC_DIV_16, n_value=0x0000024D, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[106]= Symbol: n_name=RTCC_DIV_32, n_value=0x0000025B, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[107]= Symbol: n_name=RTCC_DIV_64, n_value=0x00000269, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[108]= Symbol: n_name=RTCC_DIV_128, n_value=0x00000277, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[109]= Symbol: n_name=RTCC_DIV_256, n_value=0x00000286, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[110]= Symbol: n_name=RTCC_8_BIT, n_value=0x00000295, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[111]= Symbol: n_name=WDT_18MS, n_value=0x000002A2, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[112]= Symbol: n_name=WDT_36MS, n_value=0x000002AD, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[113]= Symbol: n_name=WDT_72MS, n_value=0x000002B8, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[114]= Symbol: n_name=WDT_144MS, n_value=0x000002C4, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[115]= Symbol: n_name=WDT_288MS, n_value=0x000002D1, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[116]= Symbol: n_name=WDT_576MS, n_value=0x000002DE, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[117]= Symbol: n_name=WDT_1152MS, n_value=0x000002EB, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[118]= Symbol: n_name=WDT_2304MS, n_value=0x000002F9, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[119]= Symbol: n_name=T1_DISABLED, n_value=0x00000307, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[120]= Symbol: n_name=T1_INTERNAL, n_value=0x00000315, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[121]= Symbol: n_name=T1_EXTERNAL, n_value=0x00000326, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[122]= Symbol: n_name=T1_EXTERNAL_SYNC, n_value=0x00000337, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[123]= Symbol: n_name=T1_CLK_OUT, n_value=0x0000034D, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[124]= Symbol: n_name=T1_DIV_BY_1, n_value=0x0000035A, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[125]= Symbol: n_name=T1_DIV_BY_2, n_value=0x00000368, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[126]= Symbol: n_name=T1_DIV_BY_4, n_value=0x00000379, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[127]= Symbol: n_name=T1_DIV_BY_8, n_value=0x0000038A, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[128]= Symbol: n_name=T2_DISABLED, n_value=0x0000039B, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[129]= Symbol: n_name=T2_DIV_BY_1, n_value=0x000003A9, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[130]= Symbol: n_name=T2_DIV_BY_4, n_value=0x000003B7, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[131]= Symbol: n_name=T2_DIV_BY_16, n_value=0x000003C5, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[132]= Symbol: n_name=CCP_OFF, n_value=0x000003D4, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[133]= Symbol: n_name=CCP_CAPTURE_FE, n_value=0x000003D6, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[134]= Symbol: n_name=CCP_CAPTURE_RE, n_value=0x000003E7, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[135]= Symbol: n_name=CCP_CAPTURE_DIV_4, n_value=0x000003F8, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[136]= Symbol: n_name=CCP_CAPTURE_DIV_16, n_value=0x0000040C, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[137]= Symbol: n_name=CCP_COMPARE_SET_ON_MATCH, n_value=0x00000421, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[138]= Symbol: n_name=CCP_COMPARE_CLR_ON_MATCH, n_value=0x0000043C, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[139]= Symbol: n_name=CCP_COMPARE_INT, n_value=0x00000457, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[140]= Symbol: n_name=CCP_COMPARE_RESET_TIMER, n_value=0x0000046B, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[141]= Symbol: n_name=CCP_PWM, n_value=0x00000487, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[142]= Symbol: n_name=CCP_PWM_PLUS_1, n_value=0x0000048B, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[143]= Symbol: n_name=CCP_PWM_PLUS_2, n_value=0x0000049F, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[144]= Symbol: n_name=CCP_PWM_PLUS_3, n_value=0x000004B3, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[145]= Symbol: n_name=UART_ADDRESS, n_value=0x000004C7, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[146]= Symbol: n_name=UART_DATA, n_value=0x000004D6, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[147]= Symbol: n_name=A0_A3_A1_A2, n_value=0x000004E2, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[148]= Symbol: n_name=A0_A2_A1_A2, n_value=0x000004F6, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[149]= Symbol: n_name=NC_NC_A1_A2, n_value=0x0000050A, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[150]= Symbol: n_name=NC_NC_NC_NC, n_value=0x0000051E, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[151]= Symbol: n_name=A0_VR_A1_VR, n_value=0x00000532, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[152]= Symbol: n_name=A3_VR_A2_VR, n_value=0x00000546, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[153]= Symbol: n_name=A0_A2_A1_A2_OUT_ON_A3_A4, n_value=0x0000055A, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[154]= Symbol: n_name=A3_A2_A1_A2, n_value=0x0000057B, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[155]= Symbol: n_name=VREF_LOW, n_value=0x0000058F, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[156]= Symbol: n_name=VREF_HIGH, n_value=0x0000059D, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[157]= Symbol: n_name=VREF_A2, n_value=0x000005AC, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[158]= Symbol: n_name=OSC_48KHZ, n_value=0x000005B1, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[159]= Symbol: n_name=OSC_4MHZ, n_value=0x000005BD, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[160]= Symbol: n_name=L_TO_H, n_value=0x000005C8, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[161]= Symbol: n_name=H_TO_L, n_value=0x000005CD, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[162]= Symbol: n_name=GLOBAL, n_value=0x000005CF, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[163]= Symbol: n_name=INT_RTCC, n_value=0x000005D6, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[164]= Symbol: n_name=INT_RB, n_value=0x000005E6, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[165]= Symbol: n_name=INT_EXT, n_value=0x000005ED, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[166]= Symbol: n_name=INT_TBE, n_value=0x000005F4, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[167]= Symbol: n_name=INT_RDA, n_value=0x000005FB, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[168]= Symbol: n_name=INT_TIMER1, n_value=0x00000602, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[169]= Symbol: n_name=INT_TIMER2, n_value=0x00000614, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[170]= Symbol: n_name=INT_CCP1, n_value=0x00000626, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[171]= Symbol: n_name=INT_COMP, n_value=0x00000636, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[172]= Symbol: n_name=INT_TIMER0, n_value=0x00000646, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[173]= Symbol: n_name=INT_EEPROM, n_value=0x00000658, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[174]= Symbol: n_name=_STRING, n_value=0x0000066A, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[175]= Symbol: n_name=_STDDEF, n_value=0x0000066C, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[176]= Symbol: n_name=ptrdiff_t, n_value=0x0000066E, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[177]= Symbol: n_name=size_t, n_value=0x0000067C, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[178]= Symbol: n_name=wchar_t, n_value=0x00000680, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[179]= Symbol: n_name=NULL, n_value=0x00000685, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[180]= Symbol: n_name=offsetof, n_value=0x00000687, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[181]= Symbol: n_name=_CTYPE, n_value=0x000006AB, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[182]= Symbol: n_name=islower, n_value=0x000006AD, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[183]= Symbol: n_name=isupper, n_value=0x000006DA, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[184]= Symbol: n_name=isalnum, n_value=0x00000707, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[185]= Symbol: n_name=isalpha, n_value=0x00000758, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[186]= Symbol: n_name=isdigit, n_value=0x0000079F, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[187]= Symbol: n_name=isspace, n_value=0x000007BC, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[188]= Symbol: n_name=isxdigit, n_value=0x000007CA, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[189]= Symbol: n_name=iscntrl, n_value=0x000007FB, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[190]= Symbol: n_name=isprint, n_value=0x00000808, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[191]= Symbol: n_name=isgraph, n_value=0x00000816, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+Index[192]= Symbol: n_name=ispunct, n_value=0x00000823, n_scnum=-2, n_type=0x0000, n_sclass=201, n_numaux=0
+
+String Table:
+Offset[4]= .romdata1
+Offset[14]= Y:\Year 2\EE2A\PIC-LCD\4bit\lcd_display.c
+Offset[56]= @delay_ms1
+Offset[67]= _invar70
+Offset[76]= @const131
+Offset[86]= @const133
+Offset[96]= @const135
+Offset[106]= Y:\Year 2\EE2A\PIC-LCD\4bit\lcd_display.lst
+Offset[150]= .ccscase
+Offset[159]= .ccs_short
+Offset[170]= .ccs_int
+Offset[179]= .ccs_long
+Offset[189]= "3.239"
+Offset[197]= 648
+Offset[201]= __DEVICE__
+Offset[212]= "05-Feb-07"
+Offset[224]= __DATE__
+Offset[233]= "19:04:01"
+Offset[244]= __TIME__
+Offset[253]= "?"
+Offset[257]= __FILE__
+Offset[266]= 40
+Offset[269]= 41
+Offset[272]= 42
+Offset[275]= 43
+Offset[278]= 44
+Offset[281]= 45
+Offset[284]= 46
+Offset[287]= 47
+Offset[290]= 48
+Offset[293]= 49
+Offset[296]= 50
+Offset[299]= 51
+Offset[302]= 52
+Offset[305]= 53
+Offset[308]= 54
+Offset[311]= 55
+Offset[314]= 0
+Offset[316]= 1
+Offset[318]= int
+Offset[322]= short int
+Offset[332]= getch
+Offset[338]= getch
+Offset[344]= getch
+Offset[350]= putchar
+Offset[358]= putchar
+Offset[366]= gets
+Offset[371]= puts
+Offset[376]= 3
+Offset[378]= WDT_FROM_SLEEP
+Offset[393]= 11
+Offset[396]= WDT_TIMEOUT
+Offset[408]= 19
+Offset[411]= MCLR_FROM_SLEEP
+Offset[427]= 27
+Offset[430]= MCLR_FROM_RUN
+Offset[444]= 24
+Offset[447]= NORMAL_POWER_UP
+Offset[463]= 26
+Offset[466]= BROWNOUT_RESTART
+Offset[483]= 0
+Offset[485]= RTCC_INTERNAL
+Offset[499]= 32
+Offset[502]= RTCC_EXT_L_TO_H
+Offset[518]= 48
+Offset[521]= RTCC_EXT_H_TO_L
+Offset[537]= 8
+Offset[539]= RTCC_DIV_1
+Offset[550]= 0
+Offset[552]= RTCC_DIV_2
+Offset[563]= 1
+Offset[565]= RTCC_DIV_4
+Offset[576]= 2
+Offset[578]= RTCC_DIV_8
+Offset[589]= 3
+Offset[591]= RTCC_DIV_16
+Offset[603]= 4
+Offset[605]= RTCC_DIV_32
+Offset[617]= 5
+Offset[619]= RTCC_DIV_64
+Offset[631]= 6
+Offset[633]= RTCC_DIV_128
+Offset[646]= 7
+Offset[648]= RTCC_DIV_256
+Offset[661]= 0
+Offset[663]= RTCC_8_BIT
+Offset[674]= 8
+Offset[676]= WDT_18MS
+Offset[685]= 9
+Offset[687]= WDT_36MS
+Offset[696]= 10
+Offset[699]= WDT_72MS
+Offset[708]= 11
+Offset[711]= WDT_144MS
+Offset[721]= 12
+Offset[724]= WDT_288MS
+Offset[734]= 13
+Offset[737]= WDT_576MS
+Offset[747]= 14
+Offset[750]= WDT_1152MS
+Offset[761]= 15
+Offset[764]= WDT_2304MS
+Offset[775]= 0
+Offset[777]= T1_DISABLED
+Offset[789]= 0x85
+Offset[794]= T1_INTERNAL
+Offset[806]= 0x87
+Offset[811]= T1_EXTERNAL
+Offset[823]= 0x83
+Offset[828]= T1_EXTERNAL_SYNC
+Offset[845]= 8
+Offset[847]= T1_CLK_OUT
+Offset[858]= 0
+Offset[860]= T1_DIV_BY_1
+Offset[872]= 0x10
+Offset[877]= T1_DIV_BY_2
+Offset[889]= 0x20
+Offset[894]= T1_DIV_BY_4
+Offset[906]= 0x30
+Offset[911]= T1_DIV_BY_8
+Offset[923]= 0
+Offset[925]= T2_DISABLED
+Offset[937]= 4
+Offset[939]= T2_DIV_BY_1
+Offset[951]= 5
+Offset[953]= T2_DIV_BY_4
+Offset[965]= 6
+Offset[967]= T2_DIV_BY_16
+Offset[980]= 0
+Offset[982]= 4
+Offset[984]= CCP_CAPTURE_FE
+Offset[999]= 5
+Offset[1001]= CCP_CAPTURE_RE
+Offset[1016]= 6
+Offset[1018]= CCP_CAPTURE_DIV_4
+Offset[1036]= 7
+Offset[1038]= CCP_CAPTURE_DIV_16
+Offset[1057]= 8
+Offset[1059]= CCP_COMPARE_SET_ON_MATCH
+Offset[1084]= 9
+Offset[1086]= CCP_COMPARE_CLR_ON_MATCH
+Offset[1111]= 0xA
+Offset[1115]= CCP_COMPARE_INT
+Offset[1131]= 0xB
+Offset[1135]= CCP_COMPARE_RESET_TIMER
+Offset[1159]= 0xC
+Offset[1163]= 0x1c
+Offset[1168]= CCP_PWM_PLUS_1
+Offset[1183]= 0x2c
+Offset[1188]= CCP_PWM_PLUS_2
+Offset[1203]= 0x3c
+Offset[1208]= CCP_PWM_PLUS_3
+Offset[1223]= 2
+Offset[1225]= UART_ADDRESS
+Offset[1238]= 4
+Offset[1240]= UART_DATA
+Offset[1250]= 0xfff04
+Offset[1258]= A0_A3_A1_A2
+Offset[1270]= 0x7ff03
+Offset[1278]= A0_A2_A1_A2
+Offset[1290]= 0x6ff05
+Offset[1298]= NC_NC_A1_A2
+Offset[1310]= 0x0ff07
+Offset[1318]= NC_NC_NC_NC
+Offset[1330]= 0x3ff02
+Offset[1338]= A0_VR_A1_VR
+Offset[1350]= 0xcff0A
+Offset[1358]= A3_VR_A2_VR
+Offset[1370]= 0x7e706
+Offset[1378]= A0_A2_A1_A2_OUT_ON_A3_A4
+Offset[1403]= 0xeff09
+Offset[1411]= A3_A2_A1_A2
+Offset[1423]= 0xa0
+Offset[1428]= VREF_LOW
+Offset[1437]= 0x80
+Offset[1442]= VREF_HIGH
+Offset[1452]= 0x40
+Offset[1457]= 0
+Offset[1459]= OSC_48KHZ
+Offset[1469]= 8
+Offset[1471]= OSC_4MHZ
+Offset[1480]= 0x40
+Offset[1485]= 0
+Offset[1487]= 0x0BC0
+Offset[1494]= 0x0B20
+Offset[1501]= INT_RTCC
+Offset[1510]= 0x0B08
+Offset[1517]= 0x0B10
+Offset[1524]= 0x8C10
+Offset[1531]= 0x8C20
+Offset[1538]= 0x8C01
+Offset[1545]= INT_TIMER1
+Offset[1556]= 0x8C02
+Offset[1563]= INT_TIMER2
+Offset[1574]= 0x8C04
+Offset[1581]= INT_CCP1
+Offset[1590]= 0x8C40
+Offset[1597]= INT_COMP
+Offset[1606]= 0x0B20
+Offset[1613]= INT_TIMER0
+Offset[1624]= 0x8C80
+Offset[1631]= INT_EEPROM
+Offset[1642]=  
+Offset[1644]=  
+Offset[1646]= int
+Offset[1650]= ptrdiff_t
+Offset[1660]= int
+Offset[1664]= char
+Offset[1669]= 0
+Offset[1671]= (s,f) (offsetofbit(s,f)/8)
+Offset[1698]= offsetof
+Offset[1707]=  
+Offset[1709]= (x)  isamong(x,"abcdefghijklmnopqrstuvwxyz")
+Offset[1754]= (x)  isamong(x,"ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+Offset[1799]= (x)  isamong(x,"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
+Offset[1880]= (x)  isamong(x,"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
+Offset[1951]= (x)  isamong(x,"0123456789")
+Offset[1980]= (x)  (x==' ')
+Offset[1994]= (x) isamong(x,"0123456789ABCDEFabcdef")
+Offset[2034]= isxdigit
+Offset[2043]= (x)  (x<' ')
+Offset[2056]= (x)  (x>=' ')
+Offset[2070]= (x)  (x>' ')
+Offset[2083]= (x)  ((x>' ')&&!isalnum(x))
+
+CCS Extended COFF Information:
+===================================
+
+Information extracted from the symbol table:
+CCS header offset=0x00001A31
+Pointer Size=8
+Case State=FALSE
+short Width=1
+int Width=8
+long Width=16
+
+Header:
+f_magic=0x9179
+f_offslstfile=106 [Y:\Year 2\EE2A\PIC-LCD\4bit\lcd_display.lst]
+f_lstlnnoptr=0x00001A4B
+f_nlstlnno=0
+f_fninfoptr=0x00001A4B
+f_nfninfo=12
+f_flags=0x00000000
+
+Function[0]: f_symndx=2, f_type=1 [F_INLINEDIN], f_parentfn=5
+Function[1]: f_symndx=12, f_type=0 , f_parentfn=0
+Function[2]: f_symndx=23, f_type=0 , f_parentfn=0
+Function[3]: f_symndx=33, f_type=0 , f_parentfn=0
+Function[4]: f_symndx=43, f_type=0 , f_parentfn=0
+Function[5]: f_symndx=0, f_type=0 , f_parentfn=0
+Function[6]: f_symndx=0, f_type=0 , f_parentfn=0
+Function[7]: f_symndx=0, f_type=0 , f_parentfn=0
+Function[8]: f_symndx=0, f_type=0 , f_parentfn=0
+Function[9]: f_symndx=0, f_type=0 , f_parentfn=0
+Function[10]: f_symndx=0, f_type=2 [F_GOTOFROM], f_parentfn=5
+Function[11]: f_symndx=2, f_type=0 , f_parentfn=0
+
+
+Size=16054
+Done...

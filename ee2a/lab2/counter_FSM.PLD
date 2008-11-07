@@ -1,0 +1,71 @@
+Name      counter_FSM;
+Partno    tick;
+Date      7th November 2006;
+Revision  003;
+Designer  Ben Francis, Sam Black, Sam Burras;
+Company   University of Birmingham;
+Assembly  1;
+Location  Earth;
+Device    P18CV8;
+Format    JEDEC;
+
+/**********************************************************************/
+/* This design uses a PEEL18CV8 in order to implement a 4-bit counter */
+/*                                                                    */
+/* Device pin Layout         ___________                              */
+/*                    CLOCK |1   \/   20| Vcc (power supply)          */
+/*                    JAM_A |2        19| CLK                         */
+/*                    JAM_B |3        18| QA                          */
+/*                    JAM_C |4        17| QB                          */
+/*                    JAM_D |5        16| QC                          */
+/*               JAM_ENABLE |6        15| QD                          */
+/*                        S |7        14| Z                           */
+/*                        R |8        13|                             */
+/*                          |9        12|                             */
+/*                      GND |10       11|                             */
+/*                          |___________|                             */
+/*                                                                    */
+/**********************************************************************/
+
+
+/* Pin Assignments */
+/* Inputs */
+Pin 1 = CLOCK;
+Pin 2 = JAM_A;
+Pin 3 = JAM_B;
+Pin 4 = JAM_C;
+Pin 5 = JAM_D;
+Pin 6 = JAM_ENABLE;
+Pin 7 = S;
+Pin 8 = R;
+
+/* Ouputs */
+Pin 14 = Z;
+Pin 15 = QD;
+Pin 16 = QC;
+Pin 17 = QB;
+Pin 18 = QA;
+Pin 19 = CLK;
+
+/* Boolean algebra */
+QA.D = !QD & !QC & !JAM_ENABLE
+       # QD & !QA & !JAM_ENABLE
+       # QB & !JAM_ENABLE
+       # JAM_ENABLE & JAM_A;
+
+QB.D = !QA & !QB & !JAM_ENABLE
+       # QD & !QA & !JAM_ENABLE
+       # JAM_ENABLE & JAM_B;
+
+QC.D = QC & QA & !JAM_ENABLE
+       # !QC & !QA & !JAM_ENABLE
+       # JAM_ENABLE & JAM_C;
+
+QD.D = QD & QC & !JAM_ENABLE
+       # QA & !QC & !JAM_ENABLE
+       # !QD & QB & !QA & !JAM_ENABLE
+       # JAM_ENABLE & JAM_D;
+
+Z = QD & QC & !QB & QA;
+
+CLK = S # CLK & !R;

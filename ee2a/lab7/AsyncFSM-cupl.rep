@@ -1,0 +1,90 @@
+
+*******************************************************************************
+                                 AsyncFSM-cupl
+*******************************************************************************
+
+PLD             4.0 Serial# MW-67999999
+Device          virtual  Library DLIB-h-36-1
+Created         Wed Feb 28 20:53:14 2007
+Name            AsyncFSM-cupl
+Partno          lock
+Revision        002
+Date            28th February 2007
+Designer        Sam Black, Sam Burras, Ben Francis
+Company         University of Birmingham
+Assembly        1
+Location        Earth
+
+===============================================================================
+                            Expanded Product Terms
+===============================================================================
+
+QA =>
+    QA & QB & !QC & k0 & k1 & k2 & k3 & k4 & k6 & k7 & !reset
+  # QA & QB & !QC & !k0 & !reset
+  # QA & QB & !QC & !k1 & !reset
+  # QA & QB & !QC & !k2 & !reset
+  # QA & QB & !QC & !k3 & !reset
+  # QA & QB & !QC & !k4 & !reset
+  # QA & QB & !QC & !k5 & !reset
+  # QA & QB & !QC & !k6 & !reset
+  # QA & QB & !QC & !k7 & !reset
+  # !QA & QB & !QC & k0 & k1 & k2 & k3 & k4 & k6 & !k7 & !reset
+  # QA & QB & QC & !reset
+
+QB =>
+    !QA & QB & !QC & k0 & k1 & k2 & k4 & k6 & k7 & !reset
+  # QA & QB & !QC & k0 & k1 & k2 & k3 & k4 & k6 & k7 & !reset
+  # QA & QB & !QC & k0 & k1 & k2 & k3 & k4 & k5 & k6 & !k7 & !reset
+  # !QA & QC & k0 & !k1 & k2 & k3 & k4 & k5 & k6 & k7 & !reset
+  # !QA & QB & QC & k0 & k1 & k2 & k4 & k5 & k6 & k7 & !reset
+  # !DR & QA & QB & QC & k2
+
+QC =>
+    QA & !k0 & !reset
+  # QA & !k1 & !reset
+  # QA & !k2 & !reset
+  # QA & !k3 & !reset
+  # QA & !k4 & !reset
+  # QA & !k5 & !reset
+  # QA & !k6 & !reset
+  # QA & !k7 & !reset
+  # !QA & k0 & k2 & k3 & k4 & k5 & k6 & k7 & !reset
+  # QA & !QB & QC
+  # !QA & !QB & !QC
+  # QA & QB & QC & !reset
+  # reset
+
+Z =>
+    QA & QB & QC
+
+
+===============================================================================
+                                 Symbol Table
+===============================================================================
+
+Pin Variable                                    Pterms   Max     Min    
+Pol   Name              Ext     Pin     Type     Used   Pterms  Level   
+--- --------            ---     ---     ----    ------  ------  -----   
+
+    DR                          11       V        -       -       -     
+    QA                  int     18       V        11      0       1     
+    QB                  int     17       V        6       0       1     
+    QC                  int     16       V        13      0       1     
+    Z                           14       V        1       0       1     
+    k0                          2        V        -       -       -     
+    k1                          3        V        -       -       -     
+    k2                          4        V        -       -       -     
+    k3                          5        V        -       -       -     
+    k4                          6        V        -       -       -     
+    k5                          7        V        -       -       -     
+    k6                          8        V        -       -       -     
+    k7                          9        V        -       -       -     
+    reset                       12       V        -       -       -     
+
+
+LEGEND    D : default variable         F : field      G : group
+          I : intermediate variable    N : node       M : extended node
+          U : undefined                V : variable   X : extended variable
+          T : function
+

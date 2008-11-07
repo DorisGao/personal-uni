@@ -1,0 +1,68 @@
+Name      counter_FSM;
+Partno    tick;
+Date      7th November 2006;
+Revision  003;
+Designer  Ben Francis, Sam Black, Sam Burras;
+Company   University of Birmingham;
+Assembly  1;
+Location  Earth;
+Device    P18CV8;
+Format    JEDEC;
+
+/**********************************************************************/
+/* This design uses a PEEL18CV8 in order to implement a 4-bit counter */
+/*                                                                    */
+/* Device pin Layout         ___________                              */
+/*                    CLOCK |1   \/   20| Vcc (power supply)          */
+/*                    JAM_A |2        19| CLK                         */
+/*                    JAM_B |3        18| QA                          */
+/*                    JAM_C |4        17| QB                          */
+/*                    JAM_D |5        16| QC                          */
+/*               JAM_ENABLE |6        15| QD                          */
+/*                        S |7        14| Z                           */
+/*                        R |8        13|                             */
+/*                          |9        12|                             */
+/*                      GND |10       11|                             */
+/*                          |___________|                             */
+/*                                                                    */
+/**********************************************************************/
+
+/* ORDER STATEMENT */
+Order: CLOCK,%1,JAM_D,%1,JAM_C,%1,JAM_B,%1,JAM_A,%1,JAM_ENABLE,%2,QD,%1,QC,%1,QB,%1,QA,%1,Z;
+
+/* TEST VECTORS */
+Vectors:
+
+/* Allowed States */
+C 1 1 0 1 1  H H L H H  /* 13 */
+C X X X X 0  H H L L L  /* 12 */
+C X X X X 0  H L H H L  /* 11 */
+C X X X X 0  H L L H L  /* 9  */
+C X X X X 0  H L L L L  /* 8  */
+C X X X X 0  L H H H L  /* 7  */
+C X X X X 0  L H L H L  /* 5  */
+C X X X X 0  L H L L L  /* 4  */
+C X X X X 0  L L H L L  /* 2  */
+C X X X X 0  H H L H H  /* 13 */
+
+/* Not Allowed States */
+C 1 1 1 1 1  H H H H L  /* 15 */
+C X X X X 0  H H L H H /* 13 */
+
+C 1 1 1 0 1  H H H L L  /* 14 */
+C X X X X 0  H L H H L  /* 11 */
+
+C 0 0 1 1 1  L L H H L  /* 3  */
+C X X X X 0  H L L H L  /* 9  */
+
+C 0 1 1 0 1  L H H L L  /* 6  */
+C X X X X 0  H L L H L  /* 9  */
+
+C 0 0 0 1 1  L L L H L  /* 1  */
+C X X X X 0  H L L H L  /* 9  */
+
+C 0 0 0 0 1  L L L L L  /* 0  */
+C X X X X 0  L H H H L  /* 7  */
+
+C 1 0 1 0 1  H L H L L  /* 10 */
+C X X X X 0  L H H H L  /* 7  */

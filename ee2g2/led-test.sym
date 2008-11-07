@@ -1,0 +1,40 @@
+015-016 CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+021     main.@SCRATCH
+022     @delay_ms1.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+
+0004  @delay_ms1
+001A  main
+001A  @cinit
+
+Project Files:
+    Y:\Year 2\SVN\svn\ee2g2\led-test.c
+    C:\Program Files\PICC\devices\16f648a.h
+
+Units:
+    Y:\Year 2\SVN\svn\ee2g2\led-test.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F648A
+    Pointer Size:   8
+    Opt Level:      9
+    Short,Int,Long: 1,8,16
+
+Output Files:
+    Errors:      Y:\Year 2\SVN\svn\ee2g2\led-test.err
+    INHX8:       Y:\Year 2\SVN\svn\ee2g2\led-test.hex
+    Symbols:     Y:\Year 2\SVN\svn\ee2g2\led-test.sym
+    List:        Y:\Year 2\SVN\svn\ee2g2\led-test.lst
+    Debug/COFF:  Y:\Year 2\SVN\svn\ee2g2\led-test.cof
+    Project:     Y:\Year 2\SVN\svn\ee2g2\led-test.PJT
+    Call Tree:   Y:\Year 2\SVN\svn\ee2g2\led-test.tre
+    Statistics:  Y:\Year 2\SVN\svn\ee2g2\led-test.sta

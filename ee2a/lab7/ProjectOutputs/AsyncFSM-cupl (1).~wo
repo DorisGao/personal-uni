@@ -1,0 +1,63 @@
+#WAVEFORM
+#H Name      AsyncFSM-cupl;
+#H Partno    lock;
+#H Date      28th February 2007;
+#H Revision  002;
+#H Designer  Sam Black, Sam Burras, Ben Francis;
+#H Company   University of Birmingham;
+#H Assembly  1;
+#H Location  Earth;
+#H Device    P18CV8;
+#H Format    JEDEC;
+#H 
+#H /**********************************************************************/
+#H /* This design uses a PEEL18CV8 in order to implement a 8 bit lock    */
+#H /*                                                                    */
+#H /* Device pin Layout         ___________                              */
+#H /*                      dMk |1   \/   20| Vcc (power supply)          */
+#H /*                       k0 |2        19| QMk                         */
+#H /*                       k1 |3        18| QA.INT                      */
+#H /*                       k2 |4        17| QB.INT                      */
+#H /*                       k3 |5        16| QC.INT                      */
+#H /*                       k4 |6        15| unused                      */
+#H /*                       k5 |7        14| Z                           */
+#H /*                       k6 |8        13| unused                      */
+#H /*                       k7 |9        12| Reset                       */
+#H /*                      GND |10       11| Door reset                  */
+#H /*                          |___________|                             */
+#H /*                                                                    */
+#H /**********************************************************************/
+#H 
+#H /* Order statement */
+#H Order: k0,%1,k1,%1,k2,%1,k3,%1,k4,%1,k5,%1,k6,%1,k7,%1,DR,%1,reset,%2,QC,%1,QB,%1,QA,%1,Z;
+#H 
+#H /* Test vectors */
+#H /* 0 1 2 3 4 5 6 7 DR reset  QC QB QC Z */
+#V 0001 0000000000XLLL
+#E 0019 1 QC
+#E 0019 0 QB
+#E 0019 0 QA
+#E 0019 0 Z
+
+#V 0002 0000000000XLLL
+#E 0019 H QC
+
+#V 0003 0100000000XLLL
+#E 0019 H QC
+#E 0019 H QB
+
+#V 0004 0001000000XLLL
+#E 0019 L QC
+#E 0019 H QB
+
+#V 0005 0000010000XLLL
+#E 0019 L QC
+#E 0019 H QB
+#E 0019 H QA
+
+#V 0006 0000000100XLLL
+#E 0019 H QC
+#E 0019 H QB
+#E 0019 H QA
+#E 0019 H Z
+

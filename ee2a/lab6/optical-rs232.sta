@@ -1,0 +1,45 @@
+
+ROM used: 516 (13%)
+          516 (13%) including unused fragments
+
+          1 Average locations per line
+          6 Average locations per statement
+
+RAM used: 8 (5%) at main() level
+          12 (7%) worst case
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  225    91 100  Y:\Year 2\SVN\svn\ee2a\lab6\optical-rs232.c
+  203     0   0  C:\Program Files\PICC\devices\16F648A.H
+   37     0   0  C:\Program Files\PICC\drivers\stdio.h
+  417     0   0  C:\Program Files\PICC\drivers\string.h
+   28     0   0  C:\Program Files\PICC\drivers\stddef.h
+   28     0   0  C:\Program Files\PICC\drivers\ctype.h
+----- -----
+ 1876   182 Total
+
+Page ROM  %  RAM  Functions:
+---- --- --- ---  ----------
+0     21   4   1  @delay_ms1
+0     20   4   1  @delay_us1
+0     70  14   1  init
+0     10   2   0  @const10385
+0     13   3   2  pulse_TSL_SCLK
+0     33   6   2  send_TSL
+0     22   4   0  TSL_reset
+0     38   7   0  TSL_setup
+0     17   3   1  TSL_integration
+0     11   2   1  TSL_pixel_readout
+0    149  29   4  main
+0     15   3   0  @const10447
+0     15   3   0  @const10455
+0     21   4   3  @DIV88
+0     57  11   2  @PRINTF_U_4800_50_49
+
+ Segment   Used  Free
+---------  ----  ----
+00000-00003     4  0  
+00004-007FF   512  1532  
+00800-00EFF     0  1792  
+

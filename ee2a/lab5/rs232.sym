@@ -1,0 +1,128 @@
+005     serial_port
+015     CCP_1_LOW
+015-016 CCP_1
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     @INTERRUPT_AREA
+029     strtok.save
+02A     rs232_errors
+02B-04A RS232_buffer
+04B     head
+04C     tail
+04D.0   buffer_full
+04D.1   buffer_empty
+04D.2   command_waiting
+04E-06D command_pi.command
+04E     init.@SCRATCH
+04E     main.@SCRATCH
+06E     command_pi.c
+06F     command_pi.i
+071     command_pi.j
+072     @delay_ms1.P1
+072     strchr.s
+072     command_pi.@SCRATCH
+073     cmd_compare.string
+073     remove_from_buffer.c
+073     strchr.c
+073     command_pi.@SCRATCH
+074     cmd_compare.i
+074     strchr.@SCRATCH
+074     remove_from_buffer.@SCRATCH
+074     command_pi.@SCRATCH
+075     cmd_compare.j
+076     cmd_compare.k
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+085     serial_port_dir
+0A0     cmd_compare.c
+0A1-0C0 cmd_compare.tmp
+0C1.0   cmd_compare.found
+0C2-0DF cmd_compare.cmds
+0E0     strlwr.s
+0E0     strlen.s
+0E0     @MUL88.P1
+0E0     cmd_compare.@SCRATCH
+0E1     @MUL88.P1
+0E1     strlwr.p
+0E1     strlen.sc
+0E1     cmd_compare.@SCRATCH
+0E2     strlen.@SCRATCH
+0E2     strlwr.@SCRATCH
+0E2     cmd_compare.@SCRATCH
+0E3     strlwr.@SCRATCH
+0E4     add_to_buffer.@SCRATCH
+0E5     add_to_buffer.@SCRATCH
+
+03FF  strchr
+037B  strlen
+0351  strlwr
+0253  @delay_ms1
+0219  @GETCH_BIU_1
+0226  add_to_buffer
+0442  remove_from_buffer
+02F8  cmd_compare
+02D1  @MUL88
+0412  command_pi
+0037  @const10505
+004F  @const10522
+0068  @const10533
+007C  @const10550
+0094  @const10567
+00AD  @const10578
+00C1  @const10595
+00D9  @const10612
+00F2  @const10623
+0109  @const10640
+0121  @const10657
+013A  @const10668
+014E  @const10678
+015C  @const10686
+0166  @const10694
+0179  @const10702
+01A3  @const10710
+0268  init
+01C1  @const10726
+01D6  @const10734
+01FC  @const10742
+0644  main
+0644  @cinit
+
+Project Files:
+    C:\Documents and Settings\sam\Desktop\Uni\SVN\ee2a\lab5\rs232.c
+    C:\Program Files\PICC\devices\16F648A.H
+    C:\Program Files\PICC\drivers\stdio.h
+    C:\Program Files\PICC\drivers\string.h
+    C:\Program Files\PICC\drivers\stddef.h
+    C:\Program Files\PICC\drivers\ctype.h
+
+Units:
+    C:\Documents and Settings\sam\Desktop\Uni\SVN\ee2a\lab5\rs232.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F648A
+    Pointer Size:   8
+    Opt Level:      9
+    Short,Int,Long: 1,8,16
+    ICD Provisions: Yes
+
+Output Files:
+    Errors:      C:\Documents and Settings\sam\Desktop\Uni\SVN\ee2a\lab5\rs232.err
+    INHX8:       C:\Documents and Settings\sam\Desktop\Uni\SVN\ee2a\lab5\rs232.hex
+    Symbols:     C:\Documents and Settings\sam\Desktop\Uni\SVN\ee2a\lab5\rs232.sym
+    List:        C:\Documents and Settings\sam\Desktop\Uni\SVN\ee2a\lab5\rs232.lst
+    Debug/COFF:  C:\Documents and Settings\sam\Desktop\Uni\SVN\ee2a\lab5\rs232.cof
+    Call Tree:   C:\Documents and Settings\sam\Desktop\Uni\SVN\ee2a\lab5\rs232.tre
+    Statistics:  C:\Documents and Settings\sam\Desktop\Uni\SVN\ee2a\lab5\rs232.sta

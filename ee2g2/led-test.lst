@@ -1,0 +1,83 @@
+CCS PCM C Compiler, Version 3.239, 31482               20-Feb-07 15:46
+
+               Filename: Y:\Year 2\SVN\svn\ee2g2\led-test.lst
+
+               ROM used: 48 words (1%)
+                         Largest free fragment is 2048
+               RAM used: 6 (3%) at main() level
+                         7 (4%) worst case
+               Stack:    1 locations
+
+*
+0000:  MOVLW  00
+0001:  MOVWF  0A
+0002:  GOTO   01A
+0003:  NOP
+.................... #include <16f648a.h> 
+.................... //////// Standard Header file for the PIC16F648A device //////////////// 
+.................... #device PIC16F648A 
+.................... #list 
+....................  
+.................... #fuses INTRC, PUT, BROWNOUT, NOPROTECT, NOMCLR, NOLVP, NOCPD, NOWDT 
+.................... /* Fuses set for operation with few external components. 
+....................    Fuses: Internal clock, resets on brownout and power-up only, wait 
+....................           at powerup for the voltage to stabilise, no code/data protection, 
+....................           high voltage programming */ 
+....................            
+.................... #use delay(clock=4000000) 
+0004:  MOVLW  22
+0005:  MOVWF  04
+0006:  MOVF   00,W
+0007:  BTFSC  03.2
+0008:  GOTO   018
+0009:  MOVLW  01
+000A:  MOVWF  78
+000B:  CLRF   77
+000C:  DECFSZ 77,F
+000D:  GOTO   00C
+000E:  DECFSZ 78,F
+000F:  GOTO   00B
+0010:  MOVLW  4A
+0011:  MOVWF  77
+0012:  DECFSZ 77,F
+0013:  GOTO   012
+0014:  NOP
+0015:  NOP
+0016:  DECFSZ 00,F
+0017:  GOTO   009
+0018:  BCF    0A.3
+0019:  GOTO   02C (RETURN)
+....................  
+.................... int main(void) 
+001A:  CLRF   04
+001B:  MOVLW  1F
+001C:  ANDWF  03,F
+001D:  BSF    03.5
+001E:  BSF    0E.3
+001F:  MOVLW  07
+0020:  BCF    03.5
+0021:  MOVWF  1F
+.................... { 
+....................   while(1) 
+....................   { 
+....................     output_toggle(PIN_A0); 
+0022:  BSF    03.5
+0023:  BCF    05.0
+0024:  MOVLW  01
+0025:  BCF    03.5
+0026:  XORWF  05,F
+....................     delay_ms(500); 
+0027:  MOVLW  02
+0028:  MOVWF  21
+0029:  MOVLW  FA
+002A:  MOVWF  22
+002B:  GOTO   004
+002C:  DECFSZ 21,F
+002D:  GOTO   029
+....................   } 
+002E:  GOTO   022
+.................... } 
+002F:  SLEEP
+
+Configuration Fuses:
+   Word  1: 3F51   NOWDT PUT NOPROTECT BROWNOUT NOMCLR NOLVP INTRC NOCPD

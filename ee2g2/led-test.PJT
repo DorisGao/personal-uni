@@ -1,0 +1,38 @@
+[PROJECT]
+Target=led-test.HEX
+Development_Mode=2
+Processor=0x648A
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=led-test.c;
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+
+[led-test.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=Y:\YEAR2~1\SVN\svn\ee2g2\led-test.c
+
+[Windows]
+0=0000 Y:\YEAR2~1\SVN\svn\ee2g2\led-test.c 0 0 796 451 3 0
+
+[Units]
+Count=1
+1=Y:\Year 2\SVN\svn\ee2g2\led-test.c (main)
+[Opened Files]
+1=Y:\Year 2\SVN\svn\ee2g2\led-test.c
+2=

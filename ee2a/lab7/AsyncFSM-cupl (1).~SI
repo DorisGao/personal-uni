@@ -1,0 +1,46 @@
+Name      AsyncFSM-cupl;
+Partno    lock;
+Date      28th February 2007;
+Revision  002;
+Designer  Sam Black, Sam Burras, Ben Francis;
+Company   University of Birmingham;
+Assembly  1;
+Location  Earth;
+Device    P18CV8;
+Format    JEDEC;
+
+/**********************************************************************/
+/* This design uses a PEEL18CV8 in order to implement a 8 bit lock    */
+/*                                                                    */
+/* Device pin Layout         ___________                              */
+/*                      dMk |1   \/   20| Vcc (power supply)          */
+/*                       k0 |2        19| QMk                         */
+/*                       k1 |3        18| QA.INT                      */
+/*                       k2 |4        17| QB.INT                      */
+/*                       k3 |5        16| QC.INT                      */
+/*                       k4 |6        15| unused                      */
+/*                       k5 |7        14| Z                           */
+/*                       k6 |8        13| unused                      */
+/*                       k7 |9        12| Reset                       */
+/*                      GND |10       11| Door reset                  */
+/*                          |___________|                             */
+/*                                                                    */
+/**********************************************************************/
+
+/* ORDER STATEMENT */
+Order: CLOCK,%1,JAM_D,%1,JAM_C,%1,JAM_B,%1,JAM_A,%1,JAM_ENABLE,%2,QD,%1,QC,%1,QB,%1,QA,%1,Z;
+
+/* TEST VECTORS */
+Vectors:
+
+/* Allowed States */
+C 1 1 0 1 1  H H L H H  /* 13 */
+C X X X X 0  H H L L L  /* 12 */
+C X X X X 0  H L H H L  /* 11 */
+C X X X X 0  H L L H L  /* 9  */
+C X X X X 0  H L L L L  /* 8  */
+C X X X X 0  L H H H L  /* 7  */
+C X X X X 0  L H L H L  /* 5  */
+C X X X X 0  L H L L L  /* 4  */
+C X X X X 0  L L H L L  /* 2  */
+C X X X X 0  H H L H H  /* 13 */

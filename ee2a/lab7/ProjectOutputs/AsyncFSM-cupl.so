@@ -1,0 +1,92 @@
+CSIM(WM): CUPL Simulation Program
+Version 4.8a Serial# ED-65999997
+Copyright (c) 1983, 1996 Logical Devices, Inc.
+CREATED Wed Feb 28 22:21:06 2007
+
+LISTING FOR SIMULATION FILE: AsyncFSM-cupl.si
+
+   1: Name      AsyncFSM-cupl;
+   2: Partno    lock;
+   3: Date      28th February 2007;
+   4: Revision  002;
+   5: Designer  Sam Black, Sam Burras, Ben Francis;
+   6: Company   University of Birmingham;
+   7: Assembly  1;
+   8: Location  Earth;
+   9: Device    P18CV8;
+  10: Format    JEDEC;
+  11: 
+  12: /**********************************************************************/
+  13: /* This design uses a PEEL18CV8 in order to implement a 8 bit lock    */
+  14: /*                                                                    */
+  15: /* Device pin Layout         ___________                              */
+  16: /*                      dMk |1   \/   20| Vcc (power supply)          */
+  17: /*                       k0 |2        19| QMk                         */
+  18: /*                       k1 |3        18| QA.INT                      */
+  19: /*                       k2 |4        17| QB.INT                      */
+  20: /*                       k3 |5        16| QC.INT                      */
+  21: /*                       k4 |6        15| unused                      */
+  22: /*                       k5 |7        14| Z                           */
+  23: /*                       k6 |8        13| unused                      */
+  24: /*                       k7 |9        12| Reset                       */
+  25: /*                      GND |10       11| Door reset                  */
+  26: /*                          |___________|                             */
+  27: /*                                                                    */
+  28: /**********************************************************************/
+  29: 
+  30: /* Order statement */
+  31: Order: dMk,%1,k0,%1,k1,%1,k2,%1,k3,%1,k4,%1,k5,%1,k6,%1,k7,%1,DR,%1,reset,%2,QMk,%1,QC,%1,QB,%1,QA,%1,Z;
+  32: 
+  33: /* Test vectors */
+  34: /* dMk 0 1 2 3 4 5 6 7 DR reset  QMk QC QB QC Z */
+
+=========================================
+                          r              
+                          e              
+      d                   s  Q           
+      M k k k k k k k k D e  M Q Q Q     
+      k 0 1 2 3 4 5 6 7 R t  k C B A Z   
+=========================================
+0001: 0 0 0 0 0 0 0 0 0 0 0  H X L L L
+                             ^ ^ ^ ^ ^
+[0019sa] user expected (0) for QMk
+[0019sa] user expected (1) for QC
+[0019sa] user expected (0) for QB
+[0019sa] user expected (0) for QA
+[0019sa] user expected (0) for Z
+
+0002: 0 0 0 0 0 0 0 0 0 0 0  H X L L L
+                             ^   ^ ^ ^
+[0019sa] user expected (X) for QMk
+[0019sa] user expected (X) for QB
+[0019sa] user expected (X) for QA
+[0019sa] user expected (X) for Z
+
+0003: 0 0 1 0 0 0 0 0 0 0 0  H X L L L
+                             ^   ^ ^ ^
+[0019sa] user expected (X) for QMk
+[0019sa] user expected (X) for QB
+[0019sa] user expected (X) for QA
+[0019sa] user expected (X) for Z
+
+0004: 0 0 0 0 1 0 0 0 0 0 0  H X L L L
+                             ^   ^ ^ ^
+[0019sa] user expected (X) for QMk
+[0019sa] user expected (X) for QB
+[0019sa] user expected (X) for QA
+[0019sa] user expected (X) for Z
+
+0005: 0 0 0 0 0 0 1 0 0 0 0  H X L L L
+                             ^   ^ ^ ^
+[0019sa] user expected (X) for QMk
+[0019sa] user expected (X) for QB
+[0019sa] user expected (X) for QA
+[0019sa] user expected (X) for Z
+
+0006: 0 0 0 0 0 0 0 0 1 0 0  H X L L L
+                             ^   ^ ^ ^
+[0019sa] user expected (X) for QMk
+[0019sa] user expected (X) for QB
+[0019sa] user expected (X) for QA
+[0019sa] user expected (X) for Z
+

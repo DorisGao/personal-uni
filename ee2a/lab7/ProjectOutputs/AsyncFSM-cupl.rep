@@ -1,0 +1,128 @@
+
+*******************************************************************************
+                                 AsyncFSM-cupl
+*******************************************************************************
+
+PLD             4.0 Serial# MW-67999999
+Device          p18cv8  Library DLIB-h-36-2
+Created         Thu Mar 01 00:04:13 2007
+Name            AsyncFSM-cupl
+Partno          lock
+Revision        002
+Date            28th February 2007
+Designer        Sam Black, Sam Burras, Ben Francis
+Company         University of Birmingham
+Assembly        1
+Location        Earth
+
+===============================================================================
+                            Expanded Product Terms
+===============================================================================
+
+QA =>
+    QA.int  & QB.int  & !QC.int  & k0 & k1 & k2 & k3 & k4 & k6 & k7 & !reset
+  # QA.int  & QB.int  & !QC.int  & !k0 & !reset
+  # QA.int  & QB.int  & !QC.int  & !k1 & !reset
+  # QA.int  & QB.int  & !QC.int  & !k2 & !reset
+  # QA.int  & QB.int  & !QC.int  & !k3 & !reset
+  # QA.int  & QB.int  & !QC.int  & !k4 & !reset
+  # QA.int  & QB.int  & !QC.int  & !k5 & !reset
+  # QA.int  & QB.int  & !QC.int  & !k7 & !reset
+  # QA.int  & QB.int  & !QC.int  & !k6 & !reset
+  # !QA.int  & QB.int  & !QC.int  & k0 & k1 & k2 & k3 & k4 & k5 & k6 & !k7 & 
+      !reset
+  # QA.int  & QB.int  & QC.int  & !reset
+
+QB =>
+    !QA.int  & QB.int  & !QC.int  & k0 & k1 & k2 & k4 & k6 & k7 & !reset
+  # QA.int  & QB.int  & !QC.int  & k0 & k1 & k2 & k3 & k4 & k6 & k7 & !reset
+  # QA.int  & QB.int  & !QC.int  & k0 & k1 & k2 & k3 & k4 & k5 & k6 & !k7 & 
+      !reset
+  # !QA.int  & QC.int  & k0 & !k1 & k2 & k3 & k4 & k5 & k6 & k7 & !reset
+  # !QA.int  & QB.int  & QC.int  & k0 & k1 & k2 & k4 & k5 & k6 & k7 & !reset
+  # !DR & QA.int  & QB.int  & QC.int  & k2
+
+QC =>
+    QA.int  & QC.int  & !k0 & !reset
+  # QA.int  & QC.int  & !k1 & !reset
+  # QA.int  & QC.int  & !k2 & !reset
+  # QA.int  & QC.int  & !k3 & !reset
+  # QA.int  & QC.int  & !k4 & !reset
+  # QA.int  & QC.int  & !k5 & !reset
+  # QA.int  & QC.int  & !k6 & !reset
+  # QA.int  & QC.int  & !k7 & !reset
+  # !QA.int  & QC.int  & k0 & k1 & k2 & k3 & k4 & k5 & k6 & k7 & !reset
+  # QA.int  & QB.int  & !QC.int  & k0 & k1 & k2 & k3 & k4 & k5 & k6 & !k7 & 
+      !reset
+  # QA.int  & !QB.int  & QC.int 
+  # !QA.int  & !QB.int  & !QC.int 
+  # QA.int  & QB.int  & QC.int  & !reset
+  # reset
+
+QMk =>
+    !k0
+  # !k1
+  # !k2
+  # !k3
+  # !k4
+  # !k5
+  # !k6
+  # !k7
+
+Z =>
+    QA.int  & QB.int  & QC.int 
+
+QA.oe  =>
+    1 
+
+QB.oe  =>
+    1 
+
+QC.oe  =>
+    1 
+
+Z.oe  =>
+    1 
+
+reset.oe  =>
+    0 
+
+
+===============================================================================
+                                 Symbol Table
+===============================================================================
+
+Pin Variable                                    Pterms   Max     Min    
+Pol   Name              Ext     Pin     Type     Used   Pterms  Level   
+--- --------            ---     ---     ----    ------  ------  -----   
+
+    DR                          11       V        -       -       -     
+    QA                          18       V        11      8       1     
+    QA                  int     18       X        -       -       -     
+    QB                          17       V        6       8       1     
+    QB                  int     17       X        -       -       -     
+    QC                          16       V        14      8       1     
+    QC                  int     16       X        -       -       -     
+    QMk                         0        I        8       -       -     
+    Z                           14       V        1       8       1     
+    k0                          2        V        -       -       -     
+    k1                          3        V        -       -       -     
+    k2                          4        V        -       -       -     
+    k3                          5        V        -       -       -     
+    k4                          6        V        -       -       -     
+    k5                          7        V        -       -       -     
+    k6                          8        V        -       -       -     
+    k7                          9        V        -       -       -     
+    reset                       12       V        -       -       -     
+    QA                  oe      18       D        1       1       0     
+    QB                  oe      17       D        1       1       0     
+    QC                  oe      16       D        1       1       0     
+    Z                   oe      14       D        1       1       0     
+    reset               oe      12       D        1       1       0     
+
+
+LEGEND    D : default variable         F : field      G : group
+          I : intermediate variable    N : node       M : extended node
+          U : undefined                V : variable   X : extended variable
+          T : function
+

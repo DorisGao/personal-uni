@@ -1,0 +1,38 @@
+
+ROM used: 334 (8%)
+          334 (8%) including unused fragments
+
+          0 Average locations per line
+          2 Average locations per statement
+
+RAM used: 56 (32%) at main() level
+          62 (35%) worst case
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   64    20  10  Y:\Year 2\EE2A\PIC-LCD\8bit\lcd_display_8bit.c
+  203     0   0  C:\Program Files\PICC\devices\16F648A.h
+  417   126  58  C:\Program Files\PICC\drivers\string.h
+   28     0   0  C:\Program Files\PICC\drivers\stddef.h
+   28     0   0  C:\Program Files\PICC\drivers\ctype.h
+  128    51  15  Y:\Year 2\EE2A\PIC-LCD\8bit\LCD_8BIT.H
+----- -----
+ 1736   394 Total
+
+Page ROM  %  RAM  Functions:
+---- --- --- ---  ----------
+0     21   6   1  @delay_ms1
+0      8   2   0  @const132
+0      8   2   0  @const134
+0     22   7   2  lcd_send_byte
+0     80  24   3  lcd_init
+0     36  11   1  lcd_putc
+0     20   6   4  send_string
+0    135  40   2  main
+
+ Segment   Used  Free
+---------  ----  ----
+00000-00003     4  0  
+00004-007FF   330  1714  
+00800-00FFF     0  2048  
+

@@ -1,0 +1,425 @@
+Signer-Independent Sign Language Recognition Based on SOFMMMM
+Gaolin Fang', Wen Gao" 2, Jiyong Ma2 Depatment o Computer Science and Engineering, f f Harbin Institute o Technology, Harbin, 150001, China 21nstitute o Computing Technology, f f Chinese Academy o Sciences, Beijing, 100080, China fgl@vilab. hit.edu.cn wgao@ict.ac.cn
+1
+
+Abstract
+The aim of sign language recognition is to provide an eSficient and accurate mechanism to transcribe sign language into text or speech. State-of-the-art sign language recognition should be able to solve the signerindependent problem for practical application. In this paper, a hybrid SOFM/HMM system, which combines self-organizing feature maps (SOFMs) with hidden Markov models (HMMs), is presented for signerindependent Chinese Sign Language (CSL) recognition. We implement the SOFM/HMM sign recognition system. Meanwhile, results from the HMM-based system are provided as comparison. Experimental results show the SOFM/HMM system increases the recognition accuracy by 5% than HMM-based one. Furthermore, a selfadjusting recognition algorithm is also proposed f o r
+
+improving the SOFM/HMM discrimination. When it is applied to the SOFM/HMM system it can improve the recognition accuracy by 1.9%. All experiments are pevformed in real-time with the dictionary size 208.
+
+1. Introduction
+Sign language, as a kind of structured gesture, is one of the most natural means of exchanging information for deaf people. Sign language recognition has emerged as one of the most important research areas in the field of humancomputer interaction. The aim of sign language recognition is to provide an efficient and accurate mechanism to transcribe sign language into text or speech so that communication between deaf and hearing society becomes more convenient. Attempts to automatically recognize sign language began to appear in the literature in the 90's. Charaphayan and Marble [ I ] investigated a way using image processing to understand American Sign Language (ASL). Their system can correctly recognize 27 out of the 3 1 ASL symbols. Stamer [2] used a view-based approach with a single camera to extract two-dimensional
+90
+
+features as input to HMMs. The correct rate was 91% in recognizing the sentences comprised 40 signs. By imposing a strict grammar on this system, an accuracy of 97% was possible with real-time performance. Fels and Hinton [3] developed a system using a VPL DataGlove Mark 11 with a Polhemus tracker as input devices. In their system, the neural network method was employed for classifying hand gestures. Kadous [4] demonstrated a system based on Power Gloves to recognize a set of 95 isolated Auslan signs with 80% accuracy, with an emphasis on computationally inexpensive methods. Liang and Ouhyoung [5] used HMMs for continuous recognition of Tainwan Sign language with a vocabulary between 71 and 250 signs with Dataglove as input devices. However, their system required that gestures performed by the signer be slow to detect the word boundary. Grobel and Assan [6] used HMMs to recognize isolated signs with 91.3% accuracy out of a 262-sign vocabulary. They extracted the features from video recordings of signers wearing colored gloves. Vogler and Metaxas [7] used computer vision methods to extract the three-dimensional parameters of a signer's arm motions, coupled the computer vision methods and HMMs to recognize continuous American sign language sentences with a vocabulary of 53 signs. They modeled context-dependent HMMs to alleviate the effects of movement epenthesis. An accuracy of 89.9% was observed. As the review of previous work showed, most researches on sign language recognition were done within the signer-dependent domain. For signer-independent sign language recognition, only Vamplew [SI in the literature reportsla system based on CyberGlove to recognize a set of 52 signs independent of signers. The system employs a modular architecture consisting of multiple featurerecognition neural networks and a nearest-neighbour classifier to recognize isolated signs. But they use only a single glove to restrict the system to the recognition of one-handed signs. Our previous system [9] can recognize 5177 isolated signer-dependent signs with 94.8% accuracy in real time and recognize 200 sentences with 9 1.4% word accuracy.
+
+0-7695-1074-4/01$10.00 2001 IEEE 0
+
+It is necessary to investigate the signer-independent sign language recognition to improve the sign language recognition system robustness and practicability. However, different signers vary their hand shape size, body size, operation habit and so on, which bring about more difficulties in recognition. So recognition in signerindependent domain is more challenging than in signerdependent one. The combination of powerful selforganizing performances of SOFMs with excellent temporal processing properties of HMMs within the novel scheme is investigated in order to improve the performance of HMM-based signer-independent sign language recognition systems. This investigation has also led to the development of a supervised learning method for updating SOFM weights. Furthermore, a self-adjusting recognition algorithm is proposed to improve the HMM discrimination after carefully analyzing the HMM probability density function (pdf). The SOFM/HMM system that employs this algorithm shows it is an effective means. The organization of this paper is as follows. In section 2 we present the SOFM/HMM system architecture. In Section 3 we discuss the SOFM/HMM system training. In Section 4 we propose a self-adjusting recognition algorithm. In Section 5 we show the experimental results and their comparisons. The conclusion is given in the last section.
+
+2. SOFM/HMM System Architecture
+The SOFM firstly introduced by Kohonen [lo] has found use in a variety of signal processing applications, especially in the speech recognition. The SOFM has shown significant potential for feature extraction in the situation where the nature of the feature of interest is not known in advance. The architecture of the SOFM is a filly connected network with two layers, and each input is connected with every output by the adjustable weight. The SOFM outputs in the form of two-dimensional lattices represented the corresponding vector centroids as the input vectors are fed into the SOFM and the weights are adjusted. This leads to that the probability density of each centroids is similar to that of the corresponding input vector. HMMs have been proven to be one of the most successful statistical modeling methods in the area of speech recognition. It has been employed by more and more sign language recognition researchers in recent years and has produced good results. But there are some limitations of classical HMMs [ I I ] for sign language recognition. Firstly, it is the assumption that the distributions of individual observation parameters can be well represented as a mixture of Gaussian or autoregressive densities. This assumption isn't always
+
+consistent with the fact. Secondly, HMMs have the poorer discrimination than neural networks. In the HMMs training, each word model is estimated separately using the corresponding labeled training observation sequences without considering the confused data (other models with similar behavior). However, the hybrid method combining SOFMs with HMMs is an ideal altemative. It has powerfd self-organizing performance and needn't the predisposed pdf assumption and has excellent temporal processing properties. Aiming at the first limitation of HMMs, this paper presents an alternative pdf scheme that each SOFM eigenveter centroid is regarded as one of the components in the state of HMMs. And this component forms the state pdf in term of the weighted sum. Then we can compute this state pdf by the Forward-Backward Procedure (or by the Viterbi algorithm). SOFM weights are iteratively updated in the supervision of computed state pdfs. In this way we combine the powerful self-organizing performances of SOFMs with excellent temporal processing properties of HMMs so that we improve the performance of HMMs-based sign language recognition systems. Aiming at the second limitation of HMMs, we present a novel self-adjusting recognition algorithm, which improves the SOFMIHMM discrimination by the posteriori probability modifying the current state pdfs. It will be discussed in Section 4. Let the observation sequence, 0, = [o,,,o I 2 ,- o,, 1,
+* a ,
+
+t=l;--,T, t is the time of observation sequence, n is the number of dimension. Each 0, is regarded as the input vector.
+
+0, links the SOFM/HMM neuron m with the
+
+weight vector
+Wjni
+
+Wjnl, where j is the state variable,
+
+= [Wjnr, 2 Win12 7 * . . ~ j n r n l .
+
+0,
+
+Ot
+
+0,
+
+Figure 1. The architecture of SOFM/HMM
+There is a 3 state left-right model with skip in Figure 1. And each state is respectively represented with 1, 2, 3 . We can construct the contribution probability of being the mth neuron in state j to the state probability.
+
+bin,(0, = kexPC-D(Wjm 0,)I )
+9
+
+(1)
+
+91
+
+Where k interpretation
+
+is of
+
+a
+
+constant. The b,,,,(ot) is the
+
+straightforward mth neuron's
+
+Maximization: Updates the parameters as
+
+;t t argmaxi Q<A,
+
+X)
+
+contribution to the state probability, and it decreases as the observation vector deviates the corresponding neuron. is defined as the Euclidean distance
+
+e(& can be expressed as: 1)
+where
+
+D(wjm,of)
+
+between the observation
+
+0, and the neuron m.
+
+r=l
+
+However, the contribution varies from different neurons. We introduce the weight to solve this problem.
+
+qo,) = ~.,,b,,,(o,)n-1 *kexPED(~:,, =c.,nf q>1
+m=I
+
+IW
+
+IMI
+
+(2)
+
+m,E
+Given the model we define
+
+>
+
+where
+
+Cclm1 . =
+m=l
+
+IMI
+
+a and the kth observation sequence,
+
+41
+
+E
+
+{1,2,***,N
+
+The weight is computed by the reestimation formula. We will discuss the detail in next Section.
+
+(') 'k I P:'V> = P(O/+,~ /+2 ) ...o(')qt = i, 2 ) r,
+
+ap (i) = P ( o ; ~ .)..o ~ )4, = i 1 a) op,
+
+3. SOFM/HMM System Training
+Let the set of K observation sequences for one sign as
+
+0= o(2) ,O(K'] ,... > where O ( k ) [o:k)O:k).O c ' ] is the kth observation = *
+
+as the forward variable and the backward variable respectively. We can compute them by ForwardBackward Procedure [ 1 I]. The probability of being in state j at time t with the mth as neuron accounting for Ol(k' is defined
+
+@ : k ) ( j , ) = P(q, = j , m, = m I m
+
+@),a)
+
+sequence, sequence.
+-
+
+Tk is the time number of the kth observation
+The original model
+
+a
+
+is
+
+defined
+
+as
+i=I
+
+- _ as A = ( F ,A , B ) . We define S as a state sequence s = ql ,q2, * . * , q T k , denote the individual state set as {1,2,...N}, where N is the number of states. We denote
+M as the variables set of SOFM neurons, II as the k f
+number of elements in the set, where
+
+= @ , A , @ , the reestimated model
+
+is defined
+
+We can maximize every item in
+
+Q(A,Z>.
+
+Let
+
+reestimation formulas for c inl ,Win,
+
+1f in every states k1
+k=l K
+1=1
+k'
+
+is the same. We assume each observation sequence is independent of every other observation sequence, and our goal is to adjust the parameters of the model 2 to
+
+k=l /=I m=l
+
+maximize
+
+P(O 1 a) = ~ P ( o (1 a) ) . ~
+k=l
+
+K
+
+F,,,
+=
+
+@ j k ) ( j ,m)O,'" /
+
+Since
+
+k=l / = I
+
+92
+k=l f = I
+
+( j ,m >
+
+(6)
+
+The reestimation formulas for T ia , are the same as , the classical HMMs. Scaling is employed in the computation of Forward-Backward variables to avoid the underflow in the programming. The detail refers to [I I]. An important aspect of the reestimation procedure is that
+IMI
+
+P(0 1 ) depends 1
+
+on the hidden state variables and
+
+SOFM neurons variables h it cannot be maximized i ' directly. The MLE optimization is then solved by introducing the auxiliary hnction Q(A, , and iterating the following two steps for i =1, 2, :
+
+x)
+
+Expectation:
+
+Q ( A , Z ) = E[log
+
+n
+K
+k=l
+
+the stochastic constraints of
+
+cjm,namely
+m=l
+
+P ( O ' k ' I ;t)1 O , L ]
+
+c,,,) = 1 .
+
+The training procedure of SOFM/HMM is as follows:
+92
+
+1.
+
+Initialize the parameter of
+
+n,,a,, c j n r ,Wjni .
+
+2.
+
+3.
+
+Reestimate the parameters with the reestimation formulas and all observation sequences for the corresponding word. Terminate the procedure, if the convergence criterion is met, and the parameters are the model of this word; otherwise replace the old parameters with the new ones, and return 2.
+
+4. Self-adjusting recognition algorithm
+In the HMM-based recognition, we employ the Bayesian decision based on the minimum error rate to get the recognition result. The Bayesian decision is composed of the rules that can minimize p ( e )(the mean error rate). This paper presents a self-adjusting recognition algorithm, which modifies a class original pdf with the posteriori probability of this class in the whole set. For simplicity we illustrate that this algorithm can reduce the error rate in the one-dimensional and two-class condition. We can extend this result to the multi-dimensional and multi-class condition as the same rationale.
+
+5
+
+110
+
+15
+
+20
+
+Figure 2. The comparison of error rate
+Out of the intersectant area of pdfs, q( W , = 1, the X) pdf will retain the same; in the intersectant area, V(W,X) < 1 , the pdf will converge to the respective centroid. Thus the intersectant area will shrink and the , mean error rate will decrease. @(x w,)P(w,)
+
+I
+
+@(x I w2)P(w2) are
+
+respectively represented with the
+n
+
+P(e) is defined as: p ( e )=
+where p ( ~is the pdf. ) As to the two-class problem:
+
+1 I x)p(x)dx , P(e
+CO
+
+P(e) is the intersectant area of two dashed. Compared with f`(e),
+dashed in Figure 2. The new mean error rate
+
+P(e I x) = ( p ( w l
+
+i f P(W2 I X I P(w, I x, if P(w,I x) )
+XI,
+
+'
+
+P(e) is clearly reduced.
+
+'w, I x) 'P(W2 I
+XI
+
+(7)
+kW
+
+m> Lw2 = I
+=LP(XI
+p(X
+
+x
+
+Let t is the interface between two classes. When vector is one dimension, t is a point in the axis x .
+X)P(X)&
+
+(0,I bwj ) > 6 ) ,where each word is regarded as one (0,
+class.
+
++
+
+Im, I
+
+b , (0,)is the pdf of being in wth words model in
+
+X)P(X)dX
+
+(8)
+
+state j. From the analysis above we can reduce the mean error rate by scaling V(W,0,) . The formula is as follows:
+
+W,>P(W2)dX+&P(XI
+
+W,)P(W,)dX
+
+In Figure 2,
+
+p(e)
+
+is the intersectant area of Now we consider
+P(X
+kW
+
+h^,(0,) = q ( ~ ,)bwj (0, 0,
+compute
+
+(10)
+
+I W,)P(W,), I w , ) ~ ( w , ) . p(x
+
+how to reduce this area? We construct a function
+
+q(W, X) =
+
+I4
+
+The recognition procedure with the self-adjusting algorithm is as follows: 1. For the observation sequence O = q 0 2...0, , we
+
+bwj (0,)in all words. bwj(O,)by the b,(O,). b, (0,).
+
+CP(XIi) '
+{ p(x W ) > X where W the set of all classes, 6 is the very small critical value and the values that are smaller than it are ignored. The straightforward interpretation of V(W,X) is that it is a posteriori probability of the w class in the whole set. We can transfer the original pdf into the new pdf by scaling q(W, X) . The new pdf is defined as
+
+1
+
+1
+
+s},
+
+2.
+
+Compute
+
+, .
+
+3.
+
+Decode with Viterbi algorithm in term of
+
+4.
+
+The result is the word that has the maximum probability of decoding among all words.
+
+5. Experiments and Comparisons
+Input: We use two CyberGloves and three Pohelmus 3SPACE-position trackers as input devices. Two trackers
+
+$x (
+
+P(x 1 W ) I W ) = V(W,X)P(X I W>
+
+(9)
+93
+
+are positioned on the wrist of each hand and another is fixed at back (the reference tracker). The CyberGloves collect the variation information of hand shapes with the 18-dimensional data at each hand, and the position trackers collect the variation information of orientation, position, movement trajectory. Data processing: Data from position trackers can be converted as follows. The reference Cartesian coordinate system of the trackers at back is chosen, and then the position and orientation at each hand with respect to the reference Cartesian coordinate system are calculated as invariant features. Through this transformation, the data are composed of a relative three-dimensional position vector and a three-dimensional orientation vector for each hand. Furthermore, we calibrate the data of different signers by some fixed postures because everyone varies his hand shape size, body size, and operation habit. For two hands, they formed a 48-dimensional vector in total. However, the dynamic range of each component is different. Each component value is normalized to ensure its dynamic range is 0-1. Experiments: The data are collected from 7 signers with each performing 208 isolated signs 3 times. The vocabulary is the words from the elementary textbooks of 1-2 grades for Chinese deaf pupil. We select 5 from 7 signers, which are regarded as the registered signers. The rest two are referred to as the unregistered signers. Each in the registered signers contributes to two group data as training samples (in total 10 groups). Five group data from the rest one in registered signers are referred to as the registered test set (Reg.). The samples from the unregistered signers are referred to as the unregistered test set (Unreg.). Test samples are performed in real time, that is, collection and recognition are parallel without distinct delay.
+
+96.6% of mean recognition rates are respectively observed in Reg., and 83.2%, 88.2%, 90.1% in Unreg. Experimental results show that SOFM/HMM increases the recognition accuracy by 4.6% than HMMs in the registered test, 5% in the unregistered test. When the selfadjusting algorithm is applied to the SOFM/HMM system, the results show it increases the recognition accuracy by 1.3% in the registered test, 1.9% in the unregistered test.
+
+6. Conclusions
+This paper presents the SOFM/HMM, which classical HMMs and SOFMs are combined within novel scheme, for the signer-independent CSL recognition. In SOFM/HMM architecture we introduce the training and recognition procedure. We implement the signerindependent sign recognition system with the SOFM/HMM, which has 96.6% recognition rates in Reg. and 90.1% in Unreg. The experiments show the SOFM/HMM system increases the recognition accuracy by 5% than HMM-based one. Furthermore, a self-adjusted recognition algorithm is illustrated how to improve the SOFM/HMM discrimination in the two-class condition. The experiments show this algorithm can improve the recognition accuracy by 1.9% when it is applied to the SOFM/HMM signer-independent CSL recognition system.
+
+Acknowledgment
+This work has been supported by National Science Foundation of China (contract number 6978930 l), National Hi-Tech Development Program of China (contract number 863-306-ZD03-01-2), and 100 Outstanding Scientist foundation of Chinese Academy of Sciences.
+
+Table 1. The comparison of different results
+
+References
+[ I ] C. Charayaphan and A. Marble, "Image processing system for interpreting motion in American Sign Language", Journal of Biomedical Engineering, 1992, 14, pp. 419-425. [2] T. Stamer and A. Pentland, "Visual Recognition of American Sign Language Using Hidden Markov Models",
+International Workshop on Automatic Face and Gesture Recognition, Zurich, Switzerland, 1995, pp. 189-194. [3] S . S. Fels and G. Hinton, "GloveTalk: A neural network interface between a DataDlove and a speech synthesizer", IEEE Transactions on Neural Networks, 1993, Vol. 4, pp. 2-8. [4] M. W. Kadous, "Machine recognition of Auslan signs using
+
+1 1 1 1 1 1
+I 1 1
+Reg'
+C D
+
+Unreg. : 4 h
+
+Mean
+
+95.7% 89.4% 85.1% 90.7% 82.2% 84.1% 83.2%
+
+1
+
+96.7% 91.3% 94.7% 95.3% 88.5% 88.0% 88.2%
+
+1
+
+97.6%
+
+93.3% 95.7% 96.6% 90.4% 89.9% 90.1%
+
+I
+
+Table 1 reports respectively test results of HMMs, SOFM/HMM and SOFM/HMM with the self-adjusting recognition algorithm (Self-adjusting), where HMMs have 3 states and 5 mixture components, and SOFM/HMM has 3 states and 5 initial SOFM neurons. 90.7%, 95.3%,
+94
+
+PowerGlove: Towards large-lexicon recognition of sign f language", Proceeding o the Workshop on the Integration of Gesture in Language and Speech, Wilmington, DE, 1996, pp.
+165-1 74.
+
+[ 5 ] R. H. Liang and M. Ouhyoung, "A real-time continuous f gesture recognition system for sign language", In Proceeding o
+
+the Third International Conference on Automatic Face and Gesture Recognition, Nara, Japan, 1998, pp.558-565. [6] K. Grobel and M. Assan, "Isolated sign language recognition using hidden Markov models", In Proceedings of the International Conference of System, Man and Cybernetics, 1996,
+
+pp. 162-167. [7] C. Vogler and D. Metaxas, "Adapting hidden Markov models for ASL recognition by using three-dimensional computer vision methods", In Proceedings of the IEEE
+International Conference on Systems, Man and Cybernetics,
+
+Orlando, 1997, pp.156-161.
+
+[SI P. Vamplew, "Recognition of sign language gestures using neural networks", The 1st European Conference on Disabilip, VirtualReality and Associated Technologies. 1996. [9] W. Gao, J . M. Ma, et al., "HandTalker: A Multimodal Dialog System Using Sign Language and 3-D Virtual Human", Advances in Multimodal Interfaces-ICMI 2000, pp 564-571. [ 101 T. Kohonen, "The Self-organizing Maps", Proceedings of the IEEE, 1990, vol. 78, no. 9, pp 1464-80. [ I I ] R. Rabiner, (1989), A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition, Proceedings of the IEEE, 1989,Vol. 77, No. 2, pp.257-285.
+
+95
+
+

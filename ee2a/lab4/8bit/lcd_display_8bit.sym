@@ -1,0 +1,66 @@
+005-006 lcd
+015     CCP_1_LOW
+015-016 CCP_1
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+020     strtok.save
+021-030 INITMESSAGE
+031-040 MESSAGE1
+041-050 MESSAGE2
+051     main.i
+052     send_string.delay
+052     lcd_init.init
+052     main.@SCRATCH
+053     lcd_init.i
+053     send_string.string
+054     send_string.i
+054     lcd_init.@SCRATCH
+055     send_string.@SCRATCH
+056     lcd_putc.c
+057     lcd_send_byte.address
+057     @delay_ms1.P1
+058     lcd_send_byte.n
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+085-086 lcd_dir
+
+0014  @delay_ms1
+0004  @const132
+000C  @const134
+0029  lcd_send_byte
+003F  lcd_init
+008F  lcd_putc
+00B3  send_string
+00C7  main
+00C7  @cinit
+
+Project Files:
+    Y:\Year 2\EE2A\PIC-LCD\8bit\lcd_display_8bit.c
+    C:\Program Files\PICC\devices\16F648A.h
+    C:\Program Files\PICC\drivers\string.h
+    C:\Program Files\PICC\drivers\stddef.h
+    C:\Program Files\PICC\drivers\ctype.h
+    Y:\Year 2\EE2A\PIC-LCD\8bit\LCD_8BIT.H
+
+Units:
+    Y:\Year 2\EE2A\PIC-LCD\8bit\lcd_display_8bit.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F648A
+    Pointer Size:   8
+    Opt Level:      9
+    Short,Int,Long: 1,8,16
+
+Output Files:
+    Errors:      Y:\Year 2\EE2A\PIC-LCD\8bit\lcd_display_8bit.err
+    INHX8:       Y:\Year 2\EE2A\PIC-LCD\8bit\lcd_display_8bit.hex
+    Symbols:     Y:\Year 2\EE2A\PIC-LCD\8bit\lcd_display_8bit.sym
+    List:        Y:\Year 2\EE2A\PIC-LCD\8bit\lcd_display_8bit.lst
+    Debug/COFF:  Y:\Year 2\EE2A\PIC-LCD\8bit\lcd_display_8bit.cof
+    Call Tree:   Y:\Year 2\EE2A\PIC-LCD\8bit\lcd_display_8bit.tre
+    Statistics:  Y:\Year 2\EE2A\PIC-LCD\8bit\lcd_display_8bit.sta

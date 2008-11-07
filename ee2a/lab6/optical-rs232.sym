@@ -1,0 +1,77 @@
+005-006 pins
+015-016 CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01F.6   C1OUT
+01F.7   C2OUT
+020     strtok.save
+021     rs232_errors
+022     main.i
+023     main.pixels
+024     main.pixel_value
+025     @PRINTF_U_4800_50_49.P1
+025     TSL_integration.time
+025     init.@SCRATCH
+025     TSL_pixel_readout.@SCRATCH
+025     main.@SCRATCH
+026     @delay_us1.P1
+026     @PRINTF_U_4800_50_49.P2
+026     send_TSL.Value
+026     @delay_ms1.P1
+027     send_TSL.i
+027     @DIV88.P1
+028     @DIV88.P1
+028     pulse_TSL_SCLK.Value
+029     pulse_TSL_SCLK.i
+029     @DIV88.@SCRATCH
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+085-086 pins_dir
+
+002C  @delay_ms1
+00F1  @delay_us1
+0041  init
+0004  @const10385
+0087  pulse_TSL_SCLK
+0094  send_TSL
+00B5  TSL_reset
+00CB  TSL_setup
+0105  TSL_integration
+0116  TSL_pixel_readout
+016F  main
+000E  @const10447
+001D  @const10455
+0121  @DIV88
+0136  @PRINTF_U_4800_50_49
+016F  @cinit
+
+Project Files:
+    Y:\Year 2\SVN\svn\ee2a\lab6\optical-rs232.c
+    C:\Program Files\PICC\devices\16F648A.H
+    C:\Program Files\PICC\drivers\stdio.h
+    C:\Program Files\PICC\drivers\string.h
+    C:\Program Files\PICC\drivers\stddef.h
+    C:\Program Files\PICC\drivers\ctype.h
+
+Units:
+    Y:\Year 2\SVN\svn\ee2a\lab6\optical-rs232.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F648A
+    Pointer Size:   8
+    Opt Level:      9
+    Short,Int,Long: 1,8,16
+    ICD Provisions: Yes
+
+Output Files:
+    Errors:      Y:\Year 2\SVN\svn\ee2a\lab6\optical-rs232.err
+    INHX8:       Y:\Year 2\SVN\svn\ee2a\lab6\optical-rs232.hex
+    Symbols:     Y:\Year 2\SVN\svn\ee2a\lab6\optical-rs232.sym
+    List:        Y:\Year 2\SVN\svn\ee2a\lab6\optical-rs232.lst
+    Debug/COFF:  Y:\Year 2\SVN\svn\ee2a\lab6\optical-rs232.cof
+    Call Tree:   Y:\Year 2\SVN\svn\ee2a\lab6\optical-rs232.tre
+    Statistics:  Y:\Year 2\SVN\svn\ee2a\lab6\optical-rs232.sta
