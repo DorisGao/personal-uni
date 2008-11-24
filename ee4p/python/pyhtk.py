@@ -24,6 +24,7 @@ from optparse import OptionParser
 __version__ = "0.1"
 
 class HtkConfig:
+
 	def __init__(self, configpath="./", projname="testHTK"):
 		self.configfile = open(configpath + projname + ".conf", 'r')
 		self.configs = {
@@ -59,7 +60,7 @@ class HtkConfig:
 			return False
 
 class HCopy:
-	def __init__(self):
+	def __init__(self, ):
 		pass
 
 class Htk:
@@ -83,11 +84,11 @@ class Htk:
 		else:
 			self.htkpath = path
 
-	def setConfig(self, path):
+	def setConfig(self, path, projname):
 		if not path.endswith("/"):
-			self.config = HtkConfig(path + "/")
+			self.config = HtkConfig(path + "/", projname)
 		else:
-			self.config = HtkConfig(path)
+			self.config = HtkConfig(path, projname)
 
 	def setTraining(self, flag):
 		if flag:
@@ -110,7 +111,7 @@ class Htk:
 		except:
 			self.config = HtkConfig()
 		print "Starting HTK with following options:"
-		if not self.config.getSetting("project"):
+		if self.config.getSetting("project") != False:
 			print "Project: " + self.config.getSetting("project")
 		print "Running in %s mode" % self.mode
 		print "HTK binary path: " + self.htkpath
