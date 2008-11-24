@@ -58,6 +58,10 @@ class HtkConfig:
 		else:
 			return False
 
+class HCopy:
+	def __init__(self):
+		pass
+
 class Htk:
 	def __init__(self):
 		self.htkpath = "/usr/bin/"
@@ -106,7 +110,8 @@ class Htk:
 		except:
 			self.config = HtkConfig()
 		print "Starting HTK with following options:"
-		print "Project: " + self.config.getSetting("project")
+		if not self.config.getSetting("project"):
+			print "Project: " + self.config.getSetting("project")
 		print "Running in %s mode" % self.mode
 		print "HTK binary path: " + self.htkpath
 
