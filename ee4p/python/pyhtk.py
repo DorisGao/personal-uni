@@ -18,16 +18,17 @@
 #       Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #       MA 02110-1301, USA.
 
-import sys, os, time, csv, pwd
+import sys, os, time, csv, pwd, subprocess, shutil
 from optparse import OptionParser
 
 __version__ = "0.1"
 
 class HtkConfig:
 
-	def __init__(self, configpath="./", projname="testHTK"):
+	def __init__(self, binpath="/usr/bin/", configpath="./", projname="testHTK"):
 		self.configfile = open(configpath + projname + ".conf", 'r')
 		self.configs = {
+			"binpath" : binpath,
 			"project" : projname,
 			"hmmdir" : configpath + "hmmsTrained/",
 			"listTrain" : configpath + "list/listTrain_" + projname + ".scp",
@@ -59,10 +60,6 @@ class HtkConfig:
 		else:
 			return False
 
-class HCopy:
-	def __init__(self, ):
-		pass
-
 class Htk:
 	def __init__(self):
 		self.htkpath = "/usr/bin/"
@@ -73,7 +70,101 @@ class Htk:
 		pass
 
 	def training(self):
-		pass
+	# Run HCopy to create initial HMMs
+		try:
+			hcopy1 = [self.config.getSetting("binpath") + "HCopy",
+				"-C %s -S %s" %
+				(self.config.getSetting("configHCopy"), self.config.getSetting("listTrainHCopy"))]
+			subprocess.check_call(hcopy1)
+			hcopy2 = [self.config.getSetting("binpath") + "HCopy",
+				"-C %s -S %s" %
+				(self.config.getSetting("configHCopy"), self.config.getSetting("listTestHCopy"))]
+			subprocess.check_call(hcopy2)
+		except CalledProcessError e:
+			print e
+			sys.exit(1)
+	# Now training
+		print "Training"
+		for direc in range(0, self.config.getSetting("space_step")):
+			if ! os.path.isdir(self.config.getSetting("hmmdir") + "/hmm" + direc):
+				os.mkdir(self.config.getSetting("hmmdir") + "/hmm" + direc)
+
+		try:
+			hcompv1 = [self.config.getSetting("binpath") + "HCompV",
+				"-C %s -o hmmdef -f 0.01 -m -S %s -M %s/hmm0 %s" %
+				(self.config.getSetting("configTrain"), self.config.getSetting("listTrain"),
+				self.config.getSetting("hmmdir"), self.config.getSetting("proto"))
+				]
+		except CalledProcessError e:
+			print e
+			sys.exit(1)
+
+		print "Seeding complete"
+
+		print "Copying HMM word models"
+		hmmdef = open(self.config.getSetting("hmmdir") + "hmm0/hmmdef", 'r')
+		record = False
+		tmpdata = []
+		for line in hmmdef:
+			if line.contains("BEGINHMM"):
+				record = True
+			elif line.contains("ENDHMM"):
+				record = False
+				tmpdata.append(line)
+			if record:
+				tmpdata.append(line)
+
+		model0 = open(self.config.getSetting("hmmdir") + "hmm0/models", 'a')
+		wordlist = open(self.config.getSetting("worddict"), 'r')
+		for line in wordlist:
+			if ! line.contains("sp"):
+				model0.append('~h "%s"' % line.split()[0])
+				for part in tmpdata:
+					model0.append(part)
+		model0.close()
+		wordlist.close()
+
+		vfloor = open(self.config.getSetting("hmmdir") + "hmm0/vFloors", 'r')
+		macros = open(self.config.getSetting("hmmdir") + "hmm0/macros", 'a')
+		tmpmacro = []
+		for line in hmmdef:
+			if ! line.contains("~h"):
+				tmpmacro.append(line)
+		for line in tmpmacro:
+			if line.contains("DIAGC"):
+				tmpline = line.split("<")
+			tmpmacro.remove(line)
+			for item in tmpline:
+				if ! item.contains("DIAGC"):
+					tmpmacro.append("<" + item)
+		for line in tmpmacro:
+			macros.append(line)
+		for line in vfloor:
+			macros.append(line)
+		print "Finished HMM word models"
+
+	for iteration in range(1, 3):
+		print "Iteration %d" % iteration
+
+		herest = [self.config.getSetting("binpath") + "HERest",
+			"-D -C $CONFIG_train -I $LABELS -t 250.0 150.0 1000.0 -S $LIST_TRAIN -H $HMM_DIR/hmm$j/macros -H $HMM_DIR/hmm$j/models -M $HMM_DIR/hmm$i $WORD_LIST" %
+			(self.config.getSetting("configTrain"),
+			self.config.getSetting("wordLabel"),
+			self.config.getSetting("listTrain"),
+			self.config.getSetting("hmmdir"),
+			iteration - 1,
+			self.config.getSetting("hmmdir"),
+			iteration - 1,
+			self.config.getSetting("hmmdir"),
+			iteration,
+			self.config.getSetting("wordList"))
+		]
+
+	print "Copying for 4th iteration"
+	shutil.copytree(self.config.getSetting("hmmdir") + "hmm3", self.config.getSetting("hmmdir") + "hmm4")
+	print "Copied 4th iteration"
+
+# create silence model
 
 	def recognition(self):
 		pass
@@ -84,11 +175,11 @@ class Htk:
 		else:
 			self.htkpath = path
 
-	def setConfig(self, path, projname):
+	def setConfig(self, binpath, confpath, projname):
 		if not path.endswith("/"):
-			self.config = HtkConfig(path + "/", projname)
+			self.config = HtkConfig(binpath, confpath + "/", projname)
 		else:
-			self.config = HtkConfig(path, projname)
+			self.config = HtkConfig(binpath, confpath, projname)
 
 	def setTraining(self, flag):
 		if flag:
@@ -137,7 +228,7 @@ if __name__ == "__main__":
 	if options.binpath != "/usr/bin/":
 		app.setHTKpath(options.binpath)
 	if options.configpath != "./" or options.project != "testHTK":
-		app.setConfig(options.configpath, options.project)
+		app.setConfig(options.binpath, options.configpath, options.project)
 	if options.training:
 		app.setTraining(True)
 	if options.testing:
