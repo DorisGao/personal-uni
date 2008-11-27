@@ -61,10 +61,36 @@ class HtkConfig:
 			return False
 
 class Htk:
-	def __init__(self):
-		self.htkpath = "/usr/bin/"
+	def __init__(self, binpath, confpath, projname):
 		self.mode = "normal"
 		self.realtime = False
+		if not binpath.endswith("/"):
+			binpath = binpath + "/"
+		if not confpath.endswith("/"):
+			confpath = confpath + "/"
+		self.config = HtkConfig(binpath, confpath, projname)
+
+	def setTraining(self, flag):
+		if flag:
+			self.mode = "training"
+
+	def setTesting(self, flag):
+		if flag:
+			self.mode = "testing"
+
+	def setRecog(self, flag, rt=False):
+		if flag:
+			self.mode = "recog"
+			if rt:
+				self.realtime = False
+				print "Real time proecessing not yet supported"
+
+	def run(self):
+		print "Starting HTK with following options:"
+		if self.config.getSetting("project") != False:
+			print "Project: " + self.config.getSetting("project")
+		print "Running in %s mode" % self.mode
+		print "HTK binary path: " + self.config.getSetting("binpath")
 
 	def testing(self):
 		pass
@@ -80,13 +106,13 @@ class Htk:
 				"-C %s -S %s" %
 				(self.config.getSetting("configHCopy"), self.config.getSetting("listTestHCopy"))]
 			subprocess.check_call(hcopy2)
-		except CalledProcessError e:
+		except CalledProcessError, e:
 			print e
 			sys.exit(1)
 	# Now training
 		print "Training"
 		for direc in range(0, self.config.getSetting("space_step")):
-			if ! os.path.isdir(self.config.getSetting("hmmdir") + "/hmm" + direc):
+			if not os.path.isdir(self.config.getSetting("hmmdir") + "/hmm" + direc):
 				os.mkdir(self.config.getSetting("hmmdir") + "/hmm" + direc)
 
 		try:
@@ -95,7 +121,8 @@ class Htk:
 				(self.config.getSetting("configTrain"), self.config.getSetting("listTrain"),
 				self.config.getSetting("hmmdir"), self.config.getSetting("proto"))
 				]
-		except CalledProcessError e:
+			subprocess.check_call(hcompv1)
+		except CalledProcessError, e:
 			print e
 			sys.exit(1)
 
@@ -117,7 +144,7 @@ class Htk:
 		model0 = open(self.config.getSetting("hmmdir") + "hmm0/models", 'a')
 		wordlist = open(self.config.getSetting("worddict"), 'r')
 		for line in wordlist:
-			if ! line.contains("sp"):
+			if not line.contains("sp"):
 				model0.append('~h "%s"' % line.split()[0])
 				for part in tmpdata:
 					model0.append(part)
@@ -128,14 +155,14 @@ class Htk:
 		macros = open(self.config.getSetting("hmmdir") + "hmm0/macros", 'a')
 		tmpmacro = []
 		for line in hmmdef:
-			if ! line.contains("~h"):
+			if not line.contains("~h"):
 				tmpmacro.append(line)
 		for line in tmpmacro:
 			if line.contains("DIAGC"):
 				tmpline = line.split("<")
 			tmpmacro.remove(line)
 			for item in tmpline:
-				if ! item.contains("DIAGC"):
+				if not item.contains("DIAGC"):
 					tmpmacro.append("<" + item)
 		for line in tmpmacro:
 			macros.append(line)
@@ -143,69 +170,34 @@ class Htk:
 			macros.append(line)
 		print "Finished HMM word models"
 
-	for iteration in range(1, 3):
-		print "Iteration %d" % iteration
+		for iteration in range(1, 3):
+			print "Iteration %d" % iteration
 
-		herest = [self.config.getSetting("binpath") + "HERest",
-			"-D -C $CONFIG_train -I $LABELS -t 250.0 150.0 1000.0 -S $LIST_TRAIN -H $HMM_DIR/hmm$j/macros -H $HMM_DIR/hmm$j/models -M $HMM_DIR/hmm$i $WORD_LIST" %
-			(self.config.getSetting("configTrain"),
-			self.config.getSetting("wordLabel"),
-			self.config.getSetting("listTrain"),
-			self.config.getSetting("hmmdir"),
-			iteration - 1,
-			self.config.getSetting("hmmdir"),
-			iteration - 1,
-			self.config.getSetting("hmmdir"),
-			iteration,
-			self.config.getSetting("wordList"))
-		]
+			herest = [self.config.getSetting("binpath") + "HERest",
+				"-D -C $CONFIG_train -I $LABELS -t 250.0 150.0 1000.0 -S $LIST_TRAIN -H $HMM_DIR/hmm$j/macros -H $HMM_DIR/hmm$j/models -M $HMM_DIR/hmm$i $WORD_LIST" %
+				(self.config.getSetting("configTrain"),
+				self.config.getSetting("wordLabel"),
+				self.config.getSetting("listTrain"),
+				self.config.getSetting("hmmdir"),
+				iteration - 1,
+				self.config.getSetting("hmmdir"),
+				iteration - 1,
+				self.config.getSetting("hmmdir"),
+				iteration,
+				self.config.getSetting("wordList"))
+			]
+			subprocess.check_call(herest)
+		print "Copying for 4th iteration"
+		shutil.copytree(self.config.getSetting("hmmdir") + "hmm3", self.config.getSetting("hmmdir") + "hmm4")
+		print "Copied 4th iteration"
 
-	print "Copying for 4th iteration"
-	shutil.copytree(self.config.getSetting("hmmdir") + "hmm3", self.config.getSetting("hmmdir") + "hmm4")
-	print "Copied 4th iteration"
+	# create silence model
+		print "Correcting silence model"
 
-# create silence model
+		print "Corrected silence model"
 
 	def recognition(self):
 		pass
-
-	def setHTKpath(self, path):
-		if not path.endswith("/"):
-			self.htkpath = path + "/"
-		else:
-			self.htkpath = path
-
-	def setConfig(self, binpath, confpath, projname):
-		if not path.endswith("/"):
-			self.config = HtkConfig(binpath, confpath + "/", projname)
-		else:
-			self.config = HtkConfig(binpath, confpath, projname)
-
-	def setTraining(self, flag):
-		if flag:
-			self.mode = "training"
-
-	def setTesting(self, flag):
-		if flag:
-			self.mode = "testing"
-
-	def setRecog(self, flag, rt=False):
-		if flag:
-			self.mode = "recog"
-			if rt:
-				self.realtime = False
-				print "Real time proecessing not yet supported"
-
-	def run(self):
-		try:
-			self.config
-		except:
-			self.config = HtkConfig()
-		print "Starting HTK with following options:"
-		if self.config.getSetting("project") != False:
-			print "Project: " + self.config.getSetting("project")
-		print "Running in %s mode" % self.mode
-		print "HTK binary path: " + self.htkpath
 
 if __name__ == "__main__":
 	parser = OptionParser()
@@ -221,19 +213,15 @@ if __name__ == "__main__":
 
 	(options, args) = parser.parse_args()
 
-	app = Htk()
+	app = Htk(options.binpath, options.configpath, options.project)
 
 	if options.version:
 		print "%s version %s" % (os.path.basename(sys.argv[0]),__version__)
-	if options.binpath != "/usr/bin/":
-		app.setHTKpath(options.binpath)
-	if options.configpath != "./" or options.project != "testHTK":
-		app.setConfig(options.binpath, options.configpath, options.project)
 	if options.training:
 		app.setTraining(True)
-	if options.testing:
+	elif options.testing:
 		app.setTesting(True)
-	if options.recog:
+	elif options.recog:
 		app.setRecog(True, options.realtime)
 
 	app.run()
