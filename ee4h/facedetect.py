@@ -6,8 +6,7 @@ The program finds faces in a camera image or video stream and displays a red box
 Original C implementation by:  ?
 Python implementation by: Roman Stanchak
 """
-import sys
-import os
+import sys, os
 from opencv.cv import *
 from opencv.highgui import *
 from PIL import Image
@@ -20,19 +19,19 @@ input_name = "../c/lena.jpg"
 
 # Parameters for haar detection
 # From the API:
-# The default parameters (scale_factor=1.1, min_neighbors=3, flags=0) are tuned 
-# for accurate yet slow object detection. For a faster operation on real video 
-# images the settings are: 
-# scale_factor=1.2, min_neighbors=2, flags=CV_HAAR_DO_CANNY_PRUNING, 
+# The default parameters (scale_factor=1.1, min_neighbors=3, flags=0) are tuned
+# for accurate yet slow object detection. For a faster operation on real video
+# images the settings are:
+# scale_factor=1.2, min_neighbors=2, flags=CV_HAAR_DO_CANNY_PRUNING,
 # min_size=<minimum possible face size
 min_size = cvSize(20,20)
-image_scale = 1.2
-haar_scale = 1.2
+image_scale = 1.3
+haar_scale = 1.3
 min_neighbors = 2
 haar_flags = CV_HAAR_DO_CANNY_PRUNING
 
 
-def crop_count(facecropped):
+def crop_count(facecropped, gcount):
 
 #get image dimensions
 	iheight = int(facecropped.height / 2);
@@ -55,7 +54,7 @@ def crop_count(facecropped):
 	source = mouth;
 	grey = cvCreateImage (cvSize (mouth.width, mouth.height), 8, 1)
 	output = cvCreateImage (cvSize (mouth.width, mouth.height), 8, 1)
-	
+
 
 # Convert to greyscale
 	cvCvtColor (source, grey, CV_BGR2GRAY)
@@ -72,11 +71,13 @@ def crop_count(facecropped):
 	      count += 1
 
 	print "Number of dark pixels: " + str(count)
-	
-	#left for testing
-	#cvSaveImage("face.jpg", output);
 
-def detect_and_draw( img ):
+	#left for testing
+	if gcount < 10:
+	    gcount = "0%s" % gcount
+	cvSaveImage("face-%s.jpg" % gcount, output);
+
+def detect_and_draw( img, gcount ):
     # allocate temporary images
     gray = cvCreateImage( cvSize(img.width,img.height), 8, 1 );
     small_img = cvCreateImage( cvSize( cvRound (img.width/image_scale),
@@ -89,7 +90,7 @@ def detect_and_draw( img ):
     cvResize( gray, small_img, CV_INTER_LINEAR );
 
     cvEqualizeHist( small_img, small_img );
-    
+
     cvClearMemStorage( storage );
 
     if( cascade ):
@@ -100,9 +101,9 @@ def detect_and_draw( img ):
         print "detection time = %gms" % (t/(cvGetTickFrequency()*1000.));
         if faces:
             for face_rect in faces:
-                # the input to cvHaarDetectObjects was resized, so scale the 
+                # the input to cvHaarDetectObjects was resized, so scale the
                 # bounding box of each face and convert it to two CvPo
-	
+
                  # pt1 = cvPoint( int(face_rect.x*image_scale), int(face_rect.y*image_scale))
                  # pt2 = cvPoint( int((face_rect.x+face_rect.width)*image_scale),
                  #                int((face_rect.y+face_rect.height)*image_scale) )
@@ -114,7 +115,7 @@ def detect_and_draw( img ):
 		  face = cvRect(x,y,w,h);
 		  crop = cvGetSubRect(img,face);
 		  #cvSaveImage("face.jpg", crop);
-	crop_count(crop);
+	crop_count(crop, gcount);
 
 if __name__ == '__main__':
 
@@ -131,26 +132,26 @@ if __name__ == '__main__':
 
         else:
             input_name = sys.argv[1]
-    
+
     # the OpenCV API says this function is obsolete, but we can't
     # cast the output of cvLoad to a HaarClassifierCascade, so use this anyways
     # the size parameter is ignored
     cascade = cvLoadHaarClassifierCascade( cascade_name, cvSize(1,1) );
-    
+
     if not cascade:
         print "ERROR: Could not load classifier cascade"
         sys.exit(-1)
-    
+
 
     if input_name.isdigit():
         capture = cvCreateCameraCapture( int(input_name) )
     else:
-        capture = cvCreateFileCapture( input_name ); 
+        capture = cvCreateFileCapture( input_name );
 
     if( capture ):
         frame_copy = None
-	i = 0;        
-	while True: 
+	i = 0;
+	while True:
             frame = cvQueryFrame( capture );
             print i;
 	    if( not frame ):
@@ -162,8 +163,8 @@ if __name__ == '__main__':
                 cvCopy( frame, frame_copy );
             else:
                 cvFlip( frame, frame_copy, 0 );
-            
-            detect_and_draw( frame_copy );
+
+            detect_and_draw( frame_copy, i );
 	    i = i+1;
             if( cvWaitKey( 10 ) >= 0 ):
                 break;
@@ -172,8 +173,8 @@ if __name__ == '__main__':
         image = cvLoadImage( input_name, 1 );
 
         if( image ):
-            
+
             detect_and_draw( image );
             cvWaitKey(0);
-    
+
     cvDestroyWindow("result");

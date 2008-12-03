@@ -1,22 +1,22 @@
 #!/usr/bin/python
-#	   randnum.py
+#	randnum.py
 #
-#	   Copyright 2008 Sam Black <samwwwblack@lapwing.org>
+#	Copyright 2008 Sam Black <samwwwblack@lapwing.org>
 #
-#	   This program is free software; you can redistribute it and/or modify
-#	   it under the terms of the GNU General Public License as published by
-#	   the Free Software Foundation; either version 2 of the License, or
-#	   (at your option) any later version.
+#	This program is free software; you can redistribute it and/or modify
+#	it under the terms of the GNU General Public License as published by
+#	the Free Software Foundation; either version 2 of the License, or
+#	(at your option) any later version.
 #
-#	   This program is distributed in the hope that it will be useful,
-#	   but WITHOUT ANY WARRANTY; without even the implied warranty of
-#	   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#	   GNU General Public License for more details.
+#	This program is distributed in the hope that it will be useful,
+#	but WITHOUT ANY WARRANTY; without even the implied warranty of
+#	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#	GNU General Public License for more details.
 #
-#	   You should have received a copy of the GNU General Public License
-#	   along with this program; if not, write to the Free Software
-#	   Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
-#	   MA 02110-1301, USA.
+#	You should have received a copy of the GNU General Public License
+#	along with this program; if not, write to the Free Software
+#	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+#	MA 02110-1301, USA.
 
 import sys, os, random, numpy
 from math import sqrt
@@ -70,24 +70,19 @@ vectordata = []
 for line in range(0, len(tmpdata) - 1):
 	for col in range(0,71, 3):
 		if line == 0:
-			vectordata.append([float(tmpdata[line][col]), float(tmpdata[line][col+1]), float(tmpdata[line][col+2])])
+			vectordata.append([[float(tmpdata[line][col]), float(tmpdata[line][col+1]), float(tmpdata[line][col+2])]])
 		else:
 			vectordata[col/3].append([float(tmpdata[line][col]), float(tmpdata[line][col+1]), float(tmpdata[line][col+2])])
-			print vectordata[col/3]
 
 tmpdataarrays = []
 array_desc = [('x',numpy.float32),('y',numpy.float32),('z',numpy.float32)]
 for data in vectordata:
 	for col in range(0, len(data) - 1):
-		print data[col]
-		tmpdataarrays.append(numpy.array(data[col], dtype=array_desc))
+		tmpdataarrays.append(numpy.array((data[col][0], data[col][1], data[col][2]), dtype=array_desc))
 
-print tmpdataarrays
 print "Created tmp arrays"
 
 dataarrays = []
 for arr in tmpdataarrays:
-	print arr
-	print arr.mean()
-	dataarrays.append[[arr, arr.mean(), arr.std(), arr.var()]]
-print dataarrays
+	dataarrays.append([arr, arr.view((numpy.float32,3)).mean(), arr.view((numpy.float32,3)).std(), arr.view((numpy.float32,3)).var()])
+print "Created data arrays"
