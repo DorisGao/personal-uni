@@ -86,3 +86,5 @@ dataarrays = []
 for arr in tmpdataarrays:
 	dataarrays.append([arr, arr.view((numpy.float32,3)).mean(), arr.view((numpy.float32,3)).std(), arr.view((numpy.float32,3)).var()])
 print "Created data arrays"
+
+# Import MDP, mdp.pca(data)
