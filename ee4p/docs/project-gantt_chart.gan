@@ -1,117 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="MEng 4P Project" company="Sam Black" webLink="" view-date="2008-10-05" view-index="0" gantt-divider-location="74" resource-divider-location="301" version="2.0">
-<description><![CDATA[Individual Project]]></description>
-<view zooming-state="default:6" id="gantt-chart"/>
-<view id="resource-table">
-<field id="0" name="Name" width="55" order="0"/>
-<field id="1" name="Default role" width="44" order="1"/>
-</view>
-<!-- -->
-<calendars>
-<day-types>
-<day-type id="0"/>
-<day-type id="1"/>
-<calendar id="1" name="default">
-<default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
-<overriden-day-types/>
-<days/>
-</calendar>
-</day-types>
-<date year="" month="12" date="26"/>
-<date year="2005" month="3" date="25"/>
-<date year="2005" month="3" date="28"/>
-<date year="2005" month="5" date="2"/>
-<date year="2005" month="5" date="30"/>
-<date year="2005" month="8" date="29"/>
-<date year="2005" month="12" date="27"/>
-<date year="2006" month="4" date="14"/>
-<date year="2006" month="4" date="17"/>
-<date year="2006" month="5" date="1"/>
-<date year="2006" month="5" date="29"/>
-<date year="2006" month="8" date="28"/>
-<date year="2006" month="12" date="25"/>
-<date year="2007" month="4" date="6"/>
-<date year="2007" month="4" date="9"/>
-<date year="2007" month="5" date="7"/>
-<date year="2007" month="5" date="28"/>
-<date year="2007" month="8" date="27"/>
-<date year="2007" month="12" date="25"/>
-<date year="2008" month="3" date="21"/>
-<date year="2008" month="3" date="24"/>
-<date year="2008" month="5" date="5"/>
-<date year="2008" month="5" date="26"/>
-<date year="2008" month="8" date="25"/>
-<date year="2008" month="12" date="25"/>
-</calendars>
-<tasks color="#00cc00">
-<taskproperties>
-<taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
-<taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
-<taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
-<taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
-<taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
-<taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
-<taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
-<taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
-<taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
-<taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
-</taskproperties>
-<task id="0" name="Initial Report" color="#8cb6ce" meeting="false" start="2008-09-29" duration="7" complete="0" priority="2" expand="true">
-<depend id="1" type="2" difference="0" hardness="Strong"/>
-<depend id="3" type="2" difference="0" hardness="Rubber"/>
-</task>
-<task id="1" name="Draft Report" color="#00cc00" meeting="false" start="2008-11-28" duration="10" complete="0" thirdDate="2008-11-28" thirdDate-constraint="1" priority="1" expand="true">
-<notes><![CDATA[Friday 12th December 2008]]></notes>
-<depend id="2" type="2" difference="0" hardness="Strong"/>
-<depend id="7" type="2" difference="0" hardness="Strong"/>
-</task>
-<task id="2" name="Final Report" color="#00cc00" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2009-03-23" duration="11" complete="0" thirdDate="2009-03-20" thirdDate-constraint="1" priority="1" expand="true">
-<notes><![CDATA[Monday 6th April 2009]]></notes>
-</task>
-<task id="3" name="Source corpus" color="#00cc00" meeting="false" start="2008-10-08" duration="5" complete="0" thirdDate="2008-10-08" thirdDate-constraint="1" priority="1" expand="true">
-<depend id="4" type="2" difference="0" hardness="Strong"/>
-<depend id="5" type="2" difference="0" hardness="Strong"/>
-<depend id="8" type="2" difference="0" hardness="Strong"/>
-</task>
-<task id="4" name="Define Vector information" color="#00cc00" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2008-10-15" duration="33" complete="0" thirdDate="2008-10-15" thirdDate-constraint="1" priority="1" expand="true">
-<notes><![CDATA[Create vector information for HMMTK
+<project name="MEng 4P Project" company="Sam Black" webLink="" view-date="2008-09-29" view-index="0" gantt-divider-location="1" resource-divider-location="301" version="2.0">
+    <description><![CDATA[Individual Project]]></description>
+    <view zooming-state="default:6" id="gantt-chart"/>
+    <view id="resource-table">
+        <field id="0" name="Name" width="55" order="0"/>
+        <field id="1" name="Default role" width="44" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+        <date year="" month="12" date="26"/>
+        <date year="2005" month="3" date="25"/>
+        <date year="2005" month="3" date="28"/>
+        <date year="2005" month="5" date="2"/>
+        <date year="2005" month="5" date="30"/>
+        <date year="2005" month="8" date="29"/>
+        <date year="2005" month="12" date="27"/>
+        <date year="2006" month="4" date="14"/>
+        <date year="2006" month="4" date="17"/>
+        <date year="2006" month="5" date="1"/>
+        <date year="2006" month="5" date="29"/>
+        <date year="2006" month="8" date="28"/>
+        <date year="2006" month="12" date="25"/>
+        <date year="2007" month="4" date="6"/>
+        <date year="2007" month="4" date="9"/>
+        <date year="2007" month="5" date="7"/>
+        <date year="2007" month="5" date="28"/>
+        <date year="2007" month="8" date="27"/>
+        <date year="2007" month="12" date="25"/>
+        <date year="2008" month="3" date="21"/>
+        <date year="2008" month="3" date="24"/>
+        <date year="2008" month="5" date="5"/>
+        <date year="2008" month="5" date="26"/>
+        <date year="2008" month="8" date="25"/>
+        <date year="2008" month="12" date="25"/>
+    </calendars>
+    <tasks color="#00cc00">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Initial Report" color="#8cb6ce" meeting="false" start="2008-09-29" duration="7" complete="100" priority="2" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <depend id="3" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="1" name="Draft Report" color="#00cc00" meeting="false" start="2008-11-28" duration="10" complete="100" thirdDate="2008-11-28" thirdDate-constraint="1" priority="1" expand="true">
+            <notes><![CDATA[Friday 12th December 2008]]></notes>
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="Final Report" color="#00cc00" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2009-03-24" duration="11" complete="0" thirdDate="2009-03-20" thirdDate-constraint="1" priority="1" expand="true">
+            <notes><![CDATA[Monday 6th April 2009]]></notes>
+        </task>
+        <task id="3" name="Source corpus" color="#00cc00" meeting="false" start="2008-10-08" duration="5" complete="100" thirdDate="2008-10-08" thirdDate-constraint="1" priority="1" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="Define Vector information" color="#00cc00" shape="0,1,0,1,0,0,1,0,0,1,0,1,1,0,0,0" meeting="false" start="2008-10-15" duration="33" complete="20" thirdDate="2008-10-15" thirdDate-constraint="1" priority="1" expand="true">
+            <notes><![CDATA[Create vector information for HMMTK
 Language model]]></notes>
-<depend id="7" type="2" difference="0" hardness="Strong"/>
-</task>
-<task id="5" name="Design grammar" color="#00cc00" meeting="false" start="2008-10-15" duration="3" complete="0" thirdDate="2008-10-15" thirdDate-constraint="1" priority="1" expand="true">
-<notes><![CDATA[Create grammar for HTK]]></notes>
-<depend id="6" type="2" difference="0" hardness="Strong"/>
-<depend id="9" type="2" difference="0" hardness="Strong"/>
-</task>
-<task id="6" name="Design pronunciation dictionary" color="#00cc00" meeting="false" start="2008-10-20" duration="5" complete="0" thirdDate="2008-10-18" thirdDate-constraint="1" priority="1" expand="true">
-<notes><![CDATA[Create pronunciation dictionary]]></notes>
-<depend id="9" type="2" difference="0" hardness="Strong"/>
-</task>
-<task id="8" name="Collect motion tracking data" color="#00cc00" meeting="false" start="2008-10-15" duration="5" complete="0" thirdDate="2008-12-05" thirdDate-constraint="0" priority="1" expand="true">
-<notes><![CDATA[This will only take a few hours to complete, but allow a week]]></notes>
-<depend id="7" type="2" difference="0" hardness="Strong"/>
-</task>
-<task id="7" name="Compile Vector information" color="#00cc00" meeting="false" start="2008-12-12" duration="19" complete="0" thirdDate="2008-12-12" thirdDate-constraint="0" priority="2" expand="true">
-<notes><![CDATA[Compile vector information and perform PCA]]></notes>
-<depend id="9" type="2" difference="0" hardness="Strong"/>
-</task>
-<task id="9" name="Training data" color="#00cc00" meeting="false" start="2009-01-12" duration="45" complete="0" thirdDate="2009-01-12" thirdDate-constraint="1" priority="1" expand="true">
-<notes><![CDATA[Iterative process, run training, test, improve, training, test, improve etc]]></notes>
-<depend id="10" type="2" difference="0" hardness="Strong"/>
-</task>
-<task id="10" name="Final test data set" color="#00cc00" meeting="false" start="2009-03-16" duration="5" complete="0" thirdDate="2009-03-13" thirdDate-constraint="1" priority="1" expand="true">
-<notes><![CDATA[Final test data set to check WER, accurrcy etc for final repot]]></notes>
-<depend id="2" type="2" difference="0" hardness="Strong"/>
-</task>
-</tasks>
-<resources/>
-<allocations/>
-<vacations/>
-<taskdisplaycolumns>
-<displaycolumn property-id="tpd3" order="0" width="118"/>
-<displaycolumn property-id="tpd1" order="1" width="30"/>
-<displaycolumn property-id="tpd5" order="2" width="44"/>
-</taskdisplaycolumns>
-<previous/>
-<roles roleset-name="Default"/>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="Design grammar" color="#00cc00" meeting="false" start="2008-10-15" duration="3" complete="60" thirdDate="2008-10-15" thirdDate-constraint="1" priority="1" expand="true">
+            <notes><![CDATA[Create grammar for HTK]]></notes>
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" name="Design pronunciation dictionary" color="#00cc00" meeting="false" start="2008-10-20" duration="5" complete="50" thirdDate="2008-10-18" thirdDate-constraint="1" priority="1" expand="true">
+            <notes><![CDATA[Create pronunciation dictionary]]></notes>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" name="Collect motion tracking data" color="#00cc00" meeting="false" start="2008-12-08" duration="5" complete="80" thirdDate="2008-12-08" thirdDate-constraint="1" priority="1" expand="true">
+            <notes><![CDATA[This will only take a few hours to complete, but allow a week]]></notes>
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="Compile Vector information" color="#00cc00" meeting="false" start="2008-12-15" duration="19" complete="0" thirdDate="2008-12-12" thirdDate-constraint="0" priority="2" expand="true">
+            <notes><![CDATA[Compile vector information and perform PCA]]></notes>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" name="Training data" color="#00cc00" meeting="false" start="2009-01-13" duration="45" complete="0" thirdDate="2009-01-12" thirdDate-constraint="1" priority="1" expand="true">
+            <notes><![CDATA[Iterative process, run training, test, improve, training, test, improve etc]]></notes>
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" name="Improve codebase" color="#00cc00" meeting="false" start="2009-01-13" duration="10" complete="0" thirdDate="2009-01-12" thirdDate-constraint="1" priority="1" expand="true">
+            <notes><![CDATA[Improve the code base to allow real-time processing]]></notes>
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" name="Image capture code" color="#00cc00" meeting="false" start="2009-01-27" duration="20" complete="0" thirdDate="2009-01-19" thirdDate-constraint="1" priority="0" expand="true">
+            <notes><![CDATA[This isn't a priority in the slightest]]></notes>
+            <depend id="10" type="2" difference="0" hardness="Rubber"/>
+        </task>
+        <task id="10" name="Final test data set" color="#00cc00" meeting="false" start="2009-03-17" duration="5" complete="0" thirdDate="2009-03-13" thirdDate-constraint="1" priority="1" expand="true">
+            <notes><![CDATA[Final test data set to check WER, accurrcy etc for final repot]]></notes>
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd3" order="0" width="118"/>
+        <displaycolumn property-id="tpd1" order="1" width="30"/>
+        <displaycolumn property-id="tpd5" order="2" width="44"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
 </project>
