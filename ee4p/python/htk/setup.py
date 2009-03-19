@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #       setup.py
 #
-#       Copyright 2008 Sam Black <samwwwblack@lapwing.org>
+#       Copyright 2008-2009 Sam Black <samwwwblack@lapwing.org>
 #
 #       This program is free software; you can redistribute it and/or modify
 #       it under the terms of the GNU General Public License as published by
@@ -17,11 +17,13 @@
 #       along with this program; if not, write to the Free Software
 #       Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #       MA 02110-1301, USA.
+
 from distutils.core import setup, Extension
 
 module1 = Extension('htkwritefile', sources = ['htkwrite.c'])
 
-setup (name = 'HTKWriteFile',
+setup( name = 'HTKWriteFile',
        version = '0.1',
        description = 'Write HTK compatible binary files',
-       ext_modules = [module1])
+       ext_modules = [module1]
+     )
