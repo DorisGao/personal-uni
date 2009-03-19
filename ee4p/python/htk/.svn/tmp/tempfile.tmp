@@ -18,6 +18,7 @@ typedef struct {
 
 #define TRUE  1
 #define FALSE 0
+#define H_MFCC      6
 #define H_USER      9
 
 #define HASENERGY  0100       /* _E log energy included */
@@ -35,47 +36,49 @@ static PyObject * HTKWriteBin(PyObject *self, PyObject *args)
 {
   htk_header_t header;
   short htk_kind;
-  int nelem, i, samps, len, *s;
-  float *ptr, period;
-  char *filename, *flags, buf[255];
+  int nelem, i, j, x, y, samps, len;
+  float *ptr, period, *tmpdata;
+  char *filename, *flags, buf[255], s;
   FILE *destfile;
-  PyListObject *in_data;
+  PyObject *in_data;
   int hasV=FALSE,hasE=FALSE,hasD=FALSE,hasN=FALSE,hasA=FALSE,hasT=FALSE,hasF=FALSE,hasC=FALSE,hasK=FALSE,hasZ=FALSE,has0=FALSE;
 
-  /*if (!PyArg_ParseTuple(args, "iifsOs", &nelem, &samps, &period, &flags, &in_data, &filename))*/
-  if (!PyArg_ParseTuple(args, "iifss", &nelem, &samps, &period, &flags, &filename))
+  if (!PyArg_ParseTuple(args, "iifsOs", &nelem, &samps, &period, &flags, &in_data, &filename))
     return Py_BuildValue("i",7);
 
-  printf("%d %d %f %s %s", nelem, samps, period, flags, filename)
+  //printf("C prog:\%d %d %f %s %s %s\nend", nelem, samps, period, flags, in_data, filename);
 
   destfile = fopen(filename, "w");
-  header.nSamples=(long)samps; /* set number of samples */
-  header.sampSize=(short)(nelem*sizeof(float)); /* set sample size */
-  header.sampPeriod=(long)(period*10000.0); /* set sample period */
+  header.nSamples=(long)samps;
+  header.sampPeriod=(long)(period);
+  header.sampSize=(short)(nelem*sizeof(float));
 
-  htk_kind=(short)H_USER;
+  double in_dataf[samps][nelem];
+
+  htk_kind=(short)H_MFCC;
+  printf("%d\nHeader setup\n", htk_kind);
 
   strcpy(buf,flags);
   len=strlen(buf);
-  s=&buf[len-2];
-  while (len>2 && s=='_') {
-    switch(*(s+1)){
-    case 'E': hasE = TRUE; break;
-    case 'D': hasD = TRUE; break;
-    case 'N': hasN = TRUE; break;
-    case 'A': hasA = TRUE; break;
-    case 'C': hasC = TRUE; break;
-    case 'T': hasT = TRUE; break;
-    case 'F': hasF = TRUE; break;
-    case 'K': hasK = TRUE; break;
-    case 'Z': hasZ = TRUE; break;
-    case '0': has0 = TRUE; break;
-    case 'V': hasV = TRUE; break;
-    default: ;;
+  while (len>0) {
+    s = buf[len-1];
+
+    switch(s){
+        case 'E': hasE = TRUE; break;
+        case 'D': hasD = TRUE; break;
+        case 'N': hasN = TRUE; break;
+        case 'A': hasA = TRUE; break;
+        case 'C': hasC = TRUE; break;
+        case 'T': hasT = TRUE; break;
+        case 'F': hasF = TRUE; break;
+        case 'K': hasK = TRUE; break;
+        case 'Z': hasZ = TRUE; break;
+        case '0': has0 = TRUE; break;
+        case 'V': hasV = TRUE; break;
+        default: ;;
     }
-    *s = '\0';
-	len -= 2;
-	s -= 2;
+    s = '\0';
+	len -= 1;
   }
 
 	if (hasE) htk_kind |= HASENERGY;
@@ -90,20 +93,37 @@ static PyObject * HTKWriteBin(PyObject *self, PyObject *args)
 	if (hasV) htk_kind |= HASVQ;
   header.parmKind=htk_kind;
 
-  if(fwrite(&header,sizeof(htk_header_t),1,filename) != 1) {
+  if(fwrite(&header,sizeof(htk_header_t),1,destfile) != 1) {
     printf("HTKWriteFS(): cannot write HTK header (%d bytes)", sizeof(htk_header_t));
     return Py_BuildValue("i",5);
   }
-  for(i=0;i<(int)PyList_Size(in_data);i++) {
-    ptr=(float *)PyList_GetItem(in_data,i);
-	printf("%f\n", ptr);
-    /* now, ptr points to the i'th feature vector! Write it! */
-    if(fwrite(ptr,sizeof(float),nelem,destfile) != nelem) {
-      printf("HTKWriteFS(): cannot write %d'th vector (%d bytes)", i+1,nelem*sizeof(float));
-      return Py_BuildValue("i",5);
+  printf("\nHeader written\n");
+/* Iterate the data out of the Python list */
+  for(i=0; i<samps; i++) {
+    tmpdata = PyList_GetItem(in_data, i);
+    for(j=0; j<nelem; j++) {
+    /*  printf("i%di j%dj of %d f%lgf\n", i, j, nelem, PyFloat_AsDouble(PyList_GetItem(tmpdata, j))); */
+      in_dataf[i][j] = PyFloat_AsDouble(PyList_GetItem(tmpdata, j));
     }
   }
+  printf("Iterations done\n");
 
+/* And now out to file */
+  for(x=0; x<samps; x++) {
+    for(y=0; y<nelem; y++) {
+      ptr=&in_dataf[x][y];
+      /*printf("d:%f: i:%d: j:%d: of :%d:\n", in_dataf[x][y], x, y, nelem);*/
+      if(fwrite(ptr,sizeof(float),1,destfile) != 1) {
+        printf("HTKWriteFS(): cannot write %d'th vector (%d bytes)", i+1,nelem*sizeof(float));
+        return Py_BuildValue("i",5);
+      }
+    }
+    /*if(fwrite("\n",sizeof(char),1,destfile) != 1) {
+      printf("HTKWriteFS(): cannot write %d'th vector (%d bytes)", i+1,nelem*sizeof(float));
+      return Py_BuildValue("i",5);
+    }*/
+  }
+  printf("File written\n");
   return Py_BuildValue("i",0);
 }
 
