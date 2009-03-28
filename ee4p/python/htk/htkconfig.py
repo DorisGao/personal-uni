@@ -27,12 +27,13 @@ class HtkConfig:
         if not list:
             self.configfile = open(configpath + projname + ".conf", 'r')
     # Don't add the config path to these options
-        self.no_conf = ["binpath", "project", "confpath", "inputtype", "space_step", "flags"]
+        self.no_conf = ["binpath", "project", "confpath", "inputtype", "space_step", "flags", "spmodel"]
         self.configs = {
             "binpath" : binpath,
             "project" : projname,
             "confpath" : configpath,
             "inputtype" : "audio",
+            "spmodel" : False,
             "hmmdir" : configpath + "hmmsTrained/",
             "mfccdir" : configpath + "mfccGen/",
             "typeList" : configpath + "list/typeList_" + projname,

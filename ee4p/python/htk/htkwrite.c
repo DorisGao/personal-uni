@@ -78,19 +78,19 @@ static PyObject * HTKWriteBin(PyObject *self, PyObject *args)
         default: ;;
     }
     s = '\0';
-	len -= 1;
+    len -= 1;
   }
 
-	if (hasE) htk_kind |= HASENERGY;
-	if (hasD) htk_kind |= HASDELTA;
-	if (hasN) htk_kind |= HASNULLE;
-	if (hasA) htk_kind |= HASACCS;
-	if (hasT) htk_kind |= HASTHIRD;
-	if (hasK) htk_kind |= HASCRCC;
-	if (hasC) htk_kind |= HASCOMPX;
-	if (hasZ) htk_kind |= HASZEROM;
-	if (has0) htk_kind |= HASZEROC;
-	if (hasV) htk_kind |= HASVQ;
+    if (hasE) htk_kind |= HASENERGY;
+    if (hasD) htk_kind |= HASDELTA;
+    if (hasN) htk_kind |= HASNULLE;
+    if (hasA) htk_kind |= HASACCS;
+    if (hasT) htk_kind |= HASTHIRD;
+    if (hasK) htk_kind |= HASCRCC;
+    if (hasC) htk_kind |= HASCOMPX;
+    if (hasZ) htk_kind |= HASZEROM;
+    if (has0) htk_kind |= HASZEROC;
+    if (hasV) htk_kind |= HASVQ;
   header.parmKind=htk_kind;
 
   if(fwrite(&header,sizeof(htk_header_t),1,destfile) != 1) {

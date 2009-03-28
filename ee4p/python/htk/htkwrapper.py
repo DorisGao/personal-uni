@@ -134,6 +134,22 @@ class HtkWrapper:
                 print("Something has gone badly, badly wrong.")
                 sys.exit(1)
 
+        elif self.config.getSetting("inputtype").find("tracker") >= 0:
+            print("Tracker data")
+            try:
+                import htkwritefile
+            except Exception, e:
+                print e
+                sys.exit(1)
+            #try:
+            ret = htkwritefile.writebinfile(int("Num Comps"), int("Num Samples"), float("Sample Period"), htkwriteargs["Sample Kind"].lstrip("MFCC"), data_from_file, output_file)
+                #if ret > 0:
+                    #print("Something went titsup")
+                #else:
+                    #print("Executed")
+            #except:
+                #raise Exception
+
         else:
             print("Error, pyhtk is not setup to handle none audio based work.")
             print("Dieing now.")
@@ -249,78 +265,79 @@ class HtkWrapper:
                     shutil.copy(self.config.getSetting("hmmdir") + "hmm3/" + name, self.config.getSetting("hmmdir") + "hmm4")
         print "Copied 4th iteration"
 
-    # create silence model
-        print "Correcting silence model"
-        model3 = open(self.config.getSetting("hmmdir") + "hmm3/models", 'r')
-        model4 = open(self.config.getSetting("hmmdir") + "hmm4/models", 'a')
-        tmpmodel = []
-        record = False
-        for line in model3:
-            if line.find("sil") >= 0:
-                record = True
-            if record and line.find("ENDHMM") >= 0:
-                record = False
-            if record:
-                tmpmodel.append(line)
-        states = []
-        midstate = []
-        for line in tmpmodel:
-            if line.find("STATE") >= 0:
-                states.append([tmpmodel[tmpmodel.index(line):tmpmodel.index(line) + 6]])
-        for stat in states[int(len(states)/2)][0]:
-            midstate.append(stat)
-        model4.write('~h "sp"\n<BEGINHMM>\n<NUMSTATES> 3\n<STATE> 2\n')
-        for line in midstate:
-            if line.find("STATE") == -1:
-                model4.write(line)
-        model4.write("<TRANSP> 3\n")
-        model4.write("0.000000e+00 5.000000e-01 5.000000e-01\n")
-        model4.write("0.000000e+00 5.000000e-01 5.000000e-01\n")
-        model4.write("0.000000e+00 0.000000e+00 0.000000e+00\n")
-        model4.write("<ENDHMM>\n")
+        if self.config.getSetting("spmodel"):
+        # create silence model
+            print "Correcting silence model"
+            model3 = open(self.config.getSetting("hmmdir") + "hmm3/models", 'r')
+            model4 = open(self.config.getSetting("hmmdir") + "hmm4/models", 'a')
+            tmpmodel = []
+            record = False
+            for line in model3:
+                if line.find("sil") >= 0:
+                    record = True
+                if record and line.find("ENDHMM") >= 0:
+                    record = False
+                if record:
+                    tmpmodel.append(line)
+            states = []
+            midstate = []
+            for line in tmpmodel:
+                if line.find("STATE") >= 0:
+                    states.append([tmpmodel[tmpmodel.index(line):tmpmodel.index(line) + 6]])
+            for stat in states[int(len(states)/2)][0]:
+                midstate.append(stat)
+            model4.write('~h "sp"\n<BEGINHMM>\n<NUMSTATES> 3\n<STATE> 2\n')
+            for line in midstate:
+                if line.find("STATE") == -1:
+                    model4.write(line)
+            model4.write("<TRANSP> 3\n")
+            model4.write("0.000000e+00 5.000000e-01 5.000000e-01\n")
+            model4.write("0.000000e+00 5.000000e-01 5.000000e-01\n")
+            model4.write("0.000000e+00 0.000000e+00 0.000000e+00\n")
+            model4.write("<ENDHMM>\n")
 
-        model3.close()
-        model4.close()
-
-        try:
-            hhed = [self.config.getSetting("binpath") + "HHEd",
-                '-T', "3",
-                '-H', self.config.getSetting("hmmdir") + "hmm4/macros",
-                '-H', self.config.getSetting("hmmdir") + "hmm4/models",
-                '-M', self.config.getSetting("hmmdir") + "hmm5",
-                self.config.getSetting("hedsilsp"),
-                self.config.getSetting("wordList")
-            ]
-            ret = subprocess.check_call(hhed)
-            if ret != 0:
-                print "Error, return codes wrong"
-                sys.exit(1)
-        except CalledProcessError, e:
-            print e
-            sys.exit(1)
-        print "Corrected silence model"
-
-        for iteration in range(5, int(self.config.getSetting("space_step")) + 1):
-            print "Iteration %d" % iteration
+            model3.close()
+            model4.close()
 
             try:
-                herest = [self.config.getSetting("binpath") + "HERest",
-                    '-D',
-                    '-C', self.config.getSetting("configTrain"),
-                    '-I', self.config.getSetting("wordLabelSP"),
-                    '-S', self.config.getSetting("listTrain"),
-                    '-H', "%shmm%d/macros" % (self.config.getSetting("hmmdir"), iteration - 1),
-                    '-H', "%shmm%d/models" % (self.config.getSetting("hmmdir"), iteration - 1),
-                    '-M', "%shmm%d" % (self.config.getSetting("hmmdir"), iteration),
-                    self.config.getSetting("wordListSP")
+                hhed = [self.config.getSetting("binpath") + "HHEd",
+                    '-T', "3",
+                    '-H', self.config.getSetting("hmmdir") + "hmm4/macros",
+                    '-H', self.config.getSetting("hmmdir") + "hmm4/models",
+                    '-M', self.config.getSetting("hmmdir") + "hmm5",
+                    self.config.getSetting("hedsilsp"),
+                    self.config.getSetting("wordList")
                 ]
-                subprocess.check_call(herest)
+                ret = subprocess.check_call(hhed)
                 if ret != 0:
                     print "Error, return codes wrong"
                     sys.exit(1)
             except CalledProcessError, e:
                 print e
                 sys.exit(1)
+            print "Corrected silence model"
+
+            for iteration in range(5, int(self.config.getSetting("space_step")) + 1):
+                print "Iteration %d" % iteration
+
+                try:
+                    herest = [self.config.getSetting("binpath") + "HERest",
+                        '-D',
+                        '-C', self.config.getSetting("configTrain"),
+                        '-I', self.config.getSetting("wordLabelSP"),
+                        '-S', self.config.getSetting("listTrain"),
+                        '-H', "%shmm%d/macros" % (self.config.getSetting("hmmdir"), iteration - 1),
+                        '-H', "%shmm%d/models" % (self.config.getSetting("hmmdir"), iteration - 1),
+                        '-M', "%shmm%d" % (self.config.getSetting("hmmdir"), iteration),
+                        self.config.getSetting("wordListSP")
+                    ]
+                    subprocess.check_call(herest)
+                    if ret != 0:
+                        print "Error, return codes wrong"
+                        sys.exit(1)
+                except CalledProcessError, e:
+                    print e
+                    sys.exit(1)
 
         print "%d Iterations completed" % (int(self.config.getSetting("space_step")) - 5)
         print "Training complete"
