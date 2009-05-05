@@ -21,9 +21,6 @@
 controller = GameLogic.getCurrentController()
 owner = controller.getOwner()
 
-updownact = controller.getSensor("mono_train_updown")
-#up = controller.getSensor("mono_train_ud_up")
-#down = controller.getSensor("mono_train_ud_down")
 slow = controller.getSensor("mono_train_msg_slow")
 stop = controller.getSensor("mono_train_msg_stop")
 full = controller.getSensor("mono_train_msg_full")
@@ -31,21 +28,16 @@ restart = controller.getSensor("mono_train_msg_restart")
 
 setspeed = controller.getActuator("mono_train_move_motion")
 
-if updownact.triggered:
-    print("updown triggered")
-    if owner.updown == "down":
-        print("down")
-        speed_norm = -0.20
-        speed_slow = -0.10
-    if owner.updown == "up":
-        print("up")
-        speed_norm = 0.20
-        speed_slow = 0.10
-else:
+if owner.updown == "down":
+    print("down")
     speed_norm = -0.20
     speed_slow = -0.10
+elif owner.updown == "up":
+    print("up")
+    speed_norm = 0.20
+    speed_slow = 0.10
 
-if not stop.triggered and not slow.triggered and not restart.triggered and not full.triggered and not updown.triggered:
+if not stop.triggered and not slow.triggered and not restart.triggered and not full.triggered:
     print("running normally")
     setspeed.setDLoc(0.0, speed_norm, 0.0, True)
 else:
